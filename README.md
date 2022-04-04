@@ -4,15 +4,15 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
 
 ## Robotic Grasping Papers and Codes
 
-*[·-·]:注释内容
+1. [Survey Papers](#survey-papers)
 
-1. [Object Pose Estimation](#object-pose-estimation)
+2. [Object Pose Estimation](#object-pose-estimation)
 
-2. [Grasp Detection](#grasp-detection)
+3. [Grasp Detection](#grasp-detection)
 
-3. [Task-oriented Methods](#task-oriented-grasp)
+4. [Task-oriented Methods](#task-oriented-grasp)
 
-4. [Research groups](#research-groups)
+5. [Research groups](#research-groups)
 
 ## 1. Survey Papers <span id="survey-papers"> </span>
 
