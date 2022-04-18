@@ -2,6 +2,8 @@
 
 This repo is a paper list of Robotic-Grasping and some related works that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
+Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research.
+
 ## Robotic Grasping Papers and Codes
 
 1. [Survey Papers](#survey-papers)
@@ -12,7 +14,9 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
 
 4. [Task-oriented Methods](#task-oriented-grasp)
 
-5. [Research groups](#research-groups)
+5. [Semantic grasping](#semantic-grasping)
+
+6. [Research groups](#research-groups)
 
 ## 1. Survey Papers <span id="survey-papers"> </span>
 
@@ -50,7 +54,7 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
 
 ## 3. Grasp Detection<span id="grasp-detection"> </span>
 
-**[ICCV2021]** Graspness Discovery in Clutters for Fast and Accurate Grasp Detection,        [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Graspness_Discovery_in_Clutters_for_Fast_and_Accurate_Grasp_Detection_ICCV_2021_paper.pdf)],  [[Code(non-official)](https://github.com/rhett-chen/graspness_implementation)],  [[Dataset: GraspNet1-billion](https://graspnet.net/datasets.html)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Wang_Graspness_Discovery_in_ICCV_2021_supplemental.zip)].
+**[ICCV2021]** Graspness Discovery in Clutters for Fast and Accurate Grasp Detection,        [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Graspness_Discovery_in_Clutters_for_Fast_and_Accurate_Grasp_Detection_ICCV_2021_paper.pdf)],  [[Code(non-official)](https://github.com/rhett-chen/graspness_implementation)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Wang_Graspness_Discovery_in_ICCV_2021_supplemental.zip)].
 
 *Keywords: 6D general grasp; clutter scene; real-world dataset GraspNet1-billion;  single-view scene point cloud input; MinkowskiEngine sparse convolution, ResUNet14.*
 
@@ -65,7 +69,7 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
 }
 ```
 
-**[ICRA2021]** RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images,       [[Paper](https://arxiv.org/pdf/2103.02184)].
+**[ICRA2021]** RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images,       [[Paper](https://arxiv.org/pdf/2103.02184.pdf)].
 
 *Keywords: 6D genral grasp; clutter scene; RGB and single-view point cloud input; real-world dataset GraspNet1-billion.*
 
@@ -78,7 +82,7 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
 }
 ```
 
-**[ICRA2021]** GPR: Grasp Pose Refinement Network for Cluttered Scenes,  [[Paper](https://arxiv.org/pdf/2105.08502)].
+**[ICRA2021]** GPR: Grasp Pose Refinement Network for Cluttered Scenes,  [[Paper](https://arxiv.org/pdf/2105.08502.pdf)].
 
 *Keywords: 6D grasp; two-stage method; self-made dataset in simulation; clutter scene in simulation; Pointnet++ backbone.*
 
@@ -93,7 +97,7 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
 }
 ```
 
-**[ICRA2021]** Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes,     [[Project](https://research.nvidia.com/publication/2021-03_Contact-GraspNet%3A--Efficient)], [[Paper](https://arxiv.org/pdf/2103.14127)], [[Code](https://github.com/NVlabs/contact_graspnet)].
+**[ICRA2021]** Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes,     [[Project](https://research.nvidia.com/publication/2021-03_Contact-GraspNet%3A--Efficient)], [[Paper](https://arxiv.org/pdf/2103.14127.pdf)], [[Code](https://github.com/NVlabs/contact_graspnet)].
 
 *Keywords: 6D grasp; object grasp dataset is ACRONYM; clutter scene in simulation; single-view scene point cloud(20000 points) input; backbone based on Pointnet++.*
 
@@ -108,7 +112,7 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
 }
 ```
 
-**[ICRA2021]** Acronym: A large-scale grasp dataset based on simulation, [[Project](https://sites.google.com/nvidia.com/graspdataset)],  [[Paper](https://arxiv.org/pdf/2011.09584)], [[Code](https://github.com/NVlabs/acronym)].
+**[ICRA2021]** Acronym: A large-scale grasp dataset based on simulation, [[Project](https://sites.google.com/nvidia.com/graspdataset)],   [[Paper](https://arxiv.org/pdf/2011.09584.pdf)], [[Code](https://github.com/NVlabs/acronym)].
 
 *Keywords: 6D grasp; release a grasp dataset in simulation.*
 
@@ -149,13 +153,12 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
  pages = {13174--13184},
  publisher = {Curran Associates, Inc.},
  title = {Grasp Proposal Networks: An End-to-End Solution for Visual Learning of Robotic Grasps},
- url = {https://proceedings.neurips.cc/paper/2020/file/994d1cad9132e48c993d58b492f71fc1-Paper.pdf},
  volume = {33},
  year = {2020}
 }
 ```
 
-**[CoRL2020]** GDN: A Coarse-To-Fine (C2F) Representation for End-To-End 6-DoF Grasp Detection, [[Paper](https://proceedings.mlr.press/v155/jeng21a/jeng21a.pdf)]
+**[CoRL2020]** GDN: A Coarse-To-Fine (C2F) Representation for End-To-End 6-DoF Grasp Detection, [[Paper](https://proceedings.mlr.press/v155/jeng21a/jeng21a.pdf)].
 
 *Keywords: 6D grasp; one-stage method; single object; Pointnet++ backbone; self-made dataset based on YCB.*
 
@@ -166,14 +169,10 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
   booktitle =      {Proceedings of the 2020 Conference on Robot Learning},
   pages =      {220--231},
   year =      {2021},
-  editor =      {Kober, Jens and Ramos, Fabio and Tomlin, Claire},
   volume =      {155},
   series =      {Proceedings of Machine Learning Research},
   month =      {16--18 Nov},
   publisher =    {PMLR},
-  pdf =      {https://proceedings.mlr.press/v155/jeng21a/jeng21a.pdf},
-  url =      {https://proceedings.mlr.press/v155/jeng21a.html},
-  abstract =      {We proposed an end-to-end grasp detection network,  Grasp Detection Network (GDN), cooperated with a novel coarse-to-fine (C2F) grasp representation design to detect diverse and accurate 6-DoF grasps based on point clouds.   Compared to previous two-stage approaches which sample and evaluate multiple grasp candidates, our architecture is at least 20 times faster.  It is also 8% and 40% more accurate in terms of the success rate in single object scenes and the complete rate in clutter scenes, respectively. Our method shows superior results among settings with different number of views and input points.  Moreover, we propose a new AP-based metric which considers both rotation and transition errors, making it a more comprehensive evaluation tool for grasp detection models.}
 }
 ```
 
@@ -194,4 +193,98 @@ This repo is a paper list of Robotic-Grasping and some related works that I have
 }
 ```
 
-## 5. Research groups  <span id="research-groups"> </span>
+**[RA-L2022]** GATER: Learning Grasp-Action-Target Embeddings and Relations for Task-Specific Grasping,  [[Paper](https://arxiv.org/pdf/2111.13815.pdf)].
+
+*Keywords: 2D planar grasp; task-oriented grasp; self-made task-oriented grasp dataset; grasp-action-target relationship.*
+
+```latex
+@ARTICLE{9629256,
+  author={Sun, Ming and Gao, Yue},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={GATER: Learning Grasp-Action-Target Embeddings and Relations for Task-Specific Grasping}, 
+  year={2022},
+  volume={7},
+  number={1},
+  pages={618-625},
+  doi={10.1109/LRA.2021.3131378}}{IEEE}
+}
+```
+
+**[CoRL2020]** Same Object, Different Grasps: Data and SemanticKnowledge for Task-Oriented Grasping, [[Project](https://sites.google.com/view/taskgrasp)], [[Paper](https://proceedings.mlr.press/v155/murali21a/murali21a.pdf)], [[Code](https://github.com/adithyamurali/TaskGrasp)], [[Dataset](https://drive.google.com/file/d/1aZ0k43fBIZZQPPPraV-z6itpqCHuDiUU/view)].
+
+*Keywords: 6D task-oriented grasp; single object; real-world data; object point cloud and goal task input; Pointnet++ backbone for point cloud,  Graph Convolutional Network for object and task semantic knowledge.*
+
+```latex
+@inproceedings{murali2020taskgrasp,
+  title={Same Object, Different Grasps: Data and Semantic Knowledge for Task-Oriented Grasping},
+  author={Murali, Adithyavairavan and Liu, Weiyu and Marino, Kenneth and Chernova, Sonia and Gupta, Abhinav},
+  booktitle={Conference on Robot Learning},
+  year={2020}
+}
+```
+
+**[IJRR2020]** Learning Task-Oriented Grasping for Tool Manipulation from Simulated Self-Supervision, [[Project](https://sites.google.com/view/task-oriented-grasp/)], [[Paper](https://arxiv.org/pdf/1806.09266.pdf)].
+
+Keywords: task-oriented grasping; manipulation policy; self-supervised in simulation; single object; planar grasp; depth image input; 2 tasks.
+
+```latex
+@article{fang2020learning,
+  title={Learning task-oriented grasping for tool manipulation from simulated self-supervision},
+  author={Fang, Kuan and Zhu, Yuke and Garg, Animesh and Kurenkov, Andrey and Mehta, Viraj and Fei-Fei, Li and Savarese, Silvio},
+  journal={The International Journal of Robotics Research},
+  volume={39},
+  number={2-3},
+  pages={202--216},
+  year={2020},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+```
+
+**[ICRA2018]** AffordanceNet: An End-to-End Deep Learning Approach for Object Affordance Detection, [[Paper](https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2018_ICRA_AffordanceNet.pdf)], [[Code](https://github.com/nqanh/affordance-net)].
+
+*Keywords: simultaneous object detection and affordance detection; RGB input.*
+
+```latex
+@inproceedings{do2018affordancenet,
+  title={Affordancenet: An end-to-end deep learning approach for object affordance detection},
+  author={Do, Thanh-Toan and Nguyen, Anh and Reid, Ian},
+  booktitle={2018 IEEE international conference on robotics and automation (ICRA)},
+  pages={5882--5889},
+  year={2018},
+  organization={IEEE}
+}
+```
+
+**[Humanoids2017]** Affordance Detection for Task-Specific Grasping Using Deep Learning,  [[Paper](https://www.cs.columbia.edu/~allen/S19/Student_Papers/kragic_affordance_grasp_planning.pdf)].
+
+*keywords: single object point cloud and task name input; output affordance detection, no grasp; 5 tasks, 10 object classes; generalize to novel object class.*
+
+```latex
+@inproceedings{kokic2017affordance,
+  title={Affordance detection for task-specific grasping using deep learning},
+  author={Kokic, Mia and Stork, Johannes A and Haustein, Joshua A and Kragic, Danica},
+  booktitle={2017 IEEE-RAS 17th International Conference on Humanoid Robotics (Humanoids)},
+  pages={91--98},
+  year={2017},
+  organization={IEEE}
+}
+```
+
+## 5. Semantic grasping <span id="semantic-grasping"> </span>
+
+**[arXiv2021]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189)].
+
+*Keywords: language-guided semantic rearrangement; transformed-based method; scene point cloud and structured language command input; output plan sequence, no 6D grasp.*
+
+```latex
+@article{liu2021structformer,
+  title={Structformer: Learning spatial structure for language-guided semantic rearrangement of novel objects},
+  author={Liu, Weiyu and Paxton, Chris and Hermans, Tucker and Fox, Dieter},
+  journal={arXiv preprint arXiv:2110.10189},
+  year={2021}
+}
+```
+
+## 6. Research groups  <span id="research-groups"> </span>
+
+- [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Professor Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
