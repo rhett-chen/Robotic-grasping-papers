@@ -2,7 +2,7 @@
 
 This repo is a paper list of Robotic-Grasping and some related works that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
-Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research.
+Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research, **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems.
 
 ## Robotic Grasping Papers and Codes
 
@@ -12,11 +12,9 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 3. [Grasp Detection](#grasp-detection)
 
-4. [Task-oriented Methods](#task-oriented-grasp)
+4. [Semantic grasping](#semantic-grasping)
 
-5. [Semantic grasping](#semantic-grasping)
-
-6. [Research groups](#research-groups)
+5. [Research groups](#research-groups)
 
 ## 1. Survey Papers <span id="survey-papers"> </span>
 
@@ -176,7 +174,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
-## 4.Task-oriented Grasp  <span id="task-oriented-grasp"> </span>
+## 4. Semantic grasping <span id="semantic-grasping"> </span>
 
 **[ICRA2022]** CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation,  [[Project](https://sites.google.com/view/catgrasp)],  [[Paper](https://arxiv.org/pdf/2109.09163v1.pdf)],  [[Code](https://github.com/wenbowen123/catgrasp)].  
 
@@ -210,6 +208,19 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
+**[arXiv2021]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189)].
+
+*Keywords: language-guided semantic rearrangement; transformed-based method; scene point cloud and structured language command input; output plan sequence, no 6D grasp.*
+
+```latex
+@article{liu2021structformer,
+  title={Structformer: Learning spatial structure for language-guided semantic rearrangement of novel objects},
+  author={Liu, Weiyu and Paxton, Chris and Hermans, Tucker and Fox, Dieter},
+  journal={arXiv preprint arXiv:2110.10189},
+  year={2021}
+}
+```
+
 **[CoRL2020]** Same Object, Different Grasps: Data and SemanticKnowledge for Task-Oriented Grasping, [[Project](https://sites.google.com/view/taskgrasp)], [[Paper](https://proceedings.mlr.press/v155/murali21a/murali21a.pdf)], [[Code](https://github.com/adithyamurali/TaskGrasp)], [[Dataset](https://drive.google.com/file/d/1aZ0k43fBIZZQPPPraV-z6itpqCHuDiUU/view)].
 
 *Keywords: 6D task-oriented grasp; single object; real-world data; object point cloud and goal task input; Pointnet++ backbone for point cloud,  Graph Convolutional Network for object and task semantic knowledge.*
@@ -225,7 +236,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[IJRR2020]** Learning Task-Oriented Grasping for Tool Manipulation from Simulated Self-Supervision, [[Project](https://sites.google.com/view/task-oriented-grasp/)], [[Paper](https://arxiv.org/pdf/1806.09266.pdf)].
 
-Keywords: task-oriented grasping; manipulation policy; self-supervised in simulation; single object; planar grasp; depth image input; 2 tasks.
+*Keywords: task-oriented grasping; manipulation policy; self-supervised in simulation; single object; planar grasp; depth image input; 2 tasks.*
 
 ```latex
 @article{fang2020learning,
@@ -237,6 +248,21 @@ Keywords: task-oriented grasping; manipulation policy; self-supervised in simula
   pages={202--216},
   year={2020},
   publisher={SAGE Publications Sage UK: London, England}
+}
+```
+
+**[IROS2019]** Task-oriented Grasping in Object Stacking Scenes with CRF-based Semantic Model, [[Paper](https://ieeexplore.ieee.org/document/8967992)].
+
+*Keywords: task-oriented grasping; clutter scene in simulation; planar grasp; 11 tasks, 10 object categories, 100 objects; depth image input.*
+
+```latex
+@inproceedings{yang2019task,
+  title={Task-oriented grasping in object stacking scenes with crf-based semantic model},
+  author={Yang, Chenjie and Lan, Xuguang and Zhang, Hanbo and Zheng, Nanning},
+  booktitle={2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={6427--6434},
+  year={2019},
+  organization={IEEE}
 }
 ```
 
@@ -270,21 +296,6 @@ Keywords: task-oriented grasping; manipulation policy; self-supervised in simula
 }
 ```
 
-## 5. Semantic grasping <span id="semantic-grasping"> </span>
-
-**[arXiv2021]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189)].
-
-*Keywords: language-guided semantic rearrangement; transformed-based method; scene point cloud and structured language command input; output plan sequence, no 6D grasp.*
-
-```latex
-@article{liu2021structformer,
-  title={Structformer: Learning spatial structure for language-guided semantic rearrangement of novel objects},
-  author={Liu, Weiyu and Paxton, Chris and Hermans, Tucker and Fox, Dieter},
-  journal={arXiv preprint arXiv:2110.10189},
-  year={2021}
-}
-```
-
-## 6. Research groups  <span id="research-groups"> </span>
+## 5. Research groups  <span id="research-groups"> </span>
 
 - [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Professor Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
