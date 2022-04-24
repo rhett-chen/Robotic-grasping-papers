@@ -174,6 +174,50 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
+**[ICRA2020]** PointNet++ Grasping: Learning An End-to-end Spatial Grasp Generation Algorithm from Sparse Point Clouds, [[Paper](https://arxiv.org/ftp/arxiv/papers/2003/2003.09644.pdf)].
+
+*Keywords: end-to-end approach, directly predict grasp; 6D grasp; Pointnet++ backbone; single/multi-object scene; point cloud input.*
+
+```latex
+@inproceedings{ni2020pointnet++,
+  title={Pointnet++ grasping: learning an end-to-end spatial grasp generation algorithm from sparse point clouds},
+  author={Ni, Peiyuan and Zhang, Wenguang and Zhu, Xiaoxiao and Cao, Qixin},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={3619--3625},
+  year={2020},
+  organization={IEEE}
+}
+```
+
+**[ICCV2019]** 6-DOF GraspNet: Variational Grasp Generation for Object Manipulation, [[Paper](https://arxiv.org/pdf/1905.10520.pdf)], [[Code](https://github.com/NVlabs/6dof-graspnet)].
+
+*Keywords: 6D grasp; sampling then evaluation; Pointnet++ backbone; generate dataset in simulation; single object point cloud and grasp input.*
+
+```latex
+@inproceedings{mousavian20196,
+  title={6-dof graspnet: Variational grasp generation for object manipulation},
+  author={Mousavian, Arsalan and Eppner, Clemens and Fox, Dieter},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={2901--2910},
+  year={2019}
+}
+```
+
+**[ICRA2019]** PointNetGPD: Detecting Grasp Configurations from Point Set, [[Paper](https://web.cs.ucla.edu/~xm/file/pointnetgpd_icra19.pdf)], [[Code](https://github.com/lianghongzhuo/PointNetGPD)].
+
+*Keywords: 6D grasp; sampling then evaluation; single object cloud and grasp input; Pointnet backbone; generate a large grasp dataset with YCB object set.*
+
+```latex
+@inproceedings{liang2019pointnetgpd,
+  title={Pointnetgpd: Detecting grasp configurations from point sets},
+  author={Liang, Hongzhuo and Ma, Xiaojian and Li, Shuang and G{\"o}rner, Michael and Tang, Song and Fang, Bin and Sun, Fuchun and Zhang, Jianwei},
+  booktitle={2019 International Conference on Robotics and Automation (ICRA)},
+  pages={3629--3635},
+  year={2019},
+  organization={IEEE}
+}
+```
+
 ## 4. Semantic grasping <span id="semantic-grasping"> </span>
 
 **[ICRA2022]** CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation,  [[Project](https://sites.google.com/view/catgrasp)],  [[Paper](https://arxiv.org/pdf/2109.09163v1.pdf)],  [[Code](https://github.com/wenbowen123/catgrasp)].  
@@ -208,7 +252,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
-**[arXiv2021]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189)].
+**[arXiv2021]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189.pdf)].
 
 *Keywords: language-guided semantic rearrangement; transformed-based method; scene point cloud and structured language command input; output plan sequence, no 6D grasp.*
 
@@ -218,6 +262,21 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
   author={Liu, Weiyu and Paxton, Chris and Hermans, Tucker and Fox, Dieter},
   journal={arXiv preprint arXiv:2110.10189},
   year={2021}
+}
+```
+
+**[ICRA2021]** A Joint Network for Grasp Detection Conditioned on Natural Language Commands, [[Paper](https://arxiv.org/pdf/2104.00492.pdf)].
+
+*Keywords: 2D planar grasp; structured language command and rgb input; VMRD dataset; target-sepcific grasp.*
+
+```latex
+@inproceedings{chen2021joint,
+  title={A joint network for grasp detection conditioned on natural language commands},
+  author={Chen, Yiye and Xu, Ruinian and Lin, Yunzhi and Vela, Patricio A},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={4576--4582},
+  year={2021},
+  organization={IEEE}
 }
 ```
 
