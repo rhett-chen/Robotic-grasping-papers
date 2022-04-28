@@ -8,13 +8,19 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 1. [Survey Papers](#survey-papers)
 
-2. [Object Pose Estimation](#object-pose-estimation)
+2. [Related Vision Tasks](#related-vision-tasks)
+   
+   2.1 [Visual grounding](#visual-grounding)   
+   
+   2.2 [Robot Manipulation](#robot-manipulation)
 
 3. [Grasp Detection](#grasp-detection)
-
-4. [Semantic grasping](#semantic-grasping)
-
-5. [Research groups](#research-groups)
+   
+   3.1 [General grasping](#general-grasping)
+   
+   3.2 [Semantic grasping](#semantic-grasping)
+   
+   [Research Groups](#research-groups)
 
 ## 1. Survey Papers <span id="survey-papers"> </span>
 
@@ -48,9 +54,57 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
-## 2. Object Pose Estimation <span id="object-pose-estimation"> </span>
+## 2. Related Vision Tasks <span id="related-vision-tasks"> </span>
+
+### 2.1 Visual grounding <span id="visual-grounding"> </span>
+
+**[CVPR2022]** 3D-SPS: Single-Stage 3D Visual Grounding via Referred Point Progressive Selection, [[Paper](https://arxiv.org/pdf/2204.06272.pdf)], [[Code](https://github.com/fjhzhixi/3D-SPS)].
+
+*Keyowrds: input point cloud, RGB, normal vectors and language text; PointNet++ backbone for point cloud; output target object bounding box; single-stage method; cross-modal transformer model is used.*
+
+- [ ] Bibtex to be updated(arxiv to cvpr)
+
+```latex
+@article{luo20223d,
+  title={3D-SPS: Single-Stage 3D Visual Grounding via Referred Point Progressive Selection},
+  author={Luo, Junyu and Fu, Jiahui and Kong, Xianghao and Gao, Chen and Ren, Haibing and Shen, Hao and Xia, Huaxia and Liu, Si},
+  journal={arXiv preprint arXiv:2204.06272},
+  year={2022}
+}
+```
+
+### 2.2 Robot manipulation<span id="robot-manipulation"> </span>
+
+**[arxiv2022]** CALVIN: A Benchmark for Language-conditioned Policy Learning for Long-horizon Robot Manipulation Tasks, [[Paper](https://arxiv.org/pdf/2112.03227.pdf)], [[Code](https://github.com/mees/calvin)].
+
+*Keywords: language conditioned long-horizon manipulation; 34 tasks; 4 simulation environments; 7-Dof Panda robot; a static camera and a robot gripper camera; RGB-D image; unstructured demonstrations datasets, ∼2.4M interaction steps.*
+
+```latex
+@article{calvin21,
+author = {Oier Mees and Lukas Hermann and Erick Rosete-Beas and Wolfram Burgard},
+title = {CALVIN: A benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks},
+journal={arXiv preprint arXiv:2112.03227},
+year = 2021,
+}
+```
+
+**[CVPR2021]** ManipulaTHOR: A Framework for Visual Object Manipulation, [[Project](https://ai2thor.allenai.org/manipulathor/)], [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ehsani_ManipulaTHOR_A_Framework_for_Visual_Object_Manipulation_CVPR_2021_paper.pdf)], [[Code](https://github.com/allenai/manipulathor/)], [[Dataset](https://github.com/allenai/manipulathor/tree/main/datasets)].
+
+*Keywords: visual navigvation and object manipulation; simulation environment; dataset includes 30kitchen scenes, 150+ object categories; sensors include RGB-D, GPS, agent's location and arm configuration.*
+
+```latex
+@inproceedings{ehsani2021manipulathor,
+  title={Manipulathor: A framework for visual object manipulation},
+  author={Ehsani, Kiana and Han, Winson and Herrasti, Alvaro and VanderBilt, Eli and Weihs, Luca and Kolve, Eric and Kembhavi, Aniruddha and Mottaghi, Roozbeh},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={4497--4506},
+  year={2021}
+}
+```
 
 ## 3. Grasp Detection<span id="grasp-detection"> </span>
+
+### 3.1 General grasping<span id="general-grasping"> </span>
 
 **[ICCV2021]** Graspness Discovery in Clutters for Fast and Accurate Grasp Detection,        [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Graspness_Discovery_in_Clutters_for_Fast_and_Accurate_Grasp_Detection_ICCV_2021_paper.pdf)],  [[Code(non-official)](https://github.com/rhett-chen/graspness_implementation)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Wang_Graspness_Discovery_in_ICCV_2021_supplemental.zip)].
 
@@ -82,7 +136,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[ICRA2021]** GPR: Grasp Pose Refinement Network for Cluttered Scenes,  [[Paper](https://arxiv.org/pdf/2105.08502.pdf)].
 
-*Keywords: 6D grasp; two-stage method; self-made dataset in simulation; clutter scene in simulation; Pointnet++ backbone.*
+*Keywords: 6D grasp; two-stage method; self-made dataset in simulation; clutter scene in simulation; PointNet++ backbone.*
 
 ```latex
 @inproceedings{wei2021gpr,
@@ -97,7 +151,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[ICRA2021]** Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes,     [[Project](https://research.nvidia.com/publication/2021-03_Contact-GraspNet%3A--Efficient)], [[Paper](https://arxiv.org/pdf/2103.14127.pdf)], [[Code](https://github.com/NVlabs/contact_graspnet)].
 
-*Keywords: 6D grasp; object grasp dataset is ACRONYM; clutter scene in simulation; single-view scene point cloud(20000 points) input; backbone based on Pointnet++.*
+*Keywords: 6D grasp; object grasp dataset is ACRONYM; clutter scene in simulation; single-view scene point cloud(20000 points) input; backbone based on PointNet++.*
 
 ```latex
 @inproceedings{sundermeyer2021contact,
@@ -127,7 +181,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[CVPR2020]**  GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping,  [[Project](https://graspnet.net/index.html)],  [[Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf)],  [[Code](https://github.com/graspnet)], [[Supp](https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Fang_GraspNet-1Billion_A_Large-Scale_CVPR_2020_supplemental.pdf)].
 
-*Keywords: 6D general grasp; release a large-scale real-world dataset; clutter scene; single-view scene point cloud input; pointnet++ backbone.*
+*Keywords: 6D general grasp; release a large-scale real-world dataset; clutter scene; single-view scene point cloud input; PointNet++ backbone.*
 
 ```latex
 @inproceedings{fang2020graspnet,
@@ -141,7 +195,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[NIPS2020]** Grasp Proposal Networks: An End-to-End Solution for Visual Learning of Robotic Grasps, [[Paper](https://proceedings.neurips.cc/paper/2020/file/994d1cad9132e48c993d58b492f71fc1-Paper.pdf)], [[Code](https://github.com/CZ-Wu/GPNet)], [[Supp](https://proceedings.neurips.cc/paper/2020/file/994d1cad9132e48c993d58b492f71fc1-Supplemental.zip)].
 
-*Keywords: 6D grasp; single object; single-view point cloud input; Pointnet++ backbone; self-made synthetic dataset based on ShapeNetSem in simulation.*
+*Keywords: 6D grasp; single object; single-view point cloud input; PointNet++ backbone; self-made synthetic dataset based on ShapeNetSem in simulation.*
 
 ```latex
 @inproceedings{NEURIPS2020_994d1cad,
@@ -158,7 +212,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[CoRL2020]** GDN: A Coarse-To-Fine (C2F) Representation for End-To-End 6-DoF Grasp Detection, [[Paper](https://proceedings.mlr.press/v155/jeng21a/jeng21a.pdf)].
 
-*Keywords: 6D grasp; one-stage method; single object; Pointnet++ backbone; self-made dataset based on YCB.*
+*Keywords: 6D grasp; one-stage method; single object; PointNet++ backbone; self-made dataset based on YCB.*
 
 ```latex
 @InProceedings{pmlr-v155-jeng21a,
@@ -176,7 +230,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[ICRA2020]** PointNet++ Grasping: Learning An End-to-end Spatial Grasp Generation Algorithm from Sparse Point Clouds, [[Paper](https://arxiv.org/ftp/arxiv/papers/2003/2003.09644.pdf)].
 
-*Keywords: end-to-end approach, directly predict grasp; 6D grasp; Pointnet++ backbone; single/multi-object scene; point cloud input.*
+*Keywords: end-to-end approach, directly predict grasp; 6D grasp; PointNet++ backbone; single/multi-object scene; point cloud input.*
 
 ```latex
 @inproceedings{ni2020pointnet++,
@@ -191,7 +245,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[ICCV2019]** 6-DOF GraspNet: Variational Grasp Generation for Object Manipulation, [[Paper](https://arxiv.org/pdf/1905.10520.pdf)], [[Code](https://github.com/NVlabs/6dof-graspnet)].
 
-*Keywords: 6D grasp; sampling then evaluation; Pointnet++ backbone; generate dataset in simulation; single object point cloud and grasp input.*
+*Keywords: 6D grasp; sampling then evaluation; PointNet++ backbone; generate dataset in simulation; single object point cloud and grasp input.*
 
 ```latex
 @inproceedings{mousavian20196,
@@ -205,7 +259,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[ICRA2019]** PointNetGPD: Detecting Grasp Configurations from Point Set, [[Paper](https://web.cs.ucla.edu/~xm/file/pointnetgpd_icra19.pdf)], [[Code](https://github.com/lianghongzhuo/PointNetGPD)].
 
-*Keywords: 6D grasp; sampling then evaluation; single object cloud and grasp input; Pointnet backbone; generate a large grasp dataset with YCB object set.*
+*Keywords: 6D grasp; sampling then evaluation; single object cloud and grasp input; PointNet backbone; generate a large grasp dataset with YCB object set.*
 
 ```latex
 @inproceedings{liang2019pointnetgpd,
@@ -218,13 +272,13 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
-## 4. Semantic grasping <span id="semantic-grasping"> </span>
+### 3.2 Semantic grasping <span id="semantic-grasping"> </span>
 
 **[ICRA2022]** CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation,  [[Project](https://sites.google.com/view/catgrasp)],  [[Paper](https://arxiv.org/pdf/2109.09163v1.pdf)],  [[Code](https://github.com/wenbowen123/catgrasp)].  
 
 *Keywords: 6D category-level task-oriented grasp; clutter scene in simulation;  self-supervised in simulation.*
 
-- [ ] Bibtex to be updated
+- [ ] Bibtex to be updated(arxiv to icra)
 
 ```latex
 @article{wen2021catgrasp,
@@ -282,7 +336,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[CoRL2020]** Same Object, Different Grasps: Data and SemanticKnowledge for Task-Oriented Grasping, [[Project](https://sites.google.com/view/taskgrasp)], [[Paper](https://proceedings.mlr.press/v155/murali21a/murali21a.pdf)], [[Code](https://github.com/adithyamurali/TaskGrasp)], [[Dataset](https://drive.google.com/file/d/1aZ0k43fBIZZQPPPraV-z6itpqCHuDiUU/view)].
 
-*Keywords: 6D task-oriented grasp; single object; real-world data; object point cloud and goal task input; Pointnet++ backbone for point cloud,  Graph Convolutional Network for object and task semantic knowledge.*
+*Keywords: 6D task-oriented grasp; single object; real-world data; object point cloud and goal task input; PointNet++ backbone for point cloud,  Graph Convolutional Network for object and task semantic knowledge.*
 
 ```latex
 @inproceedings{murali2020taskgrasp,
@@ -307,6 +361,21 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
   pages={202--216},
   year={2020},
   publisher={SAGE Publications Sage UK: London, England}
+}
+```
+
+**[ICRA2020]** CAGE: Context-Aware Grasping Engine, [[Paper](https://arxiv.org/pdf/1909.11142.pdf)], [[Code](https://github.com/wliu88/rail_semantic_grasping)].
+
+*Keywords: single object; semantic context including task, object state, object material, object affordance; semantic context and sampled grasps input; output ranking of grasps ordered by their suitability to the context.*
+
+```latex
+@inproceedings{liu2020cage,
+  title={Cage: Context-aware grasping engine},
+  author={Liu, Weiyu and Daruna, Angel and Chernova, Sonia},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={2550--2556},
+  year={2020},
+  organization={IEEE}
 }
 ```
 
@@ -342,7 +411,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 **[Humanoids2017]** Affordance Detection for Task-Specific Grasping Using Deep Learning,  [[Paper](https://www.cs.columbia.edu/~allen/S19/Student_Papers/kragic_affordance_grasp_planning.pdf)].
 
-*keywords: single object point cloud and task name input; output affordance detection, no grasp; 5 tasks, 10 object classes; generalize to novel object class.*
+*Keywords: single object point cloud and task name input; output affordance detection, no grasp; 5 tasks, 10 object classes; generalize to novel object class.*
 
 ```latex
 @inproceedings{kokic2017affordance,
@@ -355,6 +424,6 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
-## 5. Research groups  <span id="research-groups"> </span>
+## 4. Research Groups  <span id="research-groups"> </span>
 
 - [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Professor Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
