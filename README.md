@@ -13,14 +13,16 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
    2.1 [Visual grounding](#visual-grounding)   
    
    2.2 [Robot Manipulation](#robot-manipulation)
+   
+   2.3 [6D pose estimation](#6d-pose-estimation)
 
 3. [Grasp Detection](#grasp-detection)
    
    3.1 [General grasping](#general-grasping)
    
    3.2 [Semantic grasping](#semantic-grasping)
-   
-   [Research Groups](#research-groups)
+
+4. [Research Groups](#research-groups)
 
 ## 1. Survey Papers <span id="survey-papers"> </span>
 
@@ -75,7 +77,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 ### 2.2 Robot manipulation<span id="robot-manipulation"> </span>
 
-**[arxiv2022]** CALVIN: A Benchmark for Language-conditioned Policy Learning for Long-horizon Robot Manipulation Tasks, [[Paper](https://arxiv.org/pdf/2112.03227.pdf)], [[Code](https://github.com/mees/calvin)].
+**[arXiv2022]** CALVIN: A Benchmark for Language-conditioned Policy Learning for Long-horizon Robot Manipulation Tasks, [[Paper](https://arxiv.org/pdf/2112.03227.pdf)], [[Code](https://github.com/mees/calvin)].
 
 *Keywords: language conditioned long-horizon manipulation; 34 tasks; 4 simulation environments; 7-Dof Panda robot; a static camera and a robot gripper camera; RGB-D image; unstructured demonstrations datasets, ∼2.4M interaction steps.*
 
@@ -90,7 +92,7 @@ year = 2021,
 
 **[CVPR2021]** ManipulaTHOR: A Framework for Visual Object Manipulation, [[Project](https://ai2thor.allenai.org/manipulathor/)], [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ehsani_ManipulaTHOR_A_Framework_for_Visual_Object_Manipulation_CVPR_2021_paper.pdf)], [[Code](https://github.com/allenai/manipulathor/)], [[Dataset](https://github.com/allenai/manipulathor/tree/main/datasets)].
 
-*Keywords: visual navigvation and object manipulation; simulation environment; dataset includes 30kitchen scenes, 150+ object categories; sensors include RGB-D, GPS, agent's location and arm configuration.*
+*Keywords: visual navigvation and object manipulation; simulation environment; dataset includes 30 kitchen scenes, 150+ object categories; sensors include RGB-D, GPS, agent's location and arm configuration.*
 
 ```latex
 @inproceedings{ehsani2021manipulathor,
@@ -102,13 +104,41 @@ year = 2021,
 }
 ```
 
+### 2.3 6D pose estimation<span id="6d-pose-estimation"> </span>
+
+**[RSS2018]** PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes, [[Project](https://rse-lab.cs.washington.edu/projects/posecnn/)], [[Paper](https://rse-lab.cs.washington.edu/papers/posecnn_rss18.pdf)], [[Code](https://github.com/yuxng/PoseCNN)].
+
+*Keywords: RGB image input; object segmentation and 6D pose output;  release YCB-video dataset, 21 objetcs, 92 vidos, 133827 frames.*
+
+```latex
+@inproceedings{xiang2018posecnn,
+    Author = {Xiang, Yu and Schmidt, Tanner and Narayanan, Venkatraman and Fox, Dieter},
+    Title = {PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes},
+    Journal   = {Robotics: Science and Systems (RSS)},
+    Year = {2018}
+}
+```
+
 ## 3. Grasp Detection<span id="grasp-detection"> </span>
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
 
+**[arXiv2022]** When Transformer Meets Robotic Grasping: Exploits Context for Efficient Grasp Detection, [[Paper](https://arxiv.org/pdf/2202.11911.pdf)], [[Code](https://github.com/WangShaoSUN/grasp-transformer)].
+
+*Keywords: 2D planar grasp; Cornell and Jacquard grasping datasets; cluttered scene; Transformer based architecture; D/RGB/RGB-D input.*
+
+```latex
+@article{wang2022transformer,
+  title={When Transformer Meets Robotic Grasping: Exploits Context for Efficient Grasp Detection},
+  author={Wang, Shaochen and Zhou, Zhangli and Kan, Zhen},
+  journal={arXiv preprint arXiv:2202.11911},
+  year={2022}
+}
+```
+
 **[ICCV2021]** Graspness Discovery in Clutters for Fast and Accurate Grasp Detection,        [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Graspness_Discovery_in_Clutters_for_Fast_and_Accurate_Grasp_Detection_ICCV_2021_paper.pdf)],  [[Code(non-official)](https://github.com/rhett-chen/graspness_implementation)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Wang_Graspness_Discovery_in_ICCV_2021_supplemental.zip)].
 
-*Keywords: 6D general grasp; clutter scene; real-world dataset GraspNet1-billion;  single-view scene point cloud input; MinkowskiEngine sparse convolution, ResUNet14.*
+*Keywords: 6D general grasp; cluttered scene; real-world dataset GraspNet1-billion;  single-view scene point cloud input; MinkowskiEngine sparse convolution, ResUNet14.*
 
 ```latex
 @InProceedings{Wang_2021_ICCV,
@@ -123,7 +153,7 @@ year = 2021,
 
 **[ICRA2021]** RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images,       [[Paper](https://arxiv.org/pdf/2103.02184.pdf)].
 
-*Keywords: 6D genral grasp; clutter scene; RGB and single-view point cloud input; real-world dataset GraspNet1-billion.*
+*Keywords: 6D genral grasp; cluttered scene; RGB and single-view point cloud input; real-world dataset GraspNet1-billion.*
 
 ```latex
 @inproceedings{gou2021RGB,
@@ -136,7 +166,7 @@ year = 2021,
 
 **[ICRA2021]** GPR: Grasp Pose Refinement Network for Cluttered Scenes,  [[Paper](https://arxiv.org/pdf/2105.08502.pdf)].
 
-*Keywords: 6D grasp; two-stage method; self-made dataset in simulation; clutter scene in simulation; PointNet++ backbone.*
+*Keywords: 6D grasp; two-stage method; self-made dataset in simulation; cluttered scene in simulation; PointNet++ backbone.*
 
 ```latex
 @inproceedings{wei2021gpr,
@@ -151,7 +181,7 @@ year = 2021,
 
 **[ICRA2021]** Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes,     [[Project](https://research.nvidia.com/publication/2021-03_Contact-GraspNet%3A--Efficient)], [[Paper](https://arxiv.org/pdf/2103.14127.pdf)], [[Code](https://github.com/NVlabs/contact_graspnet)].
 
-*Keywords: 6D grasp; object grasp dataset is ACRONYM; clutter scene in simulation; single-view scene point cloud(20000 points) input; backbone based on PointNet++.*
+*Keywords: 6D grasp; object grasp dataset is ACRONYM; cluttered scene in simulation; single-view scene point cloud(20000 points) input; backbone based on PointNet++.*
 
 ```latex
 @inproceedings{sundermeyer2021contact,
@@ -181,7 +211,7 @@ year = 2021,
 
 **[CVPR2020]**  GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping,  [[Project](https://graspnet.net/index.html)],  [[Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf)],  [[Code](https://github.com/graspnet)], [[Supp](https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Fang_GraspNet-1Billion_A_Large-Scale_CVPR_2020_supplemental.pdf)].
 
-*Keywords: 6D general grasp; release a large-scale real-world dataset; clutter scene; single-view scene point cloud input; PointNet++ backbone.*
+*Keywords: 6D general grasp; release a large-scale real-world dataset; cluttered scene; single-view scene point cloud input; PointNet++ backbone.*
 
 ```latex
 @inproceedings{fang2020graspnet,
@@ -276,7 +306,7 @@ year = 2021,
 
 **[ICRA2022]** CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation,  [[Project](https://sites.google.com/view/catgrasp)],  [[Paper](https://arxiv.org/pdf/2109.09163v1.pdf)],  [[Code](https://github.com/wenbowen123/catgrasp)].  
 
-*Keywords: 6D category-level task-oriented grasp; clutter scene in simulation;  self-supervised in simulation.*
+*Keywords: 6D category-level task-oriented grasp; cluttered scene in simulation;  self-supervised in simulation.*
 
 - [ ] Bibtex to be updated(arxiv to icra)
 
@@ -381,7 +411,7 @@ year = 2021,
 
 **[IROS2019]** Task-oriented Grasping in Object Stacking Scenes with CRF-based Semantic Model, [[Paper](https://ieeexplore.ieee.org/document/8967992)].
 
-*Keywords: task-oriented grasping; clutter scene in simulation; planar grasp; 11 tasks, 10 object categories, 100 objects; depth image input.*
+*Keywords: task-oriented grasping; cluttered scene in simulation; planar grasp; 11 tasks, 10 object categories, 100 objects; depth image input.*
 
 ```latex
 @inproceedings{yang2019task,
