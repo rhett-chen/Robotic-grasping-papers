@@ -2,7 +2,7 @@
 
 This repo is a paper list of Robotic-Grasping and some related works that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
-Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research, **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems.
+Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems.
 
 ## Robotic Grasping Papers and Codes
 
@@ -75,6 +75,51 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
+**[CoRL2022]** Language Grounding with 3D Objects, [[Paper](https://proceedings.mlr.press/v164/thomason22a/thomason22a.pdf)], [[Code](https://github.com/snaredataset/snare)], [[Supp](https://proceedings.mlr.press/v164/thomason22a/thomason22a-supp.zip)].
+
+*Keywords: distinguish between object pair based on object referring expressions; annotated SNARE Dataset, based on ShapNet, 7897 objects, 50000 natural language referring expressions.*
+
+```latex
+@inproceedings{thomason2022language,
+  title={Language grounding with 3D objects},
+  author={Thomason, Jesse and Shridhar, Mohit and Bisk, Yonatan and Paxton, Chris and Zettlemoyer, Luke},
+  booktitle={Conference on Robot Learning},
+  pages={1691--1701},
+  year={2022},
+  organization={PMLR}
+}
+```
+
+**[CVPR2021]** Refer-it-in-RGBD: A Bottom-up Approach for 3D Visual Grounding in RGBD Images, [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Refer-It-in-RGBD_A_Bottom-Up_Approach_for_3D_Visual_Grounding_in_RGBD_CVPR_2021_paper.pdf)], [[Code](https://github.com/UncleMEDM/Refer-it-in-RGBD)], [[Supp](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Liu_Refer-It-in-RGBD_A_Bottom-Up_CVPR_2021_supplemental.pdf)].
+
+*Keywords: new task, single view 3D visual grounding; input single-view RGBD and language text; fuse language and visual feature gradually; contribute a large-scale dataset by annotating SUNRGBD with referring expressions; GLoVe for word embedding; use GRU to encode description.*
+
+```latex
+@InProceedings{Liu_2021_CVPR,
+    author    = {Liu, Haolin and Lin, Anran and Han, Xiaoguang and Yang, Lei and Yu, Yizhou and Cui, Shuguang},
+    title     = {Refer-It-in-RGBD: A Bottom-Up Approach for 3D Visual Grounding in RGBD Images},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {6032-6041}
+}
+```
+
+**[ICCV2021]** Free-form Description Guided 3D Visual Graph Network for Object Grounding in Point Cloud, [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Feng_Free-Form_Description_Guided_3D_Visual_Graph_Network_for_Object_Grounding_ICCV_2021_paper.pdf)], [[Code](https://github.com/PNXD/FFL-3DOG)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Feng_Free-Form_Description_Guided_ICCV_2021_supplemental.pdf)].
+
+*Keywords: free-form description and scene point cloud input; ScanRefer and Nr3D dataset; construct language scene graph and multi-level proposal relation graph; VoteNet for 3D object proposal; GLoVe for word embedding; use GRU to encode description.*
+
+```latex
+@InProceedings{Feng_2021_ICCV,
+    author    = {Feng, Mingtao and Li, Zhen and Li, Qi and Zhang, Liang and Zhang, XiangDong and Zhu, Guangming and Zhang, Hui and Wang, Yaonan and Mian, Ajmal},
+    title     = {Free-Form Description Guided 3D Visual Graph Network for Object Grounding in Point Cloud},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {3722-3731}
+}
+```
+
 ### 2.2 Robot manipulation<span id="robot-manipulation"> </span>
 
 **[arXiv2022]** CALVIN: A Benchmark for Language-conditioned Policy Learning for Long-horizon Robot Manipulation Tasks, [[Paper](https://arxiv.org/pdf/2112.03227.pdf)], [[Code](https://github.com/mees/calvin)].
@@ -106,9 +151,23 @@ year = 2021,
 
 ### 2.3 6D pose estimation<span id="6d-pose-estimation"> </span>
 
+**[RA-L2022]** Estimating 6D Object Poses with Temporal Motion Reasoning for Robot Grasping in Cluttered Scenes, [[Paper](https://ieeexplore.ieee.org/abstract/document/9699040/)], [[Code](https://github.com/mufengjun260/H-MPose)].
+
+*Keywords: multi-frame RGB-D sequences; YCB-Video dataset; temporal fusion, integrate the temporal motion information from RGB-D; predict stable pose sequences; handle heavy occlusion.*
+
+```latex
+@article{huang2022estimating,
+  title={Estimating 6D Object Poses with Temporal Motion Reasoning for Robot Grasping in Cluttered Scenes},
+  author={Huang, Rui and Mu, Fengjun and Li, Wenjiang and Liu, Huaping and Cheng, Hong},
+  journal={IEEE Robotics and Automation Letters},
+  year={2022},
+  publisher={IEEE}
+}
+```
+
 **[RSS2018]** PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes, [[Project](https://rse-lab.cs.washington.edu/projects/posecnn/)], [[Paper](https://rse-lab.cs.washington.edu/papers/posecnn_rss18.pdf)], [[Code](https://github.com/yuxng/PoseCNN)].
 
-*Keywords: RGB image input; object segmentation and 6D pose output;  release YCB-video dataset, 21 objetcs, 92 vidos, 133827 frames.*
+*Keywords: RGB image input; object segmentation and 6D pose output;  release YCB-video dataset, 21 objects, 92 videos, 133827 frames.*
 
 ```latex
 @inproceedings{xiang2018posecnn,
@@ -148,6 +207,21 @@ year = 2021,
     month     = {October},
     year      = {2021},
     pages     = {15964-15973}
+}
+```
+
+**[IROS2021]** Simultaneous Semantic and Collision Learning for 6-DoF Grasp Pose Estimation, [[paper](https://arxiv.org/pdf/2108.02425.pdf)].
+
+*Keywords: 6D grasp; cluttered scene; single-view scene point cloud input; real-world dataset GraspNet1-billion; jointly predict grasp poses, semantic segmentation and collision detection.*
+
+```latex
+@inproceedings{li2021simultaneous,
+  title={Simultaneous Semantic and Collision Learning for 6-DoF Grasp Pose Estimation},
+  author={Li, Yiming and Kong, Tao and Chu, Ruihang and Li, Yifeng and Wang, Peng and Li, Lei},
+  booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={3571--3578},
+  year={2021},
+  organization={IEEE}
 }
 ```
 
