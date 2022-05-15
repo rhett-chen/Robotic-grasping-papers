@@ -378,6 +378,51 @@ year = 2021,
 
 ### 3.2 Semantic grasping <span id="semantic-grasping"> </span>
 
+[ICRA2022] Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter, [[Project](https://sites.google.com/umn.edu/graph-grasping)], [[Paper](https://arxiv.org/pdf/2203.00875.pdf)].
+
+*Keywords: target-driven grasp; cluttered scene; 6-D grasp; sampling based grasp generation; shape completion-assisted grasp sampling; formulate grasp graph, nodes representing object, edges indicating spatial relations between the objects; train on synthetic dataset; input scene RGB and query image.*
+
+- [ ] Bibtex to be update(arxiv to icra)
+
+```latex
+@article{lou2022learning,
+  title={Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter},
+  author={Lou, Xibai and Yang, Yang and Choi, Changhyun},
+  journal={arXiv preprint arXiv:2203.00875},
+  year={2022}
+}
+```
+
+**[ICRA2022]** I Know What You Draw: Learning Grasp Detection Conditioned on a Few Freehand Sketches, [[Project](https://hetolin.github.io/Skt_grasp/)], [[Paper](https://arxiv.org/pdf/2205.04026.pdf)].
+
+*Keywords: 2D planar grasp; cluttered scene; target grasps by understanding freehand sketches; RGB image and graph-represented sketch input.*
+
+- [ ] Bibtex to be update(arxiv to icra)
+
+```latex
+@article{lin2022know,
+  title={I Know What You Draw: Learning Grasp Detection Conditioned on a Few Freehand Sketches},
+  author={Lin, Haitao and Cheang, Chilam and Fu, Yanwei and Xue, Xiangyang},
+  journal={arXiv preprint arXiv:2205.04026},
+  year={2022}
+}
+```
+
+**[ICRA2022]** Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions, [[Project](https://baboon527.github.io/lang_6d/)], [[Paper](https://arxiv.org/pdf/2205.04028v1.pdf)], [[Code](https://github.com/baboon527/lang_6d)].
+
+*Keywords: grasp target object based on language description; two-stage method; 2D visual grounding, category-level object pose estimation; RGBD and language description input.*
+
+- [ ] Bibtex to be update(arxiv to icra)
+
+```latex
+@article{cheang2022learning,
+  title={Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions},
+  author={Cheang, Chilam and Lin, Haitao and Fu, Yanwei and Xue, Xiangyang},
+  journal={arXiv preprint arXiv:2205.04028},
+  year={2022}
+}
+```
+
 **[ICRA2022]** CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation,  [[Project](https://sites.google.com/view/catgrasp)],  [[Paper](https://arxiv.org/pdf/2109.09163v1.pdf)],  [[Code](https://github.com/wenbowen123/catgrasp)].  
 
 *Keywords: 6D category-level task-oriented grasp; cluttered scene in simulation;  self-supervised in simulation.*
@@ -436,6 +481,22 @@ year = 2021,
   year={2021},
   organization={IEEE}
 }
+```
+
+**[RSS2021]** INVIGORATE: Interactive Visual Grounding and Grasping in Clutter, [[Paper](http://roboticsproceedings.org/rss17/p020.pdf)].
+
+*Keywords: input language expressions and RGB; cluttered scene; train separate neural networks for object detection, for visual grounding, for question generation, and for object blocking relationships detection and grasping.*
+
+```latex
+@INPROCEEDINGS{ZhangLu-RSS-21, 
+    AUTHOR    = {Hanbo Zhang AND Yunfan Lu AND Cunjun Yu AND David Hsu AND Xuguang Lan AND Nanning Zheng}, 
+    TITLE     = {{INVIGORATE: Interactive Visual Grounding and Grasping in Clutter}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2021}, 
+    ADDRESS   = {Virtual}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2021.XVII.020} 
+} 
 ```
 
 **[CoRL2020]** Same Object, Different Grasps: Data and SemanticKnowledge for Task-Oriented Grasping, [[Project](https://sites.google.com/view/taskgrasp)], [[Paper](https://proceedings.mlr.press/v155/murali21a/murali21a.pdf)], [[Code](https://github.com/adithyamurali/TaskGrasp)], [[Dataset](https://drive.google.com/file/d/1aZ0k43fBIZZQPPPraV-z6itpqCHuDiUU/view)].
