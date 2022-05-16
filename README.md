@@ -238,6 +238,19 @@ year = 2021,
 }
 ```
 
+**[RSS2021]** Synergies Between Affordance and Geometry: 6-DoF Grasp Detection via Implicit Representations, [[Project](https://sites.google.com/view/rpl-giga2021)], [[Paper](https://arxiv.org/pdf/2104.01542.pdf)], [[Code](https://github.com/UT-Austin-RPL/GIGA)].
+
+*Keywords: cluttered scene; 6D grasp; multi-task learning, 3D reconstruction and grasp detection; train the modelon self-supervised grasp trials data in simulation.*
+
+```latex
+@article{jiang2021synergies,
+ author = {Jiang, Zhenyu and Zhu, Yifeng and Svetlik, Maxwell and Fang, Kuan and Zhu, Yuke},
+ journal = {Robotics: science and systems},
+ title = {Synergies Between Affordance and Geometry: 6-DoF Grasp Detection via Implicit Representations},
+ year = {2021}
+}
+```
+
 **[ICRA2021]** GPR: Grasp Pose Refinement Network for Cluttered Scenes,  [[Paper](https://arxiv.org/pdf/2105.08502.pdf)].
 
 *Keywords: 6D grasp; two-stage method; self-made dataset in simulation; cluttered scene in simulation; PointNet++ backbone.*
@@ -266,6 +279,22 @@ year = 2021,
   year={2021},
   organization={IEEE}
 }
+```
+
+**[ICRA2021]** REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds, [[Paper](https://arxiv.org/pdf/2002.12647v1.pdf)].
+
+*Keywords: input point cloud; PointNet++ backbone; 6D grasp; single pbject; 3-stage single-shot network, Score Network (SN), Grasp Region Network (GRN) and Refine Network (RN).*
+
+```latex
+@INPROCEEDINGS{9561920,
+  author={Zhao, Binglei and Zhang, Hanbo and Lan, Xuguang and Wang, Haoyu and Tian, Zhiqiang and Zheng, Nanning},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds}, 
+  year={2021},
+  pages={13474-13480},
+  doi={10.1109/ICRA48506.2021.9561920}}
+
+
 ```
 
 **[ICRA2021]** Acronym: A large-scale grasp dataset based on simulation, [[Project](https://sites.google.com/nvidia.com/graspdataset)],   [[Paper](https://arxiv.org/pdf/2011.09584.pdf)], [[Code](https://github.com/NVlabs/acronym)].
@@ -314,6 +343,19 @@ year = 2021,
 }
 ```
 
+**[CoRL2020]** Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter, [[Paper](https://arxiv.org/pdf/2101.01132.pdf)], [[Code](https://github.com/ethz-asl/vgn)].
+
+*Keywords: 6D grasp; Truncated Signed Distance Function (TSDF) representation of the scene; cluttered scene; trained on a synthetic grasping dataset generated with physics simulation.*
+
+```latex
+@inproceedings{breyer2020volumetric,
+ title={Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter},
+ author={Breyer, Michel and Chung, Jen Jen and Ott, Lionel and Roland, Siegwart and Juan, Nieto},
+ booktitle={Conference on Robot Learning},
+ year={2020},
+}
+```
+
 **[CoRL2020]** GDN: A Coarse-To-Fine (C2F) Representation for End-To-End 6-DoF Grasp Detection, [[Paper](https://proceedings.mlr.press/v155/jeng21a/jeng21a.pdf)].
 
 *Keywords: 6D grasp; one-stage method; single object; PointNet++ backbone; self-made dataset based on YCB.*
@@ -342,6 +384,21 @@ year = 2021,
   author={Ni, Peiyuan and Zhang, Wenguang and Zhu, Xiaoxiao and Cao, Qixin},
   booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
   pages={3619--3625},
+  year={2020},
+  organization={IEEE}
+}
+```
+
+**[ICRA2020]** Real-Time, Highly Accurate Robotic Grasp Detection using Fully Convolutional Neural Network with Rotation Ensemble Module, [[Paper](https://arxiv.org/pdf/1812.07762.pdf)].
+
+*Keywords: 2D grasp; RGB input; Cornell dataset.*
+
+```latex
+@inproceedings{park2020real,
+  title={Real-time, highly accurate robotic grasp detection using fully convolutional neural network with rotation ensemble module},
+  author={Park, Dongwon and Seo, Yonghyeok and Chun, Se Young},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={9397--9403},
   year={2020},
   organization={IEEE}
 }
@@ -378,7 +435,7 @@ year = 2021,
 
 ### 3.2 Semantic grasping <span id="semantic-grasping"> </span>
 
-[ICRA2022] Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter, [[Project](https://sites.google.com/umn.edu/graph-grasping)], [[Paper](https://arxiv.org/pdf/2203.00875.pdf)].
+**[ICRA2022]** Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter, [[Project](https://sites.google.com/umn.edu/graph-grasping)], [[Paper](https://arxiv.org/pdf/2203.00875.pdf)].
 
 *Keywords: target-driven grasp; cluttered scene; 6-D grasp; sampling based grasp generation; shape completion-assisted grasp sampling; formulate grasp graph, nodes representing object, edges indicating spatial relations between the objects; train on synthetic dataset; input scene RGB and query image.*
 
@@ -389,6 +446,21 @@ year = 2021,
   title={Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter},
   author={Lou, Xibai and Yang, Yang and Choi, Changhyun},
   journal={arXiv preprint arXiv:2203.00875},
+  year={2022}
+}
+```
+
+**[ICRA2022]** Interactive Robotic Grasping with Attribute-Guided Disambiguation,  [[Project](https://sites.google.com/umn.edu/attr-disam)], [[Paper](https://arxiv.org/pdf/2203.08037.pdf)].
+
+*Keywords: cluttered scene; input scene RGBD and query language; 6D grasp; vision-and-language grounding module predicts target scores and attribute scores; attribute-guided  partially observable Markov decision process for language disambiguation(ask questions).*
+
+- [ ] Bibtex to be updated(arxiv to icra)
+
+```latex
+@article{yang2022interactive,
+  title={Interactive Robotic Grasping with Attribute-Guided Disambiguation},
+  author={Yang, Yang and Lou, Xibai and Choi, Changhyun},
+  journal={arXiv preprint arXiv:2203.08037},
   year={2022}
 }
 ```
@@ -497,6 +569,22 @@ year = 2021,
     MONTH     = {July}, 
     DOI       = {10.15607/RSS.2021.XVII.020} 
 } 
+```
+
+**[ICRA2020]** 6-DOF Grasping for Target-driven Object Manipulation in Clutter, [[Paper](https://arxiv.org/pdf/1912.03628.pdf)].
+
+*Keywords: 6D grasp; cluttered scene; grasp target object; RGB-D input; sampling based grasp.*
+
+```latex
+@INPROCEEDINGS{9197318,
+  author={Murali, Adithyavairavan and Mousavian, Arsalan and Eppner, Clemens and Paxton, Chris and Fox, Dieter},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={6-DOF Grasping for Target-driven Object Manipulation in Clutter}, 
+  year={2020},
+  pages={6232-6238},
+  doi={10.1109/ICRA40945.2020.9197318}}
+
+
 ```
 
 **[CoRL2020]** Same Object, Different Grasps: Data and SemanticKnowledge for Task-Oriented Grasping, [[Project](https://sites.google.com/view/taskgrasp)], [[Paper](https://proceedings.mlr.press/v155/murali21a/murali21a.pdf)], [[Code](https://github.com/adithyamurali/TaskGrasp)], [[Dataset](https://drive.google.com/file/d/1aZ0k43fBIZZQPPPraV-z6itpqCHuDiUU/view)].
