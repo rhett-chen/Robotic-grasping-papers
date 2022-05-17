@@ -753,4 +753,6 @@ year = 2021,
 
 ## 4. Research Groups  <span id="research-groups"> </span>
 
-- [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Professor Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
+- [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Prof. Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
+- [XJTU, College of Artificial Intelligence](http://www.iair.xjtu.edu.cn/), Prof. Xuguang Lan [[Homepage](https://gr.xjtu.edu.cn/en/web/zeuslan/information)].
+- [UT Austin Robot Perception and Learning Lab](https://rpl.cs.utexas.edu/), Prof. Yuke Zhu [[Google Scholar](https://scholar.google.com/citations?user=mWGyYMsAAAAJ&hl=en)].
