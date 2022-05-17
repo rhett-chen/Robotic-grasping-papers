@@ -12,7 +12,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
    
    2.1 [Visual grounding](#visual-grounding)   
    
-   2.2 [Robot Manipulation](#robot-manipulation)
+   2.2 [Robotic Manipulation](#robotic-manipulation)
    
    2.3 [6D pose estimation](#6d-pose-estimation)
 
@@ -120,7 +120,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
-### 2.2 Robot manipulation<span id="robot-manipulation"> </span>
+### 2.2 Robotic manipulation<span id="robotic-manipulation"> </span>
 
 **[arXiv2022]** CALVIN: A Benchmark for Language-conditioned Policy Learning for Long-horizon Robot Manipulation Tasks, [[Paper](https://arxiv.org/pdf/2112.03227.pdf)], [[Code](https://github.com/mees/calvin)].
 
@@ -145,6 +145,32 @@ year = 2021,
   author={Ehsani, Kiana and Han, Winson and Herrasti, Alvaro and VanderBilt, Eli and Weihs, Luca and Kolve, Eric and Kembhavi, Aniruddha and Mottaghi, Roozbeh},
   booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
   pages={4497--4506},
+  year={2021}
+}
+```
+
+**[arXiv2021]** Audio-Visual Grounding Referring Expression for Robotic Manipulation, [[Paper](https://arxiv.org/pdf/2109.10571.pdf)].
+
+*Keywords: a novel task, audio-visual grounding referring expression for robotic manipulation; establishe a dataset which contains visual data, auditory data and manipulation instructions.*
+
+```latex
+@article{wang2021audio,
+  title={Audio-Visual Grounding Referring Expression for Robotic Manipulation},
+  author={Wang, Yefei and Wang, Kaili and Wang, Yi and Guo, Di and Liu, Huaping and Sun, Fuchun},
+  journal={arXiv preprint arXiv:2109.10571},
+  year={2021}
+}
+```
+
+**[arXiv2021]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189.pdf)].
+
+*Keywords: language-guided semantic rearrangement; transformer-based method; scene point cloud and structured language command input; output plan sequence, no 6D grasp.*
+
+```latex
+@article{liu2021structformer,
+  title={Structformer: Learning spatial structure for language-guided semantic rearrangement of novel objects},
+  author={Liu, Weiyu and Paxton, Chris and Hermans, Tucker and Fox, Dieter},
+  journal={arXiv preprint arXiv:2110.10189},
   year={2021}
 }
 ```
@@ -181,6 +207,23 @@ year = 2021,
 ## 3. Grasp Detection<span id="grasp-detection"> </span>
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
+
+**[RA-L2022]** Real-Time Collision-Free Grasp Pose Detection With Geometry-Aware Refinement Using High-Resolution Volume, [[Project](https://sites.google.com/view/vpn-icra2022)], [[Paper](https://ieeexplore.ieee.org/abstract/document/9681231)].
+
+*Keywords: 6D grasp; cluttered scene; multi-frame depth maps are integrated to get TSDF volume; use a light-weight volume-point network to extract 3D features.*
+
+```latex
+@ARTICLE{9681231,
+  author={Cai, Junhao and Cen, Jun and Wang, Haokun and Wang, Michael Yu},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Real-Time Collision-Free Grasp Pose Detection With Geometry-Aware Refinement Using High-Resolution Volume}, 
+  year={2022},
+  volume={7},
+  number={2},
+  pages={1888-1895},
+  doi={10.1109/LRA.2022.3142424}}
+
+```
 
 **[arXiv2022]** When Transformer Meets Robotic Grasping: Exploits Context for Efficient Grasp Detection, [[Paper](https://arxiv.org/pdf/2202.11911.pdf)], [[Code](https://github.com/WangShaoSUN/grasp-transformer)].
 
@@ -281,6 +324,22 @@ year = 2021,
 }
 ```
 
+**[ICRA2021]** Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction, [[Paper](https://arxiv.org/pdf/2003.01649.pdf)].
+
+*Keywords: input RGB-D image; single object; 6D grasp; multi-task learning, point cloud reconstruction and grasp generation.*
+
+```latex
+@INPROCEEDINGS{9562046,
+  author={Yang, Daniel and Tosun, Tarik and Eisner, Benjamin and Isler, Volkan and Lee, Daniel},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={6350-6356},
+  doi={10.1109/ICRA48506.2021.9562046}}
+```
+
 **[ICRA2021]** REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds, [[Paper](https://arxiv.org/pdf/2002.12647v1.pdf)].
 
 *Keywords: input point cloud; PointNet++ backbone; 6D grasp; single pbject; 3-stage single-shot network, Score Network (SN), Grasp Region Network (GRN) and Refine Network (RN).*
@@ -293,8 +352,6 @@ year = 2021,
   year={2021},
   pages={13474-13480},
   doi={10.1109/ICRA48506.2021.9561920}}
-
-
 ```
 
 **[ICRA2021]** Acronym: A large-scale grasp dataset based on simulation, [[Project](https://sites.google.com/nvidia.com/graspdataset)],   [[Paper](https://arxiv.org/pdf/2011.09584.pdf)], [[Code](https://github.com/NVlabs/acronym)].
@@ -312,7 +369,7 @@ year = 2021,
 }
 ```
 
-**[CVPR2020]**  GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping,  [[Project](https://graspnet.net/index.html)],  [[Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf)],  [[Code](https://github.com/graspnet)], [[Supp](https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Fang_GraspNet-1Billion_A_Large-Scale_CVPR_2020_supplemental.pdf)].
+**[CVPR2020]**  GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping,  [[Project&&Dataset](https://graspnet.net/index.html)],  [[Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf)],  [[Code](https://github.com/graspnet)], [[Supp](https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Fang_GraspNet-1Billion_A_Large-Scale_CVPR_2020_supplemental.pdf)].
 
 *Keywords: 6D general grasp; release a large-scale real-world dataset; cluttered scene; single-view scene point cloud input; PointNet++ backbone.*
 
@@ -372,6 +429,22 @@ year = 2021,
   month =      {16--18 Nov},
   publisher =    {PMLR},
 }
+```
+
+**[ICRA2020]** Learning to Generate 6-DoF Grasp Poses with Reachability Awareness, [[Paper](https://arxiv.org/pdf/1910.06404.pdf)].
+
+*Keywords: 6D grasp; cluttered scene; sampling based grasp generation; point cloud voxelization, 3D CNN; grasp pose should be stable and reachable; train on synthetic dataset; self-supervised data collection.*
+
+```latex
+@INPROCEEDINGS{9197413,
+  author={Lou, Xibai and Yang, Yang and Choi, Changhyun},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Learning to Generate 6-DoF Grasp Poses with Reachability Awareness}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1532-1538},
+  doi={10.1109/ICRA40945.2020.9197413}}
 ```
 
 **[ICRA2020]** PointNet++ Grasping: Learning An End-to-end Spatial Grasp Generation Algorithm from Sparse Point Clouds, [[Paper](https://arxiv.org/ftp/arxiv/papers/2003/2003.09644.pdf)].
@@ -434,6 +507,22 @@ year = 2021,
 ```
 
 ### 3.2 Semantic grasping <span id="semantic-grasping"> </span>
+
+**[RA-L2022]** REGRAD: A Large-Scale Relational Grasp Dataset for Safe and Object-Specific Robotic Grasping in Clutter, [[Paper](https://arxiv.org/pdf/2104.14118.pdf)], [[Code&&Dataset](https://github.com/poisonwine/REGRAD)].
+
+*Keywords: release a dataset; cluttered scene; auto-generated in simulation; learn relationships among objetcs and grasps.*
+
+```latex
+@ARTICLE{9681218,
+  author={Zhang, Hanbo and Yang, Deyu and Wang, Han and Zhao, Binglei and Lan, Xuguang and Ding, Jishiyu and Zheng, Nanning},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={REGRAD: A Large-Scale Relational Grasp Dataset for Safe and Object-Specific Robotic Grasping in Clutter}, 
+  year={2022},
+  volume={7},
+  number={2},
+  pages={2929-2936},
+  doi={10.1109/LRA.2022.3142401}}
+```
 
 **[ICRA2022]** Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter, [[Project](https://sites.google.com/umn.edu/graph-grasping)], [[Paper](https://arxiv.org/pdf/2203.00875.pdf)].
 
@@ -527,19 +616,6 @@ year = 2021,
 }
 ```
 
-**[arXiv2021]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189.pdf)].
-
-*Keywords: language-guided semantic rearrangement; transformed-based method; scene point cloud and structured language command input; output plan sequence, no 6D grasp.*
-
-```latex
-@article{liu2021structformer,
-  title={Structformer: Learning spatial structure for language-guided semantic rearrangement of novel objects},
-  author={Liu, Weiyu and Paxton, Chris and Hermans, Tucker and Fox, Dieter},
-  journal={arXiv preprint arXiv:2110.10189},
-  year={2021}
-}
-```
-
 **[ICRA2021]** A Joint Network for Grasp Detection Conditioned on Natural Language Commands, [[Paper](https://arxiv.org/pdf/2104.00492.pdf)].
 
 *Keywords: 2D planar grasp; structured language command and rgb input; VMRD dataset; target-sepcific grasp.*
@@ -583,8 +659,6 @@ year = 2021,
   year={2020},
   pages={6232-6238},
   doi={10.1109/ICRA40945.2020.9197318}}
-
-
 ```
 
 **[CoRL2020]** Same Object, Different Grasps: Data and SemanticKnowledge for Task-Oriented Grasping, [[Project](https://sites.google.com/view/taskgrasp)], [[Paper](https://proceedings.mlr.press/v155/murali21a/murali21a.pdf)], [[Code](https://github.com/adithyamurali/TaskGrasp)], [[Dataset](https://drive.google.com/file/d/1aZ0k43fBIZZQPPPraV-z6itpqCHuDiUU/view)].
