@@ -191,6 +191,20 @@ year = 2021,
 }
 ```
 
+**[CVPR2019]** Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation, [[Project](https://geometry.stanford.edu/projects/NOCS_CVPR2019/)], [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf)], [[Code](https://github.com/hughw19/NOCS_CVPR2019)], [[Supp](https://openaccess.thecvf.com/content_CVPR_2019/supplemental/Wang_Normalized_Object_Coordinate_CVPR_2019_supplemental.zip)].
+
+*Keywords: category-level 6D pose estimation; RGB-D image input; CAMERA25 and REAL275 datasets, 6 categories;*
+
+```latex
+@InProceedings{Wang_2019_CVPR,
+author = {Wang, He and Sridhar, Srinath and Huang, Jingwei and Valentin, Julien and Song, Shuran and Guibas, Leonidas J.},
+title = {Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019}
+}
+```
+
 **[RSS2018]** PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes, [[Project](https://rse-lab.cs.washington.edu/projects/posecnn/)], [[Paper](https://rse-lab.cs.washington.edu/papers/posecnn_rss18.pdf)], [[Code](https://github.com/yuxng/PoseCNN)].
 
 *Keywords: RGB image input; object segmentation and 6D pose output;  release YCB-video dataset, 21 objects, 92 videos, 133827 frames.*
@@ -222,7 +236,6 @@ year = 2021,
   number={2},
   pages={1888-1895},
   doi={10.1109/LRA.2022.3142424}}
-
 ```
 
 **[arXiv2022]** When Transformer Meets Robotic Grasping: Exploits Context for Efficient Grasp Detection, [[Paper](https://arxiv.org/pdf/2202.11911.pdf)], [[Code](https://github.com/WangShaoSUN/grasp-transformer)].
