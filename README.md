@@ -537,6 +537,22 @@ year = {2019}
   doi={10.1109/LRA.2022.3142401}}
 ```
 
+**[RA-L2022]** Few-Shot Instance Grasping of Novel Objects in Clutter, [[Paper](https://ieeexplore.ieee.org/abstract/document/9773996)], [[Code](https://github.com/woundenfish/IGML)].
+
+*Keywords: cluttered scene; grasp a specific object; meta-learning framework; 2D grasp.*
+
+```latex
+@ARTICLE{9773996,
+  author={Guo, Weikun and Li, Wei and Hu, Ziye and Gan, Zhongxue},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Few-Shot Instance Grasping of Novel Objects in Clutter}, 
+  year={2022},
+  volume={7},
+  number={3},
+  pages={6566-6573},
+  doi={10.1109/LRA.2022.3174648}}
+```
+
 **[ICRA2022]** Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter, [[Project](https://sites.google.com/umn.edu/graph-grasping)], [[Paper](https://arxiv.org/pdf/2203.00875.pdf)].
 
 *Keywords: target-driven grasp; cluttered scene; 6-D grasp; sampling based grasp generation; shape completion-assisted grasp sampling; formulate grasp graph, nodes representing object, edges indicating spatial relations between the objects; train on synthetic dataset; input scene RGB and query image.*
