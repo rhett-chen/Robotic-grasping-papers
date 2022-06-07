@@ -60,9 +60,24 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 ### 2.1 Visual grounding <span id="visual-grounding"> </span>
 
+**[CVPR2022]** Multi-View Transformer for 3D Visual Grounding, [[Paper](https://arxiv.org/pdf/2204.02174.pdf)], [[Code](https://github.com/sega-hsj/MVT-3DVG)].
+
+*Keywords: Transformer based; learn view-robust representation, eliminate the dependence on specific views.*
+
+- [ ] Bibtex to be updated(arxiv to cvpr)
+
+```latex
+@article{huang2022multi,
+  title={Multi-View Transformer for 3D Visual Grounding},
+  author={Huang, Shijia and Chen, Yilun and Jia, Jiaya and Wang, Liwei},
+  journal={arXiv preprint arXiv:2204.02174},
+  year={2022}
+}
+```
+
 **[CVPR2022]** 3D-SPS: Single-Stage 3D Visual Grounding via Referred Point Progressive Selection, [[Paper](https://arxiv.org/pdf/2204.06272.pdf)], [[Code](https://github.com/fjhzhixi/3D-SPS)].
 
-*Keyowrds: input point cloud, RGB, normal vectors and language text; PointNet++ backbone for point cloud; output target object bounding box; single-stage method; cross-modal transformer model is used.*
+*Keywords: input point cloud, RGB, normal vectors and language text; PointNet++ backbone for point cloud; output target object bounding box; single-stage method; cross-modal transformer model is used.*
 
 - [ ] Bibtex to be updated(arxiv to cvpr)
 
