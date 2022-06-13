@@ -64,14 +64,14 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 *Keywords: Transformer based; learn view-robust representation, eliminate the dependence on specific views.*
 
-- [ ] Bibtex to be updated(arxiv to cvpr)
-
 ```latex
-@article{huang2022multi,
-  title={Multi-View Transformer for 3D Visual Grounding},
-  author={Huang, Shijia and Chen, Yilun and Jia, Jiaya and Wang, Liwei},
-  journal={arXiv preprint arXiv:2204.02174},
-  year={2022}
+@InProceedings{Huang_2022_CVPR,
+    author    = {Huang, Shijia and Chen, Yilun and Jia, Jiaya and Wang, Liwei},
+    title     = {Multi-View Transformer for 3D Visual Grounding},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {15524-15533}
 }
 ```
 
@@ -79,14 +79,14 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 *Keywords: input point cloud, RGB, normal vectors and language text; PointNet++ backbone for point cloud; output target object bounding box; single-stage method; cross-modal transformer model is used.*
 
-- [ ] Bibtex to be updated(arxiv to cvpr)
-
 ```latex
-@article{luo20223d,
-  title={3D-SPS: Single-Stage 3D Visual Grounding via Referred Point Progressive Selection},
-  author={Luo, Junyu and Fu, Jiahui and Kong, Xianghao and Gao, Chen and Ren, Haibing and Shen, Hao and Xia, Huaxia and Liu, Si},
-  journal={arXiv preprint arXiv:2204.06272},
-  year={2022}
+@InProceedings{Luo_2022_CVPR,
+    author    = {Luo, Junyu and Fu, Jiahui and Kong, Xianghao and Gao, Chen and Ren, Haibing and Shen, Hao and Xia, Huaxia and Liu, Si},
+    title     = {3D-SPS: Single-Stage 3D Visual Grounding via Referred Point Progressive Selection},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {16454-16463}
 }
 ```
 
@@ -132,6 +132,21 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
     month     = {October},
     year      = {2021},
     pages     = {3722-3731}
+}
+```
+
+**[ICCV2021]** 3DVG-Transformer: Relation Modeling for Visual Grounding on Point Clouds, [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_3DVG-Transformer_Relation_Modeling_for_Visual_Grounding_on_Point_Clouds_ICCV_2021_paper.pdf)].
+
+*Keywords: transformer based model; grounding by detection; model proposal relation to generate context-aware object proposals; leverage proposal relations to distinguish the true target object from similar proposals.*
+
+```latex
+@InProceedings{Zhao_2021_ICCV,
+    author    = {Zhao, Lichen and Cai, Daigang and Sheng, Lu and Xu, Dong},
+    title     = {3DVG-Transformer: Relation Modeling for Visual Grounding on Point Clouds},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {2928-2937}
 }
 ```
 
