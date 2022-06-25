@@ -120,6 +120,21 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
+**[ICCV2021]** SAT: 2D Semantics Assisted Training for 3D Visual Grounding, [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_SAT_2D_Semantics_Assisted_Training_for_3D_Visual_Grounding_ICCV_2021_paper.pdf)], [[Code](https://github.com/zyang-ur/SAT)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Yang_SAT_2D_Semantics_ICCV_2021_supplemental.pdf)].
+
+*Keywords: 2D image assisted training, don't need 2D image in inference; auxiliary loss functions that align objects in 2D images with the corresponding ones in 3D point clouds or language queries; transformer-based method.*
+
+```latex
+@InProceedings{Yang_2021_ICCV,
+    author    = {Yang, Zhengyuan and Zhang, Songyang and Wang, Liwei and Luo, Jiebo},
+    title     = {SAT: 2D Semantics Assisted Training for 3D Visual Grounding},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {1856-1866}
+}
+```
+
 **[ICCV2021]** Free-form Description Guided 3D Visual Graph Network for Object Grounding in Point Cloud, [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Feng_Free-Form_Description_Guided_3D_Visual_Graph_Network_for_Object_Grounding_ICCV_2021_paper.pdf)], [[Code](https://github.com/PNXD/FFL-3DOG)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Feng_Free-Form_Description_Guided_ICCV_2021_supplemental.pdf)].
 
 *Keywords: free-form description and scene point cloud input; ScanRefer and Nr3D dataset; construct language scene graph and multi-level proposal relation graph; VoteNet for 3D object proposal; GLoVe for word embedding; use GRU to encode description.*
