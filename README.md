@@ -90,7 +90,25 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
-**[CoRL2022]** Language Grounding with 3D Objects, [[Paper](https://proceedings.mlr.press/v164/thomason22a/thomason22a.pdf)], [[Code](https://github.com/snaredataset/snare)], [[Supp](https://proceedings.mlr.press/v164/thomason22a/thomason22a-supp.zip)].
+**[CoRL2021]** LanguageRefer: Spatial-Language Model for 3D Visual Grounding, [[Project](https://sites.google.com/view/language-refer)], [[Paper](https://proceedings.mlr.press/v164/roh22a/roh22a.pdf)], [[Code](https://github.com/rohjunha/language-refer)].
+
+*Keywords: 3D scene point clouds; ReferIt3D dataset; transformer-based network; add viewpoint annotation, has explicit viewpoint information in the utterance.*
+
+```latex
+@InProceedings{pmlr-v164-roh22a,
+  title = 	 {LanguageRefer: Spatial-Language Model for 3D Visual Grounding},
+  author =       {Roh, Junha and Desingh, Karthik and Farhadi, Ali and Fox, Dieter},
+  booktitle = 	 {Proceedings of the 5th Conference on Robot Learning},
+  pages = 	 {1046--1056},
+  year = 	 {2022},
+  volume = 	 {164},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {08--11 Nov},
+  publisher = {PMLR},
+}
+```
+
+**[CoRL2021]** Language Grounding with 3D Objects, [[Paper](https://proceedings.mlr.press/v164/thomason22a/thomason22a.pdf)], [[Code](https://github.com/snaredataset/snare)], [[Supp](https://proceedings.mlr.press/v164/thomason22a/thomason22a-supp.zip)].
 
 *Keywords: distinguish between object pair based on object referring expressions; annotated SNARE Dataset, based on ShapNet, 7897 objects, 50000 natural language referring expressions.*
 
