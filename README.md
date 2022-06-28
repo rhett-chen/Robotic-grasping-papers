@@ -2,7 +2,7 @@
 
 This repo is a paper list of Robotic-Grasping and some related works that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
-Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems.
+Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia.
 
 ## Robotic Grasping Papers and Codes
 
@@ -96,14 +96,13 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 ```latex
 @InProceedings{pmlr-v164-roh22a,
-  title = 	 {LanguageRefer: Spatial-Language Model for 3D Visual Grounding},
+  title =      {LanguageRefer: Spatial-Language Model for 3D Visual Grounding},
   author =       {Roh, Junha and Desingh, Karthik and Farhadi, Ali and Fox, Dieter},
-  booktitle = 	 {Proceedings of the 5th Conference on Robot Learning},
-  pages = 	 {1046--1056},
-  year = 	 {2022},
-  volume = 	 {164},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {08--11 Nov},
+  booktitle =      {Proceedings of the 5th Conference on Robot Learning},
+  pages =      {1046--1056},
+  year =      {2022},
+  volume =      {164},
+  series =      {Proceedings of Machine Learning Research},
   publisher = {PMLR},
 }
 ```
@@ -180,6 +179,19 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
     month     = {October},
     year      = {2021},
     pages     = {2928-2937}
+}
+```
+
+**[ACM MM2021]** TransRefer3D: Entity-and-Relation Aware Transformer for Fine-Grained 3D Visual Grounding, [[Paper](https://arxiv.org/pdf/2108.02388.pdf)], [[Code](https://github.com/luo-junyu/TransRefer3D)].
+
+*Keywords: transformer-based model; pointnet++ for point cloud; ReferIt3D dataset; entity-aware attention and relation-aware attention for cross-modal feature matching; two auxiliary tasks, utterance classification of the referent and object classification for better feature extraction.*
+
+```latex
+@inproceedings{transrefer3d,
+    title={TransRefer3D: Entity-and-Relation Aware Transformer for Fine-Grained 3D Visual Grounding},
+    author={He, Dailan and Zhao, Yusheng and Luo, Junyu and Hui, Tianrui and Huang, Shaofei and Zhang, Aixi and Liu, Si},
+    booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+    year={2021}
 }
 ```
 
@@ -502,7 +514,6 @@ year = {2019}
   year =      {2021},
   volume =      {155},
   series =      {Proceedings of Machine Learning Research},
-  month =      {16--18 Nov},
   publisher =    {PMLR},
 }
 ```
@@ -551,6 +562,20 @@ year = {2019}
   year={2020},
   organization={IEEE}
 }
+```
+
+**[ICRA2020]** Action Image Representation: Learning Scalable Deep Grasping Policies with Zero Real World Data, [[Paper](https://arxiv.org/abs/2005.06594)].
+
+*Keywords: 2D grasp; sampling-based grasp generation; a new grasp proposal representation.*
+
+```latex
+@INPROCEEDINGS{9197415,
+  author={Khansari, Mohi and Kappler, Daniel and Luo, Jianlan and Bingham, Jeff and Kalakrishnan, Mrinal},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Action Image Representation: Learning Scalable Deep Grasping Policies with Zero Real World Data}, 
+  year={2020},
+  pages={3597-3603},
+  doi={10.1109/ICRA40945.2020.9197415}}
 ```
 
 **[ICCV2019]** 6-DOF GraspNet: Variational Grasp Generation for Object Manipulation, [[Paper](https://arxiv.org/pdf/1905.10520.pdf)], [[Code](https://github.com/NVlabs/6dof-graspnet)].
@@ -721,6 +746,20 @@ year = {2019}
   year={2021},
   organization={IEEE}
 }
+```
+
+**[ICRA2021]** End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB, [[Paper](https://arxiv.org/pdf/2107.05287)].
+
+*Keywords: 2D grasp; joint grasp detection and semantic segmentation.*
+
+```latex
+@INPROCEEDINGS{9561398,
+  author={Ainetter, Stefan and Fraundorfer, Friedrich},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB}, 
+  year={2021},
+  pages={13452-13458},
+  doi={10.1109/ICRA48506.2021.9561398}}
 ```
 
 **[RSS2021]** INVIGORATE: Interactive Visual Grounding and Grasping in Clutter, [[Paper](http://roboticsproceedings.org/rss17/p020.pdf)].
