@@ -1,6 +1,6 @@
 # Robotic Grasping Papers and Codes
 
-This repo is a paper list of Robotic-Grasping and some related works that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
+This repo is a paper list of Robotic-Grasping and some related works(6D pose estimation, 3D visual grounding, etc) that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
 Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia.
 
@@ -179,6 +179,21 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
     month     = {October},
     year      = {2021},
     pages     = {2928-2937}
+}
+```
+
+**[ICCV2021]** InstanceRefer: Cooperative Holistic Understanding for Visual Grounding on
+Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Yuan_InstanceRefer_Cooperative_Holistic_Understanding_for_Visual_Grounding_on_Point_Clouds_ICCV_2021_paper.pdf)], [[Code](https://github.com/CurryYuan/InstanceRefer)].
+
+*Keywords: ScanRefer and ReferIt3D dataset; two-stage method, grounding-by-matching.*
+
+```latex
+@InProceedings{yuan2021instancerefer,
+  title={Instancerefer: Cooperative holistic understanding for visual grounding on point clouds through instance multi-level contextual referring},
+  author={Yuan, Zhihao and Yan, Xu and Liao, Yinghong and Zhang, Ruimao and Li, Zhen and Cui, Shuguang},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={1791-1800},
+  year={2021}
 }
 ```
 
