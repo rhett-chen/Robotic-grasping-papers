@@ -325,6 +325,21 @@ year = {2019}
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
 
+**[ICRA2022]** Hybrid Physical Metric For 6-DoF Grasp Pose Detection, [[Paper](https://arxiv.org/pdf/2206.11141.pdf)], [[Code](https://github.com/luyh20/FGC-GraspNet)].
+
+*Keywords: 6D grasp; cluttered scene; real-world data; propose a new grasp score based on Graspnet-1billion, take force-closure metric, object flatness, gravity and collision into consideration.*
+
+- [ ] Bibtex to be update(arxiv to icra)
+
+```latex
+@article{lu2022hybrid,
+  title={Hybrid Physical Metric For 6-DoF Grasp Pose Detection},
+  author={Lu, Yuhao and Deng, Beixing and Wang, Zhenyu and Zhi, Peiyuan and Li, Yali and Wang, Shengjin},
+  journal={arXiv preprint arXiv:2206.11141},
+  year={2022}
+}
+```
+
 **[RA-L2022]** Real-Time Collision-Free Grasp Pose Detection With Geometry-Aware Refinement Using High-Resolution Volume, [[Project](https://sites.google.com/view/vpn-icra2022)], [[Paper](https://ieeexplore.ieee.org/abstract/document/9681231)].
 
 *Keywords: 6D grasp; cluttered scene; multi-frame depth maps are integrated to get TSDF volume; use a light-weight volume-point network to extract 3D features.*
@@ -356,7 +371,7 @@ year = {2019}
 
 **[ICCV2021]** Graspness Discovery in Clutters for Fast and Accurate Grasp Detection,        [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Graspness_Discovery_in_Clutters_for_Fast_and_Accurate_Grasp_Detection_ICCV_2021_paper.pdf)],  [[Code(non-official)](https://github.com/rhett-chen/graspness_implementation)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Wang_Graspness_Discovery_in_ICCV_2021_supplemental.zip)].
 
-*Keywords: 6D general grasp; cluttered scene; real-world dataset GraspNet1-billion;  single-view scene point cloud input; MinkowskiEngine sparse convolution, ResUNet14.*
+*Keywords: 6D general grasp; cluttered scene; real-world dataset GraspNet-1billion;  single-view scene point cloud input; MinkowskiEngine sparse convolution, ResUNet14.*
 
 ```latex
 @InProceedings{Wang_2021_ICCV,
@@ -371,7 +386,7 @@ year = {2019}
 
 **[IROS2021]** Simultaneous Semantic and Collision Learning for 6-DoF Grasp Pose Estimation, [[paper](https://arxiv.org/pdf/2108.02425.pdf)].
 
-*Keywords: 6D grasp; cluttered scene; single-view scene point cloud input; real-world dataset GraspNet1-billion; jointly predict grasp poses, semantic segmentation and collision detection.*
+*Keywords: 6D grasp; cluttered scene; single-view scene point cloud input; real-world dataset GraspNet-1billion; jointly predict grasp poses, semantic segmentation and collision detection.*
 
 ```latex
 @inproceedings{li2021simultaneous,
@@ -386,7 +401,7 @@ year = {2019}
 
 **[ICRA2021]** RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images,       [[Paper](https://arxiv.org/pdf/2103.02184.pdf)].
 
-*Keywords: 6D genral grasp; cluttered scene; RGB and single-view point cloud input; real-world dataset GraspNet1-billion.*
+*Keywords: 6D genral grasp; cluttered scene; RGB and single-view point cloud input; real-world dataset GraspNet-1billion.*
 
 ```latex
 @inproceedings{gou2021RGB,
