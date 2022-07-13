@@ -75,6 +75,19 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
+[CVPR2022] Text2Pos: Text-to-Point-Cloud Cross-Modal Localization, [[Project](https://text2pos.github.io/)], [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kolmet_Text2Pos_Text-to-Point-Cloud_Cross-Modal_Localization_CVPR_2022_paper.pdf)], [[Code](https://github.com/mako443/Text2Pos-CVPR2022)].
+
+*Keywords: city-scale outdoor point cloud localizaiotn; provide KITTI360Pose dataset based on KITTI360; coarse-to-fine method, first retrieval sub-regions, then refine the position using matching-based fine localization module.*
+
+```latex
+@inproceedings{dendorfer21iccv, 
+title = {Text2Pos: Text-to-Point-Cloud Cross-Modal Localization}, 
+author={Manuel Kolmet and Qunjie Zhou and Aljosa Osep and Laura Leal-Taix{'e}}, 
+booktitle = { IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+year = {2022}, 
+}
+```
+
 **[CVPR2022]** 3D-SPS: Single-Stage 3D Visual Grounding via Referred Point Progressive Selection, [[Paper](https://arxiv.org/pdf/2204.06272.pdf)], [[Code](https://github.com/fjhzhixi/3D-SPS)].
 
 *Keywords: input point cloud, RGB, normal vectors and language text; PointNet++ backbone for point cloud; output target object bounding box; single-stage method; cross-modal transformer model is used.*
