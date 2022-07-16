@@ -342,15 +342,14 @@ year = {2019}
 
 *Keywords: 6D grasp; cluttered scene; real-world data; propose a new grasp score based on Graspnet-1billion, take force-closure metric, object flatness, gravity and collision into consideration.*
 
-- [ ] Bibtex to be update(arxiv to icra)
-
 ```latex
-@article{lu2022hybrid,
-  title={Hybrid Physical Metric For 6-DoF Grasp Pose Detection},
+@INPROCEEDINGS{9811961,
   author={Lu, Yuhao and Deng, Beixing and Wang, Zhenyu and Zhi, Peiyuan and Li, Yali and Wang, Shengjin},
-  journal={arXiv preprint arXiv:2206.11141},
-  year={2022}
-}
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={Hybrid Physical Metric For 6-DoF Grasp Pose Detection}, 
+  year={2022},
+  pages={8238-8244},
+  doi={10.1109/ICRA46639.2022.9811961}}
 ```
 
 **[RA-L2022]** Real-Time Collision-Free Grasp Pose Detection With Geometry-Aware Refinement Using High-Resolution Volume, [[Project](https://sites.google.com/view/vpn-icra2022)], [[Paper](https://ieeexplore.ieee.org/abstract/document/9681231)].
@@ -701,75 +700,70 @@ year = {2019}
 
 *Keywords: target-driven grasp; cluttered scene; 6-D grasp; sampling based grasp generation; shape completion-assisted grasp sampling; formulate grasp graph, nodes representing object, edges indicating spatial relations between the objects; train on synthetic dataset; input scene RGB and query image.*
 
-- [ ] Bibtex to be update(arxiv to icra)
-
 ```latex
-@article{lou2022learning,
-  title={Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter},
+@INPROCEEDINGS{9811601,
   author={Lou, Xibai and Yang, Yang and Choi, Changhyun},
-  journal={arXiv preprint arXiv:2203.00875},
-  year={2022}
-}
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter}, 
+  year={2022},
+  pages={742-748},
+  doi={10.1109/ICRA46639.2022.9811601}}
 ```
 
 **[ICRA2022]** Interactive Robotic Grasping with Attribute-Guided Disambiguation,  [[Project](https://sites.google.com/umn.edu/attr-disam)], [[Paper](https://arxiv.org/pdf/2203.08037.pdf)].
 
 *Keywords: cluttered scene; input scene RGBD and query language; 6D grasp; vision-and-language grounding module predicts target scores and attribute scores; attribute-guided  partially observable Markov decision process for language disambiguation(ask questions).*
 
-- [ ] Bibtex to be updated(arxiv to icra)
-
 ```latex
-@article{yang2022interactive,
-  title={Interactive Robotic Grasping with Attribute-Guided Disambiguation},
+@INPROCEEDINGS{9812360,
   author={Yang, Yang and Lou, Xibai and Choi, Changhyun},
-  journal={arXiv preprint arXiv:2203.08037},
-  year={2022}
-}
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={Interactive Robotic Grasping with Attribute-Guided Disambiguation}, 
+  year={2022},
+  pages={8914-8920},
+  doi={10.1109/ICRA46639.2022.9812360}}
 ```
 
 **[ICRA2022]** I Know What You Draw: Learning Grasp Detection Conditioned on a Few Freehand Sketches, [[Project](https://hetolin.github.io/Skt_grasp/)], [[Paper](https://arxiv.org/pdf/2205.04026.pdf)].
 
 *Keywords: 2D planar grasp; cluttered scene; target grasps by understanding freehand sketches; RGB image and graph-represented sketch input.*
 
-- [ ] Bibtex to be update(arxiv to icra)
-
 ```latex
-@article{lin2022know,
-  title={I Know What You Draw: Learning Grasp Detection Conditioned on a Few Freehand Sketches},
+@INPROCEEDINGS{9812372,
   author={Lin, Haitao and Cheang, Chilam and Fu, Yanwei and Xue, Xiangyang},
-  journal={arXiv preprint arXiv:2205.04026},
-  year={2022}
-}
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={I Know What You Draw: Learning Grasp Detection Conditioned on a Few Freehand Sketches}, 
+  year={2022},
+  pages={8417-8423},
+  doi={10.1109/ICRA46639.2022.9812372}}
 ```
 
 **[ICRA2022]** Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions, [[Project](https://baboon527.github.io/lang_6d/)], [[Paper](https://arxiv.org/pdf/2205.04028v1.pdf)], [[Code](https://github.com/baboon527/lang_6d)].
 
 *Keywords: grasp target object based on language description; two-stage method; 2D visual grounding, category-level object pose estimation; RGBD and language description input.*
 
-- [ ] Bibtex to be update(arxiv to icra)
-
 ```latex
-@article{cheang2022learning,
-  title={Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions},
+@INPROCEEDINGS{9811367,
   author={Cheang, Chilam and Lin, Haitao and Fu, Yanwei and Xue, Xiangyang},
-  journal={arXiv preprint arXiv:2205.04028},
-  year={2022}
-}
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={Learning 6-DoF Object Poses to Grasp Category-Level Objects by Language Instructions}, 
+  year={2022},
+  pages={8476-8482},
+  doi={10.1109/ICRA46639.2022.9811367}}
 ```
 
 **[ICRA2022]** CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation,  [[Project](https://sites.google.com/view/catgrasp)],  [[Paper](https://arxiv.org/pdf/2109.09163v1.pdf)],  [[Code](https://github.com/wenbowen123/catgrasp)].  
 
 *Keywords: 6D category-level task-oriented grasp; cluttered scene in simulation;  self-supervised in simulation.*
 
-- [ ] Bibtex to be updated(arxiv to icra)
-
 ```latex
-@article{wen2021catgrasp,
-  title={CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation},
+@INPROCEEDINGS{9811568,
   author={Wen, Bowen and Lian, Wenzhao and Bekris, Kostas and Schaal, Stefan},
-  journal={arXiv preprint arXiv:2109.09163},
-  year={2021}
-}
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation}, 
+  year={2022},
+  pages={6401-6408},
+  doi={10.1109/ICRA46639.2022.9811568}}
 ```
 
 **[RA-L2022]** GATER: Learning Grasp-Action-Target Embeddings and Relations for Task-Specific Grasping,  [[Paper](https://arxiv.org/pdf/2111.13815.pdf)].
