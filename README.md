@@ -902,6 +902,20 @@ year = {2019}
 }
 ```
 
+**[ICRA2018]** Interactively Picking Real-World Objects with Unconstrained Spoken Language Instructions, [[Paper](https://arxiv.org/pdf/1710.06280.pdf)].
+
+*Keywords: language-guided robotic grasping; resolve instruction ambiguity through dialogue; localize object by detection first, then identify the target object; vacuum gripper.*
+
+```latex
+@INPROCEEDINGS{8460699,
+  author={Hatori, Jun and Kikuchi, Yuta and Kobayashi, Sosuke and Takahashi, Kuniyuki and Tsuboi, Yuta and Unno, Yuya and Ko, Wilson and Tan, Jethro},
+  booktitle={2018 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Interactively Picking Real-World Objects with Unconstrained Spoken Language Instructions}, 
+  year={2018},
+  pages={3774-3781},
+  doi={10.1109/ICRA.2018.8460699}}
+```
+
 **[ICRA2018]** AffordanceNet: An End-to-End Deep Learning Approach for Object Affordance Detection, [[Paper](https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2018_ICRA_AffordanceNet.pdf)], [[Code](https://github.com/nqanh/affordance-net)].
 
 *Keywords: simultaneous object detection and affordance detection; RGB input.*
