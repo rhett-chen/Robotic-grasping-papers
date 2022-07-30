@@ -2,7 +2,7 @@
 
 This repo is a paper list of Robotic-Grasping and some related works(6D pose estimation, 3D visual grounding, etc) that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
-Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia.
+Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia.
 
 ## Robotic Grasping Papers and Codes
 
@@ -338,6 +338,19 @@ year = {2019}
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
 
+**[ECCV2022]** TransGrasp: Grasp Pose Estimation of a Category of Objects by Transferring Grasps from Only One Labeled Instance, [[Paper](https://arxiv.org/pdf/2207.07861.pdf)], [[Code](https://github.com/yanjh97/TransGrasp)].
+
+*Keywords: 6D grasp; single object point cloud; from one instance to one category; 3 categories, objects model from ShapeNetCore; metric is grasp success rate in simulation environment; compare with GPD and 6-DOF GraspNet.*
+
+```latex
+@inproceedings{wen2022transgrasp,
+  title={TransGrasp: Grasp Pose Estimation of a Category of Objects by Transferring Grasps from Only One Labeled Instance},
+  author={Wen, Hongtao and Yan, Jianhang and Peng, Wanli and Sun, Yi},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  year={2022}
+}
+```
+
 **[ICRA2022]** Hybrid Physical Metric For 6-DoF Grasp Pose Detection, [[Paper](https://arxiv.org/pdf/2206.11141.pdf)], [[Code](https://github.com/luyh20/FGC-GraspNet)].
 
 *Keywords: 6D grasp; cluttered scene; real-world data; propose a new grasp score based on Graspnet-1billion, take force-closure metric, object flatness, gravity and collision into consideration.*
@@ -659,6 +672,23 @@ year = {2019}
   pages={3629--3635},
   year={2019},
   organization={IEEE}
+}
+```
+
+**[IJRR2017]** Grasp Pose Detection in Point Clouds, [[Paper](https://arxiv.org/pdf/1706.09911.pdf)], [[Code](https://github.com/atenpas/gpd)].
+
+*Keywords; 6D grasp; point cloud input; CNN based method.*
+
+```latex
+@article{ten2017grasp,
+  title={Grasp pose detection in point clouds},
+  author={ten Pas, Andreas and Gualtieri, Marcus and Saenko, Kate and Platt, Robert},
+  journal={The International Journal of Robotics Research},
+  volume={36},
+  number={13-14},
+  pages={1455--1473},
+  year={2017},
+  publisher={SAGE Publications Sage UK: London, England}
 }
 ```
 
