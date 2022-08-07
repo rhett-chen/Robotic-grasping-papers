@@ -321,6 +321,20 @@ year = {2019}
 }
 ```
 
+**[ICRA2019]** Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks, [[Project](https://sites.google.com/view/visionandtouch)], [[Paper](https://www.cs.utexas.edu/~yukez/publications/papers/lee-icra19-making.pdf)], [[Code](https://github.com/stanford-iprl-lab/multimodal_representation)].
+
+*Keywords: **ICRA2019 best paper award**; multimodal representation learning for contact rich tasks; self-supervised representation learning; decouple representation learning and policy learning, so it can achieve practical sample efficiency on real robot.*
+
+```latex
+@INPROCEEDINGS{8793485,
+  author={Lee, Michelle A. and Zhu, Yuke and Srinivasan, Krishnan and Shah, Parth and Savarese, Silvio and Fei-Fei, Li and Garg, Animesh and Bohg, Jeannette},
+  booktitle={2019 International Conference on Robotics and Automation (ICRA)}, 
+  title={Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks}, 
+  year={2019},
+  pages={8943-8950},
+  doi={10.1109/ICRA.2019.8793485}}
+```
+
 **[RSS2018]** PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes, [[Project](https://rse-lab.cs.washington.edu/projects/posecnn/)], [[Paper](https://rse-lab.cs.washington.edu/papers/posecnn_rss18.pdf)], [[Code](https://github.com/yuxng/PoseCNN)].
 
 *Keywords: RGB image input; object segmentation and 6D pose output;  release YCB-video dataset, 21 objects, 92 videos, 133827 frames.*
