@@ -2,7 +2,7 @@
 
 This repo is a paper list of Robotic-Grasping and some related works(6D pose estimation, 3D visual grounding, etc) that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
-Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia.
+Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia; **RSS** is Robotics: Science and Systems.
 
 ## Robotic Grasping Papers and Codes
 
@@ -646,6 +646,20 @@ year = {2019}
 }
 ```
 
+**[IROS2020]** Antipodal Robotic Grasping using Generative Residual Convolutional Neural Network, [[Paper](https://arxiv.org/pdf/1909.04810.pdf)], [[Code](https://github.com/skumra/robotic-grasping)].
+
+*Keywords: 2D grasp; cluttered scene; input RGB/D/RGB-D; Cornell dataset and Jacuard dataset.*
+
+```latex
+@INPROCEEDINGS{9340777,
+  author={Kumra, Sulabh and Joshi, Shirin and Sahin, Ferat},
+  booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Antipodal Robotic Grasping using Generative Residual Convolutional Neural Network}, 
+  year={2020},
+  pages={9626-9633},
+  doi={10.1109/IROS45743.2020.9340777}}
+```
+
 **[ICRA2020]** Action Image Representation: Learning Scalable Deep Grasping Policies with Zero Real World Data, [[Paper](https://arxiv.org/abs/2005.06594)].
 
 *Keywords: 2D grasp; sampling-based grasp generation; a new grasp proposal representation.*
@@ -844,7 +858,7 @@ year = {2019}
 
 **[ICRA2021]** End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB, [[Paper](https://arxiv.org/pdf/2107.05287)].
 
-*Keywords: 2D grasp; joint grasp detection and semantic segmentation.*
+*Keywords: 2D grasp; joint grasp detection and semantic segmentation; OCID dataset.*
 
 ```latex
 @INPROCEEDINGS{9561398,
