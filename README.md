@@ -251,6 +251,19 @@ year = 2021,
 }
 ```
 
+**[CoRL2021]** CLIPort: What and Where Pathways for Robotic Manipulation, [[Project](https://cliport.github.io/)], [[Paper](https://arxiv.org/pdf/2109.12098.pdf)], [[Code](https://github.com/cliport/cliport)].
+
+*Keywords: propose a two-stream architecture with semantic and spatial pathways for vision-based manipulation; propose CLIPORT, a language-conditioned imitation learning agent, can learn a single language-conditioned policy for various tabletop tasks.*
+
+```latex
+@inproceedings{shridhar2021cliport,
+  title     = {CLIPort: What and Where Pathways for Robotic Manipulation},
+  author    = {Shridhar, Mohit and Manuelli, Lucas and Fox, Dieter},
+  booktitle = {Proceedings of the 5th Conference on Robot Learning (CoRL)},
+  year      = {2021},
+}
+```
+
 **[CVPR2021]** ManipulaTHOR: A Framework for Visual Object Manipulation, [[Project](https://ai2thor.allenai.org/manipulathor/)], [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ehsani_ManipulaTHOR_A_Framework_for_Visual_Object_Manipulation_CVPR_2021_paper.pdf)], [[Code](https://github.com/allenai/manipulathor/)], [[Dataset](https://github.com/allenai/manipulathor/tree/main/datasets)].
 
 *Keywords: visual navigvation and object manipulation; simulation environment; dataset includes 30 kitchen scenes, 150+ object categories; sensors include RGB-D, GPS, agent's location and arm configuration.*
