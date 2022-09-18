@@ -1,6 +1,6 @@
 # Robotic Grasping Papers and Codes
 
-This repo is a paper list of Robotic-Grasping and some related works(6D pose estimation, 3D visual grounding, etc) that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
+This repo is a paper list of Robotic-Grasping and some related works(6D pose estimation, visual grounding, etc) that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
 Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia; **RSS** is Robotics: Science and Systems.
 
@@ -75,7 +75,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
-[CVPR2022] Text2Pos: Text-to-Point-Cloud Cross-Modal Localization, [[Project](https://text2pos.github.io/)], [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kolmet_Text2Pos_Text-to-Point-Cloud_Cross-Modal_Localization_CVPR_2022_paper.pdf)], [[Code](https://github.com/mako443/Text2Pos-CVPR2022)].
+**[CVPR2022]** Text2Pos: Text-to-Point-Cloud Cross-Modal Localization, [[Project](https://text2pos.github.io/)], [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kolmet_Text2Pos_Text-to-Point-Cloud_Cross-Modal_Localization_CVPR_2022_paper.pdf)], [[Code](https://github.com/mako443/Text2Pos-CVPR2022)].
 
 *Keywords: city-scale outdoor point cloud localizaiotn; provide KITTI360Pose dataset based on KITTI360; coarse-to-fine method, first retrieval sub-regions, then refine the position using matching-based fine localization module.*
 
@@ -100,6 +100,19 @@ year = {2022},
     month     = {June},
     year      = {2022},
     pages     = {16454-16463}
+}
+```
+
+**[CVPR2022]** Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning, [[Paper](https://arxiv.org/pdf/2205.00272.pdf)], [[Code](https://github.com/yangli18/VLTVG)].
+
+*Keywords: 2D visual grounding; one-stage method; transformer-based architecture.*
+
+```latex
+@inproceedings{yang2022vgvl,
+  title={Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning},
+  author={Yang, Li and Xu, Yan and Yuan, Chunfeng and Liu, Wei and Li, Bing and Hu, Weiming},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2022}
 }
 ```
 
@@ -456,11 +469,13 @@ year = {2019}
 *Keywords: 6D genral grasp; cluttered scene; RGB and single-view point cloud input; real-world dataset GraspNet-1billion.*
 
 ```latex
-@inproceedings{gou2021RGB,
-  title={RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images},
-  author={Minghao Gou, Hao-Shu Fang, Zhanda Zhu, Sheng Xu, Chenxi Wang, Cewu Lu},
-  booktitle={Proceedings of the International Conference on Robotics and Automation (ICRA)},
-  year={2021}
+@INPROCEEDINGS{9561409,
+  author={Gou, Minghao and Fang, Hao-Shu and Zhu, Zhanda and Xu, Sheng and Wang, Chenxi and Lu, Cewu},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images}, 
+  year={2021},
+  pages={13459-13466},
+  doi={10.1109/ICRA48506.2021.9561409}
 }
 ```
 
@@ -687,6 +702,23 @@ year = {2019}
   doi={10.1109/ICRA40945.2020.9197415}}
 ```
 
+**[IJRR2020]** Learning robust, real-time, reactive robotic grasping, [[Paper](https://journals.sagepub.com/doi/full/10.1177/0278364919859066)], [[Code](https://github.com/dougsm/ggcnn)].
+
+*Keywords: GG-CNN; depth image input.*
+
+```latex
+@article{doi:10.1177/0278364919859066,
+author = {Douglas Morrison and Peter Corke and Jürgen Leitner},
+title ={Learning robust, real-time, reactive robotic grasping},
+journal = {The International Journal of Robotics Research},
+volume = {39},
+number = {2-3},
+pages = {183-201},
+year = {2020},
+doi = {10.1177/0278364919859066},
+}
+```
+
 **[ICCV2019]** 6-DOF GraspNet: Variational Grasp Generation for Object Manipulation, [[Paper](https://arxiv.org/pdf/1905.10520.pdf)], [[Code](https://github.com/NVlabs/6dof-graspnet)].
 
 *Keywords: 6D grasp; sampling then evaluation; PointNet++ backbone; generate dataset in simulation; single object point cloud and grasp input.*
@@ -729,6 +761,23 @@ year = {2019}
   number={13-14},
   pages={1455--1473},
   year={2017},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+```
+
+**[IJRR2015]** Deep Learning for Detecting Robotic Grasps, [[Paper](https://arxiv.org/pdf/1301.3592v6.pdf)].
+
+*Keywords: 2D grasp; cluttered scene.*
+
+```latex
+@article{lenz2015deep,
+  title={Deep learning for detecting robotic grasps},
+  author={Lenz, Ian and Lee, Honglak and Saxena, Ashutosh},
+  journal={The International Journal of Robotics Research},
+  volume={34},
+  number={4-5},
+  pages={705--724},
+  year={2015},
   publisher={SAGE Publications Sage UK: London, England}
 }
 ```
@@ -940,6 +989,22 @@ year = {2019}
   pages={202--216},
   year={2020},
   publisher={SAGE Publications Sage UK: London, England}
+}
+```
+
+**[RSS2020]** Robot Object Retrieval with Contextual Natural Language Queries, [[Paper](https://arxiv.org/pdf/2006.13253.pdf)], [[Code](https://github.com/Thaonguyen3095/affordance-language)].
+
+*Keywords: retrieval objects based on their usage; localize target object in RGB and then grasp it.*
+
+```latex
+@INPROCEEDINGS{Nguyen-RSS-20,
+    AUTHOR    = {Thao Nguyen AND Nakul Gopalan AND Roma Patel AND Matthew Corsaro AND Ellie Pavlick AND Stefanie Tellex},
+    TITLE     = {{Robot Object Retrieval with Contextual Natural Language Queries}},
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems},
+    YEAR      = {2020},
+    ADDRESS   = {Corvalis, Oregon, USA},
+    MONTH     = {July},
+    DOI       = {10.15607/RSS.2020.XVI.080}
 }
 ```
 
