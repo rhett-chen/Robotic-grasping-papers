@@ -319,6 +319,19 @@ year = 2021,
 
 ### 2.3 6D pose estimation<span id="6d-pose-estimation"> </span>
 
+[CVPR2022] CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild, [[Paper](https://arxiv.org/pdf/2203.03089.pdf)], [[Code](https://github.com/qq456cvb/CPPF)].
+
+*Keywords: category-level; point-pair features; voting method; sim-to-real transfer, trained on synthetic models, tested on real-world data, need an instance segmentation network.*
+
+```latex
+@inproceedings{you2022cppf,
+  title={CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild},
+  author={You, Yang and Shi, Ruoxi and Wang, Weiming and Lu, Cewu},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2022}
+}
+```
+
 **[RA-L2022]** Estimating 6D Object Poses with Temporal Motion Reasoning for Robot Grasping in Cluttered Scenes, [[Paper](https://ieeexplore.ieee.org/abstract/document/9699040/)], [[Code](https://github.com/mufengjun260/H-MPose)].
 
 *Keywords: multi-frame RGB-D sequences; YCB-Video dataset; temporal fusion, integrate the temporal motion information from RGB-D; predict stable pose sequences; handle heavy occlusion.*
