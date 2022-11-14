@@ -319,7 +319,7 @@ year = 2021,
 
 ### 2.3 6D pose estimation<span id="6d-pose-estimation"> </span>
 
-[CVPR2022] CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild, [[Paper](https://arxiv.org/pdf/2203.03089.pdf)], [[Code](https://github.com/qq456cvb/CPPF)].
+**[CVPR2022]** CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild, [[Paper](https://arxiv.org/pdf/2203.03089.pdf)], [[Code](https://github.com/qq456cvb/CPPF)].
 
 *Keywords: category-level; point-pair features; voting method; sim-to-real transfer, trained on synthetic models, tested on real-world data, need an instance segmentation network.*
 
@@ -416,6 +416,20 @@ year = {2019}
   year={2022},
   pages={8238-8244},
   doi={10.1109/ICRA46639.2022.9811961}}
+```
+
+**[ICRA2022]** Context-Aware Grasp Generation in Cluttered Scenes, [[Paper](https://ieeexplore.ieee.org/document/9811371/)].
+
+*Keywords: 6D grasp; Graspnet-1billion dataset; cluttered scene; real-world data; pointnet++ backbone, vote and cluster seed points; self-attention mechanism for context learning.*
+
+```latex
+@INPROCEEDINGS{9811371,
+  author={Hoang, Dinh-Cuong and Stork, Johannes A. and Stoyanov, Todor},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={Context-Aware Grasp Generation in Cluttered Scenes}, 
+  year={2022},
+  pages={1492-1498},
+  doi={10.1109/ICRA46639.2022.9811371}}
 ```
 
 **[RA-L2022]** Real-Time Collision-Free Grasp Pose Detection With Geometry-Aware Refinement Using High-Resolution Volume, [[Project](https://sites.google.com/view/vpn-icra2022)], [[Paper](https://ieeexplore.ieee.org/abstract/document/9681231)].
