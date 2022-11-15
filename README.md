@@ -251,17 +251,33 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.2 Robotic manipulation<span id="robotic-manipulation"> </span>
 
-**[arXiv2022]** CALVIN: A Benchmark for Language-conditioned Policy Learning for Long-horizon Robot Manipulation Tasks, [[Paper](https://arxiv.org/pdf/2112.03227.pdf)], [[Code](https://github.com/mees/calvin)].
+**[CVPR2022]** IFOR: Iterative Flow Minimization for Robotic Object Rearrangement, [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Goyal_IFOR_Iterative_Flow_Minimization_for_Robotic_Object_Rearrangement_CVPR_2022_paper.pdf)], [[Code](https://github.com/qq456cvb/CPPF)].
+
+*Keywords: input RGBD image of the original and final scenes; object rearrangement for unknown objects, handle objects with translation and planar rotations; trained on synthetic data, transfer to real-world in zero-shot manner.*
+
+```latex
+@inproceedings{you2022cppf,
+  title={CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild},
+  author={You, Yang and Shi, Ruoxi and Wang, Weiming and Lu, Cewu},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2022}
+}
+```
+
+**[RA-L2022]** CALVIN: A Benchmark for Language-conditioned Policy Learning for Long-horizon Robot Manipulation Tasks, [[Paper](https://arxiv.org/pdf/2112.03227.pdf)], [[Code](https://github.com/mees/calvin)].
 
 *Keywords: language conditioned long-horizon manipulation; 34 tasks; 4 simulation environments; 7-Dof Panda robot; a static camera and a robot gripper camera; RGB-D image; unstructured demonstrations datasets, ∼2.4M interaction steps.*
 
 ```latex
-@article{calvin21,
-author = {Oier Mees and Lukas Hermann and Erick Rosete-Beas and Wolfram Burgard},
-title = {CALVIN: A benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks},
-journal={arXiv preprint arXiv:2112.03227},
-year = 2021,
-}
+@ARTICLE{9788026,
+  author={Mees, Oier and Hermann, Lukas and Rosete-Beas, Erick and Burgard, Wolfram},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks}, 
+  year={2022},
+  volume={7},
+  number={3},
+  pages={7327-7334},
+  doi={10.1109/LRA.2022.3180108}}
 ```
 
 **[CoRL2021]** CLIPort: What and Where Pathways for Robotic Manipulation, [[Project](https://cliport.github.io/)], [[Paper](https://arxiv.org/pdf/2109.12098.pdf)], [[Code](https://github.com/cliport/cliport)].
@@ -291,30 +307,32 @@ year = 2021,
 }
 ```
 
-**[arXiv2021]** Audio-Visual Grounding Referring Expression for Robotic Manipulation, [[Paper](https://arxiv.org/pdf/2109.10571.pdf)].
+**[ICRA2022]** Audio-Visual Grounding Referring Expression for Robotic Manipulation, [[Paper](https://arxiv.org/pdf/2109.10571.pdf)].
 
 *Keywords: a novel task, audio-visual grounding referring expression for robotic manipulation; establishe a dataset which contains visual data, auditory data and manipulation instructions.*
 
 ```latex
-@article{wang2021audio,
-  title={Audio-Visual Grounding Referring Expression for Robotic Manipulation},
+@INPROCEEDINGS{9811895,
   author={Wang, Yefei and Wang, Kaili and Wang, Yi and Guo, Di and Liu, Huaping and Sun, Fuchun},
-  journal={arXiv preprint arXiv:2109.10571},
-  year={2021}
-}
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={Audio-Visual Grounding Referring Expression for Robotic Manipulation}, 
+  year={2022},
+  pages={9258-9264},
+  doi={10.1109/ICRA46639.2022.9811895}}
 ```
 
-**[arXiv2021]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189.pdf)].
+**[ICRA2022]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189.pdf)].
 
 *Keywords: language-guided semantic rearrangement; transformer-based method; scene point cloud and structured language command input; output plan sequence, no 6D grasp.*
 
 ```latex
-@article{liu2021structformer,
-  title={Structformer: Learning spatial structure for language-guided semantic rearrangement of novel objects},
+@INPROCEEDINGS{9811931,
   author={Liu, Weiyu and Paxton, Chris and Hermans, Tucker and Fox, Dieter},
-  journal={arXiv preprint arXiv:2110.10189},
-  year={2021}
-}
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={StructFormer: Learning Spatial Structure for Language-Guided Semantic Rearrangement of Novel Objects}, 
+  year={2022},
+  pages={6322-6329},
+  doi={10.1109/ICRA46639.2022.9811931}}
 ```
 
 ### 2.3 6D pose estimation<span id="6d-pose-estimation"> </span>
