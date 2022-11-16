@@ -280,6 +280,22 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
   doi={10.1109/LRA.2022.3180108}}
 ```
 
+**[RSS2021]** NeRP: Neural Rearrangement Planning for Unknown Objects, [[Paper](http://www.roboticsproceedings.org/rss17/p072.pdf)].
+
+*Keywords: multi-step object rearrangement planning, for unknown objects; input RGBD image of the original and final scenes; need to segment out unique objects in scene, compute object alignment between current and goal state; train on synthetic data.*
+
+```latex
+@INPROCEEDINGS{Qureshi-RSS-21, 
+    AUTHOR    = {Ahmed H Qureshi AND Arsalan Mousavian AND Chris Paxton AND Michael Yip AND Dieter Fox}, 
+    TITLE     = {{NeRP: Neural Rearrangement Planning for Unknown Objects}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2021}, 
+    ADDRESS   = {Virtual}, 
+    MONTH     = {July}, 
+    DOI       = {10.15607/RSS.2021.XVII.072} 
+} 
+```
+
 **[CoRL2021]** CLIPort: What and Where Pathways for Robotic Manipulation, [[Project](https://cliport.github.io/)], [[Paper](https://arxiv.org/pdf/2109.12098.pdf)], [[Code](https://github.com/cliport/cliport)].
 
 *Keywords: propose a two-stream architecture with semantic and spatial pathways for vision-based manipulation; propose CLIPORT, a language-conditioned imitation learning agent, can learn a single language-conditioned policy for various tabletop tasks.*
