@@ -425,6 +425,22 @@ year = {2019}
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
 
+**[RAL2022]** SymmetryGrasp: Symmetry-Aware Antipodal Grasp Detection From Single-View RGB-D Images, [[Paper](https://ieeexplore.ieee.org/abstract/document/9919329)].
+
+*Keywords: 6D grasp; input RGBD image; single view; Mask-RCNN for symmetric region detection on RGB-D image, tranform the RGBD region to point cloud and aplly PointNet++ for grasp detection.*
+
+```latex
+@ARTICLE{9919329,
+  author={Shi, Yifei and Tang, Zixin and Cai, Xiangting and Zhang, Hongjia and Hu, Dewen and Xu, Xin},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={SymmetryGrasp: Symmetry-Aware Antipodal Grasp Detection From Single-View RGB-D Images}, 
+  year={2022},
+  volume={7},
+  number={4},
+  pages={12235-12242},
+  doi={10.1109/LRA.2022.3214785}}
+```
+
 **[ECCV2022]** TransGrasp: Grasp Pose Estimation of a Category of Objects by Transferring Grasps from Only One Labeled Instance, [[Paper](https://arxiv.org/pdf/2207.07861.pdf)], [[Code](https://github.com/yanjh97/TransGrasp)].
 
 *Keywords: 6D grasp; single object point cloud; from one instance to one category; 3 categories, objects model from ShapeNetCore; metric is grasp success rate in simulation environment; compare with GPD and 6-DOF GraspNet.*
