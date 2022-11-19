@@ -26,6 +26,21 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 ## 1. Survey Papers <span id="survey-papers"> </span>
 
+**[arXiv2022]** Deep Learning Approaches to Grasp Synthesis: A Review,  [[Project](https://rhys-newbury.github.io/projects/6dof/)], [[Paper](https://arxiv.org/pdf/2207.02556.pdf)].
+
+*Keywords: focus on 6D grasping; sampling based approaches, direct regression, using shape-completion, reinforcement learning or considering semantics.*
+
+```latex
+@misc{newbury202newbury2022review2deep,
+    title={Deep Learning Approaches to Grasp Synthesis: A Review}, 
+    author={Rhys Newbury and Morris Gu and Lachlan Chumbley and Arsalan Mousavian and Clemens Eppner and Jürgen Leitner and Jeannette Bohg and Antonio Morales and Tamim Asfour and Danica Kragic and Dieter Fox and Akansel Cosgun},
+    year={2022},
+    eprint={2207.02556},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO}
+}
+```
+
 **[arXiv2022]** Robotic Grasping from Classical to Modern: A Survey,   [[Project](https://github.com/ZhangHanbo/Robotic-Grasping-from-Classical-to-Modern-A-Survey)],  [[Paper](https://arxiv.org/pdf/2202.03631.pdf)].
 
 *Keywords: overview of analytic methods and data-driven methods for Robotic grasping.*
@@ -251,7 +266,7 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.2 Robotic manipulation<span id="robotic-manipulation"> </span>
 
-**[CVPR2022]** IFOR: Iterative Flow Minimization for Robotic Object Rearrangement, [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Goyal_IFOR_Iterative_Flow_Minimization_for_Robotic_Object_Rearrangement_CVPR_2022_paper.pdf)], [[Code](https://github.com/qq456cvb/CPPF)].
+**[CVPR2022]** IFOR: Iterative Flow Minimization for Robotic Object Rearrangement, [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Goyal_IFOR_Iterative_Flow_Minimization_for_Robotic_Object_Rearrangement_CVPR_2022_paper.pdf)].
 
 *Keywords: input RGBD image of the original and final scenes; object rearrangement for unknown objects, handle objects with translation and planar rotations; trained on synthetic data, transfer to real-world in zero-shot manner.*
 
