@@ -513,17 +513,33 @@ year = {2019}
   doi={10.1109/LRA.2022.3142424}}
 ```
 
-**[arXiv2022]** When Transformer Meets Robotic Grasping: Exploits Context for Efficient Grasp Detection, [[Paper](https://arxiv.org/pdf/2202.11911.pdf)], [[Code](https://github.com/WangShaoSUN/grasp-transformer)].
+**[arXiv2022]** A Robotic Visual Grasping Design: Rethinking Convolution Neural Network with High-Resolutions, [[Paper](https://arxiv.org/pdf/2209.07459.pdf)], [[Code](https://github.com/USTCzzl/HRG_Net)].
+
+*Keywords: 2D planar grasp; Cornell and Jacquard grasping datasets; high-resolution CNN for feature extraction; D/RGB/RGB-D input.*
+
+```latex
+@article{zhou2022robotic,
+  title={A Robotic Visual Grasping Design: Rethinking Convolution Neural Network with High-Resolutions},
+  author={Zhou, Zhangli and Wang, Shaochen and Chen, Ziyang and Cai, Mingyu and Kan, Zhen},
+  journal={arXiv preprint arXiv:2209.07459},
+  year={2022}
+}
+```
+
+**[RA-L2022]** When Transformer Meets Robotic Grasping: Exploits Context for Efficient Grasp Detection, [[Paper](https://arxiv.org/pdf/2202.11911.pdf)], [[Code](https://github.com/WangShaoSUN/grasp-transformer)].
 
 *Keywords: 2D planar grasp; Cornell and Jacquard grasping datasets; cluttered scene; Transformer based architecture; D/RGB/RGB-D input.*
 
 ```latex
-@article{wang2022transformer,
-  title={When Transformer Meets Robotic Grasping: Exploits Context for Efficient Grasp Detection},
+@ARTICLE{9810182,
   author={Wang, Shaochen and Zhou, Zhangli and Kan, Zhen},
-  journal={arXiv preprint arXiv:2202.11911},
-  year={2022}
-}
+  journal={IEEE Robotics and Automation Letters}, 
+  title={When Transformer Meets Robotic Grasping: Exploits Context for Efficient Grasp Detection}, 
+  year={2022},
+  volume={7},
+  number={3},
+  pages={8170-8177},
+  doi={10.1109/LRA.2022.3187261}}
 ```
 
 **[ICCV2021]** Graspness Discovery in Clutters for Fast and Accurate Grasp Detection,        [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Graspness_Discovery_in_Clutters_for_Fast_and_Accurate_Grasp_Detection_ICCV_2021_paper.pdf)],  [[Code(non-official)](https://github.com/rhett-chen/graspness_implementation)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Wang_Graspness_Discovery_in_ICCV_2021_supplemental.zip)].
