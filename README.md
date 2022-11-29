@@ -440,6 +440,22 @@ year = {2019}
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
 
+**[RA-L2022]** EfficientGrasp: A Unified Data-Efficient Learning to Grasp Method for Multi-Fingered Robot Hands, [[Paper](https://arxiv.org/pdf/2206.15159.pdf)].
+
+*Keywords: single object grasping; multi-finger gripper; generalize to different types of robotic grippers;  uses fingertip workspace points set as the gripper attribute input, detect the contact points on object point cloud.*
+
+```latex
+@ARTICLE{9813387,
+  author={Li, Kelin and Baron, Nicholas and Zhang, Xian and Rojas, Nicolas},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={EfficientGrasp: A Unified Data-Efficient Learning to Grasp Method for Multi-Fingered Robot Hands}, 
+  year={2022},
+  volume={7},
+  number={4},
+  pages={8619-8626},
+  doi={10.1109/LRA.2022.3187875}}
+```
+
 **[RAL2022]** SymmetryGrasp: Symmetry-Aware Antipodal Grasp Detection From Single-View RGB-D Images, [[Paper](https://ieeexplore.ieee.org/abstract/document/9919329)].
 
 *Keywords: 6D grasp; input RGBD image; single view; Mask-RCNN for symmetric region detection on RGB-D image, tranform the RGBD region to point cloud and aplly PointNet++ for grasp detection.*
