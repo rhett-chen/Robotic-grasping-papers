@@ -440,6 +440,20 @@ year = {2019}
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
 
+**[CoRL2022]** Volumetric-based Contact Point Detection for 7-DoF Grasping, [[Paper](https://openreview.net/pdf?id=SrSCqW4dq9)], [[Code](https://github.com/caijunhao/vcpd)].
+
+*Keywords: 6D grasp; cluttered scenes; trained on synthetic data; TSDF-based; pipeline, multi-view fusion, contact-point sampling, evaluation and collision checking.*
+
+```latex
+@inproceedings{cai2022volumetric,
+    title     = {Volumetric-based Contact Point Detection for 7-DoF Grasping},
+    author    = {Cai, Junhao and Su, Jingcheng and Zhou, Zida and Cheng, Hui and Chen, Qifeng and Wang, Michael Yu},
+    booktitle={Conference on Robot Learning (CoRL)},
+    year={2022},
+    organization={PMLR}
+}
+```
+
 **[RA-L2022]** EfficientGrasp: A Unified Data-Efficient Learning to Grasp Method for Multi-Fingered Robot Hands, [[Paper](https://arxiv.org/pdf/2206.15159.pdf)].
 
 *Keywords: single object grasping; multi-finger gripper; generalize to different types of robotic grippers;  uses fingertip workspace points set as the gripper attribute input, detect the contact points on object point cloud.*
