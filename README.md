@@ -826,6 +826,20 @@ year = {2019}
   doi={10.1109/IROS45743.2020.9340777}}
 ```
 
+**[ICRA2020]** Using Synthetic Data and Deep Networks to Recognize Primitive Shapes for Object Grasping, [[Paper](https://arxiv.org/pdf/1909.08508.pdf)], [[Code](https://github.com/ivalab/grasp_primitiveShape)].
+
+*Keywords: depth input; segment object into primitive shape classes, transform the predefined grasps on each primitive shape class to object.*
+
+```latex
+@INPROCEEDINGS{9197256,
+  author={Lin, Yunzhi and Tang, Chao and Chu, Fu-Jen and Vela, Patricio A.},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Using Synthetic Data and Deep Networks to Recognize Primitive Shapes for Object Grasping}, 
+  year={2020},
+  pages={10494-10501},
+  doi={10.1109/ICRA40945.2020.9197256}}
+```
+
 **[ICRA2020]** Action Image Representation: Learning Scalable Deep Grasping Policies with Zero Real World Data, [[Paper](https://arxiv.org/abs/2005.06594)].
 
 *Keywords: 2D grasp; sampling-based grasp generation; a new grasp proposal representation.*
@@ -921,6 +935,19 @@ doi = {10.1177/0278364919859066},
 ```
 
 ### 3.2 Semantic grasping <span id="semantic-grasping"> </span>
+
+**[arXiv2022]** CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration, [[Paper](https://arxiv.org/pdf/2210.03173.pdf)].
+
+*Keywords: 6D grasp; RGB-D input, instance segmentation and get partial object point cloud, then shape completion, robot grasps and human grasps are generated based on completed object point cloud, finally a pruning network is applied to select the proper robot grasp compatible for the co-grasping.*
+
+```latex
+@article{keshari2022cograsp,
+  title={CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration},
+  author={Keshari, Abhinav K and Ren, Hanwen and Qureshi, Ahmed H},
+  journal={arXiv preprint arXiv:2210.03173},
+  year={2022}
+}
+```
 
 **[RA-L2022]** REGRAD: A Large-Scale Relational Grasp Dataset for Safe and Object-Specific Robotic Grasping in Clutter, [[Paper](https://arxiv.org/pdf/2104.14118.pdf)], [[Code&&Dataset](https://github.com/poisonwine/REGRAD)].
 
