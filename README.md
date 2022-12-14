@@ -454,6 +454,22 @@ year = {2019}
 }
 ```
 
+**[RA-L2022]** End-to-End Learning to Grasp via Sampling From Object Point Clouds, [[Paper](https://arxiv.org/pdf/2203.05585.pdf)], [[Code](https://github.com/antoalli/L2G)].
+
+*Keywords: 6D grasp; single object; point cloud input; combines a differentiable sampling strategy to identify the visible contact points, then use classifier and regressor to predict other contact point and grasp angle.*
+
+```latex
+@ARTICLE{9830843,
+  author={Alliegro, Antonio and Rudorfer, Martin and Frattin, Fabio and Leonardis, Aleš and Tommasi, Tatiana},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={End-to-End Learning to Grasp via Sampling From Object Point Clouds}, 
+  year={2022},
+  volume={7},
+  number={4},
+  pages={9865-9872},
+  doi={10.1109/LRA.2022.3191183}}
+```
+
 **[RA-L2022]** EfficientGrasp: A Unified Data-Efficient Learning to Grasp Method for Multi-Fingered Robot Hands, [[Paper](https://arxiv.org/pdf/2206.15159.pdf)].
 
 *Keywords: single object grasping; multi-finger gripper; generalize to different types of robotic grippers;  uses fingertip workspace points set as the gripper attribute input, detect the contact points on object point cloud.*
