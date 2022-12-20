@@ -440,6 +440,18 @@ year = {2019}
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
 
+**[CoRL2022]** Towards Scale Balanced 6-DoF Grasp Detection in Cluttered Scenes, [[Paper](https://arxiv.org/pdf/2212.05275.pdf)], [[Code](https://github.com/mahaoxiang822/Scale-Balanced-Grasp)].
+
+*Keywords: 6D grasp; cluttered scene; Graspnet-1billion dataset; data augmentation, mix the point cloud of syntetic data and real-scene data; pretrain an unseen point cloud instance segmentation network to generate masks for all objects, and then uniformly sample points from all objects for grasp learning; balance the grasp learning on different grasp width scale.*
+
+```latex
+@InProceedings{Ma_2021_BMVC,
+    author    = {Haoxiang, Ma and Huang, Di},
+    title     = {Towards Scale Balanced 6-DoF Grasp Detection in Cluttered Scenes},
+    booktitle = {Conference on Robot Learninsg (CoRL)},
+    year      = {2022}
+```
+
 **[CoRL2022]** Volumetric-based Contact Point Detection for 7-DoF Grasping, [[Paper](https://openreview.net/pdf?id=SrSCqW4dq9)], [[Code](https://github.com/caijunhao/vcpd)].
 
 *Keywords: 6D grasp; cluttered scenes; trained on synthetic data; TSDF-based; pipeline, multi-view fusion, contact-point sampling, evaluation and collision checking.*
