@@ -514,6 +514,19 @@ year = {2019}
   doi={10.1109/LRA.2022.3214785}}
 ```
 
+**[ECCV2022]** Domain Randomization-Enhanced Depth Simulation and Restoration for Perceiving and Grasping Specular and Transparent Objects, [[Paper](https://arxiv.org/pdf/2208.03792.pdf)], [[Code](https://github.com/PKU-EPIC/DREDS)].
+
+*Keywords: Depth restoration for robotic grasping; Swin-Tiny backbone for depth restoration, two-stream net for rgb and depth feature extraction; graspnet-baseline for 6D grasp.*
+
+```latex
+@inproceedings{dai2022dreds,
+	title={Domain Randomization-Enhanced Depth Simulation and Restoration for Perceiving and Grasping Specular and Transparent Objects},
+	author={Dai, Qiyu and Zhang, Jiyao and Li, Qiwei and Wu, Tianhao and Dong, Hao and Liu, Ziyuan and Tan, Ping and Wang, He},
+	booktitle={European Conference on Computer Vision (ECCV)},
+	year={2022}
+}
+```
+
 **[ECCV2022]** TransGrasp: Grasp Pose Estimation of a Category of Objects by Transferring Grasps from Only One Labeled Instance, [[Paper](https://arxiv.org/pdf/2207.07861.pdf)], [[Code](https://github.com/yanjh97/TransGrasp)].
 
 *Keywords: 6D grasp; single object point cloud; from one instance to one category; 3 categories, objects model from ShapeNetCore; metric is grasp success rate in simulation environment; compare with GPD and 6-DOF GraspNet.*
