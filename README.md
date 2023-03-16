@@ -520,10 +520,10 @@ year = {2019}
 
 ```latex
 @inproceedings{dai2022dreds,
-	title={Domain Randomization-Enhanced Depth Simulation and Restoration for Perceiving and Grasping Specular and Transparent Objects},
-	author={Dai, Qiyu and Zhang, Jiyao and Li, Qiwei and Wu, Tianhao and Dong, Hao and Liu, Ziyuan and Tan, Ping and Wang, He},
-	booktitle={European Conference on Computer Vision (ECCV)},
-	year={2022}
+    title={Domain Randomization-Enhanced Depth Simulation and Restoration for Perceiving and Grasping Specular and Transparent Objects},
+    author={Dai, Qiyu and Zhang, Jiyao and Li, Qiwei and Wu, Tianhao and Dong, Hao and Liu, Ziyuan and Tan, Ping and Wang, He},
+    booktitle={European Conference on Computer Vision (ECCV)},
+    year={2022}
 }
 ```
 
@@ -977,6 +977,35 @@ doi = {10.1177/0278364919859066},
 
 ### 3.2 Semantic grasping <span id="semantic-grasping"> </span>
 
+**[arXiv2023]** Task-Oriented Grasp Prediction with Visual-Language Inputs, [[Paper](https://arxiv.org/pdf/2302.14355.pdf)].
+
+*Keywords: 2D grasp; cluttered scene; image and language input; two stage method, from object grouding to affordance grounding.*
+
+```latex
+@article{tang2023task,
+  title={Task-Oriented Grasp Prediction with Visual-Language Inputs},
+  author={Tang, Chao and Huang, Dehao and Meng, Lingxiao and Liu, Weiyu and Zhang, Hong},
+  journal={arXiv preprint arXiv:2302.14355},
+  year={2023}
+}
+```
+
+**[IROS2022]** Learning 6-DoF Task-oriented Grasp Detection via Implicit Estimation and Visual Affordance, [[Paper](https://arxiv.org/pdf/2210.08537.pdf)].
+
+*Keywords: task-oriented grasping; single object; point cloud input; 6D grasp; a grasping affordance detection module to generate grasps corresponding to affordance label, and a evaluation network to recognize success and faliure, a visual affordance network outputs affordance map to get fine grasp candidates.*
+
+```latex
+@INPROCEEDINGS{9981900,
+  author={Chen, Wenkai and Liang, Hongzhuo and Chen, Zhaopeng and Sun, Fuchun and Zhang, Jianwei},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Learning 6-DoF Task-oriented Grasp Detection via Implicit Estimation and Visual Affordance}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={762-769},
+  doi={10.1109/IROS47612.2022.9981900}}
+```
+
 **[arXiv2022]** CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration, [[Paper](https://arxiv.org/pdf/2210.03173.pdf)].
 
 *Keywords: 6D grasp; RGB-D input, instance segmentation and get partial object point cloud, then shape completion, robot grasps and human grasps are generated based on completed object point cloud, finally a pruning network is applied to select the proper robot grasp compatible for the co-grasping.*
@@ -1292,4 +1321,4 @@ doi = {10.1177/0278364919859066},
 
 - [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Prof. Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
 - [XJTU, College of Artificial Intelligence](http://www.iair.xjtu.edu.cn/), Prof. Xuguang Lan [[Homepage](https://gr.xjtu.edu.cn/en/web/zeuslan/information)].
-- [UT Austin Robot Perception and Learning Lab](https://rpl.cs.utexas.edu/), Prof. Yuke Zhu [[Google Scholar](https://scholar.google.com/citations?user=mWGyYMsAAAAJ&hl=en)].
+- [UT Austin Robot Perception and Learning Lab](https://rpl.cs.utexas.edu/), Prof. Yuke Zhu [[Google Scholar](https://scholar.google.com/citations?user=mWGyYMsAAAAJ&hl=en)].[]()la
