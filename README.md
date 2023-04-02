@@ -440,6 +440,32 @@ year = {2019}
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
 
+**[ICRA2023]** Keypoint-GraspNet: Keypoint-based 6-DoF Grasp Generation from the Monocular RGB-D input, [[Paper](https://arxiv.org/pdf/2209.08752.pdf)].
+
+*Keywords: 6D grasp; RGB-D input; first detect grasp keypoints on RGB-D image, then recover the grasp poses with PnP algorithm; trained on synthetic dataset; faster than point cloud based methods.*
+
+```latex
+@article{chen2022keypoint,
+  title={Keypoint-GraspNet: Keypoint-based 6-DoF Grasp Generation from the Monocular RGB-D input},
+  author={Chen, Yiye and Lin, Yunzhi and Vela, Patricio},
+  journal={arXiv preprint arXiv:2209.08752},
+  year={2022}
+}
+```
+
+**[ICRA2023]** RGB-D Grasp Detection via Depth Guided Learning with Cross-modal Attention, [[Paper](https://arxiv.org/pdf/2302.14264.pdf)].
+
+*Keywords: 2D grasp; RGB-D input; Graspnet-1billion dataset; to address the low quality of depth map and multi-modal data fusion issues; propose depth guided cross-modal attention network.*
+
+```latex
+@article{qin2023rgb,
+  title={RGB-D Grasp Detection via Depth Guided Learning with Cross-modal Attention},
+  author={Qin, Ran and Ma, Haoxiang and Gao, Boyang and Huang, Di},
+  journal={arXiv preprint arXiv:2302.14264},
+  year={2023}
+}
+```
+
 **[CoRL2022]** Towards Scale Balanced 6-DoF Grasp Detection in Cluttered Scenes, [[Paper](https://arxiv.org/pdf/2212.05275.pdf)], [[Code](https://github.com/mahaoxiang822/Scale-Balanced-Grasp)].
 
 *Keywords: 6D grasp; cluttered scene; Graspnet-1billion dataset; data augmentation, mix the point cloud of syntetic data and real-scene data; pretrain an unseen point cloud instance segmentation network to generate masks for all objects, and then uniformly sample points from all objects for grasp learning; balance the grasp learning on different grasp width scale.*
@@ -977,6 +1003,30 @@ doi = {10.1177/0278364919859066},
 
 ### 3.2 Semantic grasping <span id="semantic-grasping"> </span>
 
+**[ICRA2023]** A Joint Modeling of Vision-Language-Action for Target-oriented Grasping in Clutter, [[Paper](https://arxiv.org/pdf/2302.12610.pdf)].
+
+*Keywords: language-guided task-oriented grasping; 6D grasp; cluttered scene; object-centric representation, a joint modeling of vision, language and grasp through cross-attention module; incorporate model-free reinforcement learning for obstacle removal and target object grasping; utilize priors from pre-trained CLIP and grasp model to improve the sample efficiency and alleviate the sin2real problem.*
+
+```latex
+@article{xu2023joint,
+  title={A Joint Modeling of Vision-Language-Action for Target-oriented Grasping in Clutter},
+  author={Xu, Kechun and Zhao, Shuqi and Zhou, Zhongxiang and Li, Zizhang and Pi, Huaijin and Zhu, Yifeng and Wang, Yue and Xiong, Rong},
+  journal={arXiv preprint arXiv:2302.12610},
+  year={2023}
+}
+```
+
+**[arXiv2023]** Learning 6-DoF Fine-grained Grasp Detection Based on Part Affordance Grounding, [[Project](https://sites.google.com/view/lang-shape)], [[Paper](https://arxiv.org/pdf/2301.11564.pdf)].
+
+*Keywords: single object; 6D grasp; fine-grained, task-oriented, language-guided grasp; propose a large language-guided shape grasping dataset, 16.6k objects of 16 categories in simulation environement; part affordance grounding and grasp stability evaluation; sampling-then-evaluation method.*
+
+    @article{song2023learning,
+      title={Learning 6-DoF Fine-grained Grasp Detection Based on Part Affordance Grounding},
+      author={Song, Yaoxian and Sun, Penglei and Ren, Yi and Zheng, Yu and Zhang, Yue},
+      journal={arXiv preprint arXiv:2301.11564},
+      year={2023}
+    }
+
 **[arXiv2023]** Task-Oriented Grasp Prediction with Visual-Language Inputs, [[Paper](https://arxiv.org/pdf/2302.14355.pdf)].
 
 *Keywords: 2D grasp; cluttered scene; image and language input; two stage method, from object grouding to affordance grounding.*
@@ -1321,4 +1371,4 @@ doi = {10.1177/0278364919859066},
 
 - [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Prof. Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
 - [XJTU, College of Artificial Intelligence](http://www.iair.xjtu.edu.cn/), Prof. Xuguang Lan [[Homepage](https://gr.xjtu.edu.cn/en/web/zeuslan/information)].
-- [UT Austin Robot Perception and Learning Lab](https://rpl.cs.utexas.edu/), Prof. Yuke Zhu [[Google Scholar](https://scholar.google.com/citations?user=mWGyYMsAAAAJ&hl=en)].[]()la
+- [UT Austin Robot Perception and Learning Lab](https://rpl.cs.utexas.edu/), Prof. Yuke Zhu [[Google Scholar](https://scholar.google.com/citations?user=mWGyYMsAAAAJ&hl=en)].
