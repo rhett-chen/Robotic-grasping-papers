@@ -1,6 +1,6 @@
 # Robotic Grasping Papers and Codes
 
-This repo is a paper list of Robotic-Grasping and some related works(6D pose estimation, visual grounding, etc) that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
+This repo is a paper list of Robotic-Grasping and some related works (6D pose estimation, visual grounding, etc) that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
 Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia; **RSS** is Robotics: Science and Systems.
 
@@ -440,6 +440,32 @@ year = {2019}
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
 
+**[ICRA2023]** GraspNeRF: Multiview-based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF, [[Project](https://pku-epic.github.io/GraspNeRF/)], [[Paper](https://arxiv.org/pdf/2210.06575.pdf)], [[Code](https://github.com/PKU-EPIC/GraspNeRF)].
+
+*Keywords: 6D grasp; cluttered scene; for transparent and specular objects; input multi-view RGBs;  leverage generalizable neural radiance field to predict TSDF.*
+
+```latex
+@article{Dai2023GraspNeRF,
+  title={GraspNeRF: Multiview-based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF},
+  author={Qiyu Dai and Yan Zhu and Yiran Geng and Ciyu Ruan and Jiazhao Zhang and He Wang},
+  booktitle={IEEE International Confersence on Robotics and Automation (ICRA)},
+  year={2023}
+}
+```
+
+**[ICRA023]** DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation, [[Project](https://pku-epic.github.io/DexGraspNet/)], [[Paper](https://arxiv.org/pdf/2210.02697.pdf)], [[Code](https://github.com/PKU-EPIC/DexGraspNet)], [[Dataset](https://mirrors.pku.edu.cn/dl-release/DexGraspNet-ICRA2023/)]. 
+
+*Keywords: dexterous grasping, ShadowHand; release a large-scale dexterous grasping dataset in simulation, 5355 objects, 133 categories, 1.32M grasps.*
+
+```latex
+@article{wang2022dexgraspnet,
+  title={DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation},
+  author={Wang, Ruicheng and Zhang, Jialiang and Chen, Jiayi and Xu, Yinzhen and Li, Puhao and Liu, Tengyu and Wang, He},
+  journal={arXiv preprint arXiv:2210.02697},
+  year={2022}
+}
+```
+
 **[ICRA2023]** Keypoint-GraspNet: Keypoint-based 6-DoF Grasp Generation from the Monocular RGB-D input, [[Paper](https://arxiv.org/pdf/2209.08752.pdf)].
 
 *Keywords: 6D grasp; RGB-D input; first detect grasp keypoints on RGB-D image, then recover the grasp poses with PnP algorithm; trained on synthetic dataset; faster than point cloud based methods.*
@@ -759,7 +785,7 @@ year = {2019}
 
 **[ICRA2021]** Acronym: A large-scale grasp dataset based on simulation, [[Project](https://sites.google.com/nvidia.com/graspdataset)],   [[Paper](https://arxiv.org/pdf/2011.09584.pdf)], [[Code](https://github.com/NVlabs/acronym)].
 
-*Keywords: 6D grasp; release a grasp dataset in simulation.*
+*Keywords: 6D grasp; release a grasp dataset in simulation; 8872 objects, 262 categories, 17.7M grasps; in addition to single object, acronym also contains scenes with structured clutter.*
 
 ```latex
 @inproceedings{eppner2021acronym,
@@ -1005,7 +1031,7 @@ doi = {10.1177/0278364919859066},
 
 **[ICRA2023]** A Joint Modeling of Vision-Language-Action for Target-oriented Grasping in Clutter, [[Paper](https://arxiv.org/pdf/2302.12610.pdf)].
 
-*Keywords: language-guided task-oriented grasping; 6D grasp; cluttered scene; object-centric representation, a joint modeling of vision, language and grasp through cross-attention module; incorporate model-free reinforcement learning for obstacle removal and target object grasping; utilize priors from pre-trained CLIP and grasp model to improve the sample efficiency and alleviate the sin2real problem.*
+*Keywords: language-guided task-oriented grasping; 6D grasp; cluttered scene; object-centric representation, a joint modeling of vision, language and grasp through cross-attention module; incorporate model-free reinforcement learning for obstacle removal and target object grasping; utilize priors from pre-trained CLIP and grasp model to improve the sample efficiency and alleviate the sim2real problem.*
 
 ```latex
 @article{xu2023joint,
