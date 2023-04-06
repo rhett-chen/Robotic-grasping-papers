@@ -453,7 +453,7 @@ year = {2019}
 }
 ```
 
-**[ICRA023]** DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation, [[Project](https://pku-epic.github.io/DexGraspNet/)], [[Paper](https://arxiv.org/pdf/2210.02697.pdf)], [[Code](https://github.com/PKU-EPIC/DexGraspNet)], [[Dataset](https://mirrors.pku.edu.cn/dl-release/DexGraspNet-ICRA2023/)]. 
+**[ICRA2023]** DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation, [[Project](https://pku-epic.github.io/DexGraspNet/)], [[Paper](https://arxiv.org/pdf/2210.02697.pdf)], [[Code](https://github.com/PKU-EPIC/DexGraspNet)], [[Dataset](https://mirrors.pku.edu.cn/dl-release/DexGraspNet-ICRA2023/)]. 
 
 *Keywords: dexterous grasping, ShadowHand; release a large-scale dexterous grasping dataset in simulation, 5355 objects, 133 categories, 1.32M grasps.*
 
@@ -516,6 +516,22 @@ year = {2019}
     year={2022},
     organization={PMLR}
 }
+```
+
+**[RA-L2022]** DA2 Dataset: Toward Dexterity-Aware Dual-Arm Grasping, [[Project](https://sites.google.com/view/da2dataset)], [[Paper](https://arxiv.org/pdf/2208.00408.pdf)], [[Code](https://github.com/ymxlzgy/DA2)].
+
+*Keywords: 6D grasp; single object; dual-arm grasping for large objects in simulation; release a large scale dual-arm grasping dataset, 6327 objects, 9M grasp pairs.*
+
+```latex
+@article{da2dataset,
+  author={Zhai, Guangyao and Zheng, Yu and Xu, Ziwei and Kong, Xin and Liu, Yong and Busam, Benjamin and Ren, Yi and Navab, Nassir and Zhang, Zhengyou},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={DA$^2$ Dataset: Toward Dexterity-Aware Dual-Arm Grasping}, 
+  year={2022},s
+  volume={7},
+  number={4},
+  pages={8941-8948},
+  doi={10.1109/LRA.2022.3189959}}
 ```
 
 **[RA-L2022]** End-to-End Learning to Grasp via Sampling From Object Point Clouds, [[Paper](https://arxiv.org/pdf/2203.05585.pdf)], [[Code](https://github.com/antoalli/L2G)].
