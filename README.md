@@ -266,6 +266,38 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.2 Robotic manipulation<span id="robotic-manipulation"> </span>
 
+**[CVPR2023]** Learning Human-to-Robot Handovers from Point Clouds, [[Project](https://handover-sim2real.github.io/)], [[Paper](https://arxiv.org/pdf/2303.17592.pdf)], [[Code](https://handover-sim2real.github.io/#)].
+
+*Keywords: point cloud input;  6D grasp; trained by interacting with the humans in simulation environment; reinforcement learning, two-stage training scheme.*
+
+*Motivation: To close the gap of human-in-the-loop policy training for human-to-robot handover, this paper introduces a vision-based learning framework for H2R handovers that is trained with a human-in-the-loop.*
+
+```latex
+@inproceedings{christen2023handoversim2real,
+      title = {Learning Human-to-Robot Handovers from Point Clouds},
+      author = {Christen, Sammy and Yang, Wei and Pérez-D'Arpino, Claudia and Hilliges, Otmar and Fox, Dieter and Chao, Yu-Wei},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year = {2023}
+    }
+```
+
+**[ECCV2022]** DexMV: Imitation Learning for Dexterous Manipulation from Human Videos, [[Project](https://yzqin.github.io/dexmv/)], [[Paper](https://arxiv.org/pdf/2108.05877.pdf)], [[Code](https://github.com/yzqin/dexmv-sim)].
+
+*Keywords: dexterous manipulation; record large-scale demonstrations of human hand conducting same tasks, and convert human motion to robot demonstrations; train imitation learning agent in simulation environemnt; benchmark multiple imitation learning algorithms with the collected demonstrations.*
+
+*Motivation: To tackle complex robot dexterous manipulation tasks by imitation learning.*
+
+```latex
+@inproceedings{qin2022dexmv,
+  title={Dexmv: Imitation learning for dexterous manipulation from human videos},
+  author={Qin, Yuzhe and Wu, Yueh-Hua and Liu, Shaowei and Jiang, Hanwen and Yang, Ruihan and Fu, Yang and Wang, Xiaolong},
+  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part XXXIX},
+  pages={570--587},
+  year={2022},
+  organization={Springer}
+}
+```
+
 **[CVPR2022]** IFOR: Iterative Flow Minimization for Robotic Object Rearrangement, [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Goyal_IFOR_Iterative_Flow_Minimization_for_Robotic_Object_Rearrangement_CVPR_2022_paper.pdf)].
 
 *Keywords: input RGBD image of the original and final scenes; object rearrangement for unknown objects, handle objects with translation and planar rotations; trained on synthetic data, transfer to real-world in zero-shot manner.*
@@ -444,6 +476,8 @@ year = {2019}
 
 *Keywords: 6D grasp; cluttered scene; for transparent and specular objects; input multi-view RGBs;  leverage generalizable neural radiance field to predict TSDF.*
 
+*Motivation: To tackle 6-DoF grasp detection for transparent and specular objects, propose a multi-view RGB-based network, which can achieve material-agnostic object grasping in clutter.*
+
 ```latex
 @article{Dai2023GraspNeRF,
   title={GraspNeRF: Multiview-based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF},
@@ -456,6 +490,8 @@ year = {2019}
 **[ICRA2023]** DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation, [[Project](https://pku-epic.github.io/DexGraspNet/)], [[Paper](https://arxiv.org/pdf/2210.02697.pdf)], [[Code](https://github.com/PKU-EPIC/DexGraspNet)], [[Dataset](https://mirrors.pku.edu.cn/dl-release/DexGraspNet-ICRA2023/)]. 
 
 *Keywords: dexterous grasping, ShadowHand; release a large-scale dexterous grasping dataset in simulation, 5355 objects, 133 categories, 1.32M grasps.*
+
+*Motivation: Dexterous grasping is much more under-explored than parallel grasping, partially due to the lack of a large-scale dataset. To accelerate the study of dexterous object manipulation, propose a large-scale grasping dataset.*
 
 ```latex
 @article{wang2022dexgraspnet,
@@ -470,6 +506,8 @@ year = {2019}
 
 *Keywords: 6D grasp; RGB-D input; first detect grasp keypoints on RGB-D image, then recover the grasp poses with PnP algorithm; trained on synthetic dataset; faster than point cloud based methods.*
 
+*Motivation: The point cloud based methods are prone to lead to failure on small objects, this paper explores 6-DoF grasp generation directly based on RGB-D image input.*
+
 ```latex
 @article{chen2022keypoint,
   title={Keypoint-GraspNet: Keypoint-based 6-DoF Grasp Generation from the Monocular RGB-D input},
@@ -481,7 +519,9 @@ year = {2019}
 
 **[ICRA2023]** RGB-D Grasp Detection via Depth Guided Learning with Cross-modal Attention, [[Paper](https://arxiv.org/pdf/2302.14264.pdf)].
 
-*Keywords: 2D grasp; RGB-D input; Graspnet-1billion dataset; to address the low quality of depth map and multi-modal data fusion issues; propose depth guided cross-modal attention network.*
+*Keywords: 2D grasp; RGB-D input; Graspnet-1billion dataset; propose depth guided cross-modal attention network.*
+
+*Motivation: The quality of depth maps captured by RGB-D sensors is relatively low, which makes obtaining grasping depth and multi-modal clues fusion challenging. To address the two issues, this paper proposes Depth Guided Cross-modal Attention Network.*
 
 ```latex
 @article{qin2023rgb,
@@ -495,6 +535,8 @@ year = {2019}
 **[CoRL2022]** Towards Scale Balanced 6-DoF Grasp Detection in Cluttered Scenes, [[Paper](https://arxiv.org/pdf/2212.05275.pdf)], [[Code](https://github.com/mahaoxiang822/Scale-Balanced-Grasp)].
 
 *Keywords: 6D grasp; cluttered scene; Graspnet-1billion dataset; data augmentation, mix the point cloud of syntetic data and real-scene data; pretrain an unseen point cloud instance segmentation network to generate masks for all objects, and then uniformly sample points from all objects for grasp learning; balance the grasp learning on different grasp width scale.*
+
+*Motivation: To address the difficulty in dealing with small-scale samples.*
 
 ```latex
 @InProceedings{Ma_2021_BMVC,
