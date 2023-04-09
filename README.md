@@ -6,23 +6,17 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 ## Robotic Grasping Papers and Codes
 
-1. [Survey Papers](#survey-papers)
-
-2. [Related Vision Tasks](#related-vision-tasks)
-   
-   2.1 [Visual grounding](#visual-grounding)   
-   
-   2.2 [Robotic Manipulation](#robotic-manipulation)
-   
-   2.3 [6D pose estimation](#6d-pose-estimation)
-
-3. [Grasp Detection](#grasp-detection)
-   
-   3.1 [General grasping](#general-grasping)
-   
-   3.2 [Semantic grasping](#semantic-grasping)
-
-4. [Research Groups](#research-groups)
+- [Robotic Grasping Papers and Codes](#robotic-grasping-papers-and-codes)
+  - [Robotic Grasping Papers and Codes](#robotic-grasping-papers-and-codes-1)
+  - [1. Survey Papers  ](#1-survey-papers--)
+  - [2. Related Vision Tasks  ](#2-related-vision-tasks--)
+    - [2.1 Visual grounding  ](#21-visual-grounding--)
+    - [2.2 Robotic manipulation ](#22-robotic-manipulation-)
+    - [2.3 6D pose estimation ](#23-6d-pose-estimation-)
+  - [3. Grasp Detection ](#3-grasp-detection-)
+    - [3.1 General grasping ](#31-general-grasping-)
+    - [3.2 Semantic grasping  ](#32-semantic-grasping--)
+  - [4. Research Groups   ](#4-research-groups---)
 
 ## 1. Survey Papers <span id="survey-papers"> </span>
 
@@ -648,6 +642,22 @@ year = {2019}
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2022}
 }
+```
+
+**[ICRA2022]** HGC-Net: Deep Anthropomorphic Hand Grasping in Clutter, [[Paper](https://ieeexplore.ieee.org/document/9811756)], [[Code](https://github.com/yimingli1998/hgc_net)].
+
+*Keywords: 6D grasp; cluttered scenes; dexterous grasping; single-view point cloud input; train on sythetic dataset.*
+
+```latex
+@INPROCEEDINGS{9811756,
+  author={Li, Yiming and Wei, Wei and Li, Daheng and Wang, Peng and Li, Wanyi and Zhong, Jun},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={HGC-Net: Deep Anthropomorphic Hand Grasping in Clutter}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={714-720},
+  doi={10.1109/ICRA46639.2022.9811756}}
 ```
 
 **[ICRA2022]** Hybrid Physical Metric For 6-DoF Grasp Pose Detection, [[Paper](https://arxiv.org/pdf/2206.11141.pdf)], [[Code](https://github.com/luyh20/FGC-GraspNet)].
@@ -1456,3 +1466,4 @@ doi = {10.1177/0278364919859066},
 - [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Prof. Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
 - [XJTU, College of Artificial Intelligence](http://www.iair.xjtu.edu.cn/), Prof. Xuguang Lan [[Homepage](https://gr.xjtu.edu.cn/en/web/zeuslan/information)].
 - [UT Austin Robot Perception and Learning Lab](https://rpl.cs.utexas.edu/), Prof. Yuke Zhu [[Google Scholar](https://scholar.google.com/citations?user=mWGyYMsAAAAJ&hl=en)].
+- [UCSD](https://xiaolonw.github.io/), Prof. Xiaolong Wang [[Google Scholar](https://scholar.google.com/citations?user=Y8O9N_0AAAAJ&hl=en)].
