@@ -4,10 +4,7 @@ This repo is a paper list of Robotic-Grasping and some related works (6D pose es
 
 Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia; **RSS** is Robotics: Science and Systems.
 
-## Robotic Grasping Papers and Codes
-
 - [Robotic Grasping Papers and Codes](#robotic-grasping-papers-and-codes)
-  - [Robotic Grasping Papers and Codes](#robotic-grasping-papers-and-codes-1)
   - [1. Survey Papers  ](#1-survey-papers--)
   - [2. Related Vision Tasks  ](#2-related-vision-tasks--)
     - [2.1 Visual grounding  ](#21-visual-grounding--)
@@ -465,6 +462,21 @@ year = {2019}
 ## 3. Grasp Detection<span id="grasp-detection"> </span>
 
 ### 3.1 General grasping<span id="general-grasping"> </span>
+
+**[ICRA2023]** GenDexGrasp: Generalizable Dexterous Grasping, [[Project]](https://tongclass.ac.cn/publication/2022/gendexgrasp/), [[Paper]](https://arxiv.org/pdf/2210.00722.pdf), [[Code]](https://github.com/tengyu-liu/GenDexGrasp).
+
+*Keywords: 6D grasp; single object; multi-hand grasp; first first generate hand-agnostic contact map for the given object, then optimize the hand pose to match the generated contact map; propose a synthetic large-scale multi-hand grasping dataset.*
+
+*Motivation: Existing methods mostly focus on a specific type of robot hand, and oftentimes fail to rapidly generate diverse grasps with a high success rate. This paper leverages the contact map as a hand-agnostic intermediate representation and transfers among diverse multi-fingered robotic hands.*
+
+```latex
+@article{li2022gendexgrasp,
+  title={GenDexGrasp: Generalizable Dexterous Grasping},
+  author={Li, Puhao and Liu, Tengyu and Li, Yuyang and Zhu, Yixin and Yang, Yaodong and Huang, Siyuan},
+  journal={arXiv preprint arXiv:2210.00722},
+  year={2022}
+}
+```
 
 **[ICRA2023]** GraspNeRF: Multiview-based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF, [[Project](https://pku-epic.github.io/GraspNeRF/)], [[Paper](https://arxiv.org/pdf/2210.06575.pdf)], [[Code](https://github.com/PKU-EPIC/GraspNeRF)].
 
