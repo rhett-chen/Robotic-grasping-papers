@@ -391,6 +391,21 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.3 6D pose estimation<span id="6d-pose-estimation"> </span>
 
+**[CVPR2022]** OnePose: One-Shot Object Pose Estimation without CAD Models, [[Project]](https://zju3dv.github.io/onepose/), [[Paper]](https://arxiv.org/pdf/2205.12257.pdf), [[Code]](https://github.com/zju3dv/OnePose), [[Dataset]](https://zjueducn-my.sharepoint.com/personal/zihaowang_zju_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fzihaowang%5Fzju%5Fedu%5Fcn%2FDocuments%2Fonepose%5Fdataset%5Frelease&ga=1).
+
+*Keywords: handle objects in arbitrary categories without instance or category-specific network training; release a large-scale dataset; input RGB video scan of the object and query image.*
+
+*Motivation: To alleviate the demand for CAD models or category-specific training.*
+
+```latex
+@article{sun2022onepose,
+    title={{OnePose}: One-Shot Object Pose Estimation without {CAD} Models},
+    author = {Sun, Jiaming and Wang, Zihao and Zhang, Siyu and He, Xingyi and Zhao, Hongcheng and Zhang, Guofeng and Zhou, Xiaowei},
+    journal={CVPR},
+    year={2022},
+   }
+```
+
 **[CVPR2022]** CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild, [[Paper](https://arxiv.org/pdf/2203.03089.pdf)], [[Code](https://github.com/qq456cvb/CPPF)].
 
 *Keywords: category-level; point-pair features; voting method; sim-to-real transfer, trained on synthetic models, tested on real-world data, need an instance segmentation network.*
@@ -614,7 +629,7 @@ year = {2019}
   doi={10.1109/LRA.2022.3187875}}
 ```
 
-**[RAL2022]** SymmetryGrasp: Symmetry-Aware Antipodal Grasp Detection From Single-View RGB-D Images, [[Paper](https://ieeexplore.ieee.org/abstract/document/9919329)].
+**[RA-L2022]** SymmetryGrasp: Symmetry-Aware Antipodal Grasp Detection From Single-View RGB-D Images, [[Paper](https://ieeexplore.ieee.org/abstract/document/9919329)].
 
 *Keywords: 6D grasp; input RGBD image; single view; Mask-RCNN for symmetric region detection on RGB-D image, tranform the RGBD region to point cloud and aplly PointNet++ for grasp detection.*
 
