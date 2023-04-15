@@ -5,17 +5,18 @@ This repo is a paper list of Robotic-Grasping and some related works (6D pose es
 Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia; **RSS** is Robotics: Science and Systems.
 
 - [Robotic Grasping Papers and Codes](#robotic-grasping-papers-and-codes)
-  - [1. Survey Papers  ](#1-survey-papers--)
-  - [2. Related Vision Tasks  ](#2-related-vision-tasks--)
-    - [2.1 Visual grounding  ](#21-visual-grounding--)
-    - [2.2 Robotic manipulation ](#22-robotic-manipulation-)
-    - [2.3 6D pose estimation ](#23-6d-pose-estimation-)
-  - [3. Grasp Detection ](#3-grasp-detection-)
-    - [3.1 General grasping ](#31-general-grasping-)
-    - [3.2 Semantic grasping  ](#32-semantic-grasping--)
-  - [4. Research Groups   ](#4-research-groups---)
+  - [1. Survey Papers](#1-survey-papers)
+  - [2. Related Tasks](#2-related-tasks)
+    - [2.1 Visual grounding](#21-visual-grounding)
+    - [2.2 Robotic manipulation](#22-robotic-manipulation)
+    - [2.3 6D pose estimation](#23-6d-pose-estimation)
+    - [2.4 Datasets](#24-datasets)
+  - [3. Grasp Detection](#3-grasp-detection)
+    - [3.1 General grasping](#31-general-grasping)
+    - [3.2 Semantic grasping](#32-semantic-grasping)
+  - [4. Research Groups](#4-research-groups)
 
-## 1. Survey Papers <span id="survey-papers"> </span>
+## 1. Survey Papers
 
 **[arXiv2022]** Deep Learning Approaches to Grasp Synthesis: A Review,  [[Project](https://rhys-newbury.github.io/projects/6dof/)], [[Paper](https://arxiv.org/pdf/2207.02556.pdf)].
 
@@ -62,9 +63,9 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 }
 ```
 
-## 2. Related Vision Tasks <span id="related-vision-tasks"> </span>
+## 2. Related Tasks 
 
-### 2.1 Visual grounding <span id="visual-grounding"> </span>
+### 2.1 Visual grounding 
 
 **[CVPR2022]** Multi-View Transformer for 3D Visual Grounding, [[Paper](https://arxiv.org/pdf/2204.02174.pdf)], [[Code](https://github.com/sega-hsj/MVT-3DVG)].
 
@@ -255,7 +256,7 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 }
 ```
 
-### 2.2 Robotic manipulation<span id="robotic-manipulation"> </span>
+### 2.2 Robotic manipulation
 
 **[CVPR2023]** Learning Human-to-Robot Handovers from Point Clouds, [[Project](https://handover-sim2real.github.io/)], [[Paper](https://arxiv.org/pdf/2303.17592.pdf)], [[Code](https://handover-sim2real.github.io/#)].
 
@@ -389,7 +390,7 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
   doi={10.1109/ICRA46639.2022.9811931}}
 ```
 
-### 2.3 6D pose estimation<span id="6d-pose-estimation"> </span>
+### 2.3 6D pose estimation
 
 **[CVPR2022]** OnePose: One-Shot Object Pose Estimation without CAD Models, [[Project]](https://zju3dv.github.io/onepose/), [[Paper]](https://arxiv.org/pdf/2205.12257.pdf), [[Code]](https://github.com/zju3dv/OnePose), [[Dataset]](https://zjueducn-my.sharepoint.com/personal/zihaowang_zju_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fzihaowang%5Fzju%5Fedu%5Fcn%2FDocuments%2Fonepose%5Fdataset%5Frelease&ga=1).
 
@@ -474,9 +475,39 @@ year = {2019}
 }
 ```
 
-## 3. Grasp Detection<span id="grasp-detection"> </span>
+### 2.4 Datasets
 
-### 3.1 General grasping<span id="general-grasping"> </span>
+**[CVPR2023]** MVImgNet: A Large-scale Dataset of Multi-view Images, [[Projetc]](https://gaplab.cuhk.edu.cn/projects/MVImgNet/), [[Paper]](https://arxiv.org/pdf/2303.06042.pdf) 
+
+*Keywords: release a large-scale dataset of multi-view images, 6.5 million frames from 219188 videos crossing objects from 238 classes; dervive a 3D object point cloud dataset, 150 categories, 87200 samples.*
+
+*Motivation: Due to the laborious collection of real-world 3D data, there is no generic dataset serving as a counterpart of ImageNet in 3D vision, this paper introduces MVImgNet.* 
+
+```latex
+@inproceedings{yu2023mvimgnet,
+    title     = {MVImgNet: A Large-scale Dataset of Multi-view Images},
+    author    = {Yu, Xianggang and Xu, Mutian and Zhang, Yidan and Liu, Haolin and Ye, Chongjie and Wu, Yushuang and Yan, Zizheng and Liang, Tianyou and Chen, Guanying and Cui, Shuguang, and Han, Xiaoguang},
+    booktitle = {CVPR},
+    year      = {2023}
+}
+```
+
+**[ECCV2022]** TO-Scene: A Large-scale Dataset for Understanding 3D Tabletop Scenes, [[Paper]](https://arxiv.org/pdf/2203.09440.pdf), [[Code]](https://github.com/GAP-LAB-CUHK-SZ/TO-Scene).
+
+*Keywords: large-scale 3D dataset; table top scenes, contains 20740 scenes; objects(sim) from ModelNet and ShapeNet, 55 classes, 51300 models; tables(real-world) from ScanNet.*
+
+```latex
+@inproceedings{xu2022toscene,
+  title={TO-Scene: A Large-scale Dataset for Understanding 3D Tabletop Scenes},
+  author={Xu, Mutian and Chen, Pei and Liu, Haolin and Han, Xiaoguang},
+  booktitle={ECCV},
+  year={2022}
+}
+```
+
+## 3. Grasp Detection
+
+### 3.1 General grasping
 
 **[ICRA2023]** GenDexGrasp: Generalizable Dexterous Grasping, [[Project]](https://tongclass.ac.cn/publication/2022/gendexgrasp/), [[Paper]](https://arxiv.org/pdf/2210.00722.pdf), [[Code]](https://github.com/tengyu-liu/GenDexGrasp).
 
@@ -1122,7 +1153,7 @@ doi = {10.1177/0278364919859066},
 }
 ```
 
-### 3.2 Semantic grasping <span id="semantic-grasping"> </span>
+### 3.2 Semantic grasping 
 
 **[ICRA2023]** A Joint Modeling of Vision-Language-Action for Target-oriented Grasping in Clutter, [[Paper](https://arxiv.org/pdf/2302.12610.pdf)].
 
@@ -1488,7 +1519,7 @@ doi = {10.1177/0278364919859066},
 }
 ```
 
-## 4. Research Groups  <span id="research-groups"> </span>
+## 4. Research Groups  
 
 - [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Prof. Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
 - [XJTU, College of Artificial Intelligence](http://www.iair.xjtu.edu.cn/), Prof. Xuguang Lan [[Homepage](https://gr.xjtu.edu.cn/en/web/zeuslan/information)].
