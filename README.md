@@ -477,7 +477,7 @@ year = {2019}
 
 ### 2.4 Datasets
 
-**[CVPR2023]** MVImgNet: A Large-scale Dataset of Multi-view Images, [[Projetc]](https://gaplab.cuhk.edu.cn/projects/MVImgNet/), [[Paper]](https://arxiv.org/pdf/2303.06042.pdf) 
+**[CVPR2023]** MVImgNet: A Large-scale Dataset of Multi-view Images, [[Project]](https://gaplab.cuhk.edu.cn/projects/MVImgNet/), [[Paper]](https://arxiv.org/pdf/2303.06042.pdf) 
 
 *Keywords: release a large-scale dataset of multi-view images, 6.5 million frames from 219188 videos crossing objects from 238 classes; dervive a 3D object point cloud dataset, 150 categories, 87200 samples.*
 
@@ -490,6 +490,23 @@ year = {2019}
     booktitle = {CVPR},
     year      = {2023}
 }
+```
+**[ICRA2022]** Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items, [[Paper]](https://arxiv.org/pdf/2204.11918.pdf), [[Dataset]](https://app.gazebosim.org/GoogleResearch/fuel/collections/Scanned%20Objects%20by%20Google%20Research).
+
+*Keywords: 3D scanned objects dataset; 1030 household objects.*
+
+*Motivation: Handcrafted models built from polygons and primitives correspond poorly to real objects, and real-world data collection is challenging. This paper provides a large-scale 3D scanned objects dataset for public research.*
+
+```latex
+@INPROCEEDINGS{9811809,
+  author={Downs, Laura and Francis, Anthony and Koenig, Nate and Kinman, Brandon and Hickman, Ryan and Reymann, Krista and McHugh, Thomas B. and Vanhoucke, Vincent},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={2553-2560},
+  doi={10.1109/ICRA46639.2022.9811809}}
 ```
 
 **[ECCV2022]** TO-Scene: A Large-scale Dataset for Understanding 3D Tabletop Scenes, [[Paper]](https://arxiv.org/pdf/2203.09440.pdf), [[Code]](https://github.com/GAP-LAB-CUHK-SZ/TO-Scene).
