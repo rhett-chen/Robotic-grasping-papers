@@ -477,7 +477,22 @@ year = {2019}
 
 ### 2.4 Datasets
 
-**[CVPR2023]** MVImgNet: A Large-scale Dataset of Multi-view Images, [[Project]](https://gaplab.cuhk.edu.cn/projects/MVImgNet/), [[Paper]](https://arxiv.org/pdf/2303.06042.pdf) 
+**[CVPR2023]** OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation，[[Project]](https://omniobject3d.github.io/), [[Paper]](https://arxiv.org/pdf/2301.07525.pdf).
+
+*Keywords: 6000 scanned objects, 190 categories; Each 3D object is captured with both 2D and 3D sensors, providing textured meshes, point clouds, multi-view rendered images, and multiple real-captured videos.*
+
+*Motivation: Recent advances in modeling 3D objects mostly rely on synthetic datasets due to the lack of large-scale real-scanned 3D databases. To facilitate the development of 3D perception, reconstruction, and generation in the real world, this paper proposes a large-scale object dataset.*
+
+```latex
+@article{wu2023omniobject3d,
+  author = {Tong Wu, Jiarui Zhang, Xiao Fu, Yuxin Wang, Jiawei Ren, Liang Pan, Wayne Wu, Lei Yang, Jiaqi Wang, Chen Qian, Dahua Lin, Ziwei Liu},
+  title = {OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation},
+  journal={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2023}
+}
+```
+
+**[CVPR2023]** MVImgNet: A Large-scale Dataset of Multi-view Images, [[Project]](https://gaplab.cuhk.edu.cn/projects/MVImgNet/), [[Paper]](https://arxiv.org/pdf/2303.06042.pdf). 
 
 *Keywords: release a large-scale dataset of multi-view images, 6.5 million frames from 219188 videos crossing objects from 238 classes; dervive a 3D object point cloud dataset, 150 categories, 87200 samples.*
 
