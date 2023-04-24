@@ -273,6 +273,25 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
     }
 ```
 
+**[CoRL2022]** BEHAVIOR-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation, [[Project]](https://behavior.stanford.edu/behavior-1k), [[Paper]](https://proceedings.mlr.press/v205/li23a/li23a.pdf).
+
+*Keywords: a comprehensive simulation benchmark for human-centered robotic; 1000 everyday activities, 50 scenes, 5000+ objects.*
+
+```
+@InProceedings{pmlr-v205-li23a,
+  title = 	 {BEHAVIOR-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation},
+  author =       {Li, Chengshu and Zhang, Ruohan and Wong, Josiah and Gokmen, Cem and Srivastava, Sanjana and Mart\'in-Mart\'in, Roberto and Wang, Chen and Levine, Gabrael and Lingelbach, Michael and Sun, Jiankai and Anvari, Mona and Hwang, Minjune and Sharma, Manasi and Aydin, Arman and Bansal, Dhruva and Hunter, Samuel and Kim, Kyu-Young and Lou, Alan and Matthews, Caleb R and Villa-Renteria, Ivan and Tang, Jerry Huayang and Tang, Claire and Xia, Fei and Savarese, Silvio and Gweon, Hyowon and Liu, Karen and Wu, Jiajun and Fei-Fei, Li},
+  booktitle = 	 {Proceedings of The 6th Conference on Robot Learning},
+  pages = 	 {80--93},
+  year = 	 {2023},
+  volume = 	 {205},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {14--18 Dec},
+  publisher =    {PMLR},
+}
+
+```
+
 **[ECCV2022]** DexMV: Imitation Learning for Dexterous Manipulation from Human Videos, [[Project](https://yzqin.github.io/dexmv/)], [[Paper](https://arxiv.org/pdf/2108.05877.pdf)], [[Code](https://github.com/yzqin/dexmv-sim)].
 
 *Keywords: dexterous manipulation; record large-scale demonstrations of human hand conducting same tasks, and convert human motion to robot demonstrations; train imitation learning agent in simulation environemnt; benchmark multiple imitation learning algorithms with the collected demonstrations.*
