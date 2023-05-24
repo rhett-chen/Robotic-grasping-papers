@@ -887,6 +887,22 @@ year = {2019}
 }
 ```
 
+**[RA-L2021]** SuctionNet-1Billion: A Large-Scale Benchmark for Suction Grasping, [[Project](https://graspnet.net/suction)], [[Paper](https://arxiv.org/pdf/2103.12311.pdf)], [[Code](https://github.com/graspnet/suctionnet-baseline)].
+
+*Keywords: suction; cluttered scene; RGBD input; release a large-scale real-world suction datatset.*
+
+```latex
+@ARTICLE{9547830,
+  author={Cao, Hanwen and Fang, Hao-Shu and Liu, Wenhai and Lu, Cewu},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={SuctionNet-1Billion: A Large-Scale Benchmark for Suction Grasping}, 
+  year={2021},
+  volume={6},
+  number={4},
+  pages={8718-8725},
+  doi={10.1109/LRA.2021.3115406}}
+```
+
 **[RSS2021]** Synergies Between Affordance and Geometry: 6-DoF Grasp Detection via Implicit Representations, [[Project](https://sites.google.com/view/rpl-giga2021)], [[Paper](https://arxiv.org/pdf/2104.01542.pdf)], [[Code](https://github.com/UT-Austin-RPL/GIGA)].
 
 *Keywords: cluttered scene; 6D grasp; multi-task learning, 3D reconstruction and grasp detection; train the modelon self-supervised grasp trials data in simulation.*
