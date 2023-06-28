@@ -560,6 +560,23 @@ year = {2019}
 
 ### 3.1 General grasping
 
+**[CVPR2023]** Target referenced Reactive Grasping for Dynamic Objects, [[Project]](https://graspnet.net/reactive), [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Target-Referenced_Reactive_Grasping_for_Dynamic_Objects_CVPR_2023_paper.pdf), [[Code]](https://github.com/Todibo99/Target-referenced-Reactive-Grasping-for-Dynamic-Objects).
+
+*Keywords: reactive grasping, grasp dynalmic moving objects; 6D grasp; cluttered scenes; given grasps of first frame, tracking through generated grasp space; two-stage methods, first discover grasp correspndance between frames, then refine based on history information.*
+
+*Motivation: current methods mainly focus on temporal smoothness but few consider their semantic consistency, can not guarante the tracked grasps fall on the same part of same object. This paper propsoe a target-referenced setting to achieve temporally smooth and smeantically consistent reactive grasping in clutter given a targeted grasp.*
+
+```latex
+@InProceedings{Liu_2023_CVPR,
+    author    = {Liu, Jirong and Zhang, Ruo and Fang, Hao-Shu and Gou, Minghao and Fang, Hongjie and Wang, Chenxi and Xu, Sheng and Yan, Hengxu and Lu, Cewu},
+    title     = {Target-Referenced Reactive Grasping for Dynamic Objects},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {8824-8833}
+}
+```
+
 **[ICRA2023]** GenDexGrasp: Generalizable Dexterous Grasping, [[Project]](https://tongclass.ac.cn/publication/2022/gendexgrasp/), [[Paper]](https://arxiv.org/pdf/2210.00722.pdf), [[Code]](https://github.com/tengyu-liu/GenDexGrasp).
 
 *Keywords: 6D grasp; single object; multi-hand grasp; first first generate hand-agnostic contact map for the given object, then optimize the hand pose to match the generated contact map; propose a synthetic large-scale multi-hand grasping dataset.*
