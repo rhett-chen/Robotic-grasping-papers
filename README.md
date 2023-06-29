@@ -2,7 +2,7 @@
 
 This repo is a paper list of Robotic-Grasping and some related works (6D pose estimation, visual grounding, etc) that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
 
-Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia; **RSS** is Robotics: Science and Systems.
+Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia; **RSS** is Robotics: Science and Systems, **T-RO** is IEEE Transactions on Robotics.
 
 - [Robotic Grasping Papers and Codes](#robotic-grasping-papers-and-codes)
   - [1. Survey Papers](#1-survey-papers)
@@ -13,23 +13,26 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
     - [2.4 Datasets](#24-datasets)
   - [3. Grasp Detection](#3-grasp-detection)
     - [3.1 General grasping](#31-general-grasping)
-    - [3.2 Semantic grasping](#32-semantic-grasping)
+    - [3.2 Dexterous grasping](#32-dexterous-grasping)
+    - [3.3 Semantic grasping](#33-semantic-grasping)
   - [4. Research Groups](#4-research-groups)
 
 ## 1. Survey Papers
 
-**[arXiv2022]** Deep Learning Approaches to Grasp Synthesis: A Review,  [[Project](https://rhys-newbury.github.io/projects/6dof/)], [[Paper](https://arxiv.org/pdf/2207.02556.pdf)].
+**[T-RO]** Deep Learning Approaches to Grasp Synthesis: A Review,  [[Project](https://rhys-newbury.github.io/projects/6dof/)], [[Paper](https://arxiv.org/pdf/2207.02556.pdf)].
 
 *Keywords: focus on 6D grasping; sampling based approaches, direct regression, using shape-completion, reinforcement learning or considering semantics.*
 
 ```latex
-@misc{newbury202newbury2022review2deep,
-    title={Deep Learning Approaches to Grasp Synthesis: A Review}, 
-    author={Rhys Newbury and Morris Gu and Lachlan Chumbley and Arsalan Mousavian and Clemens Eppner and Jürgen Leitner and Jeannette Bohg and Antonio Morales and Tamim Asfour and Danica Kragic and Dieter Fox and Akansel Cosgun},
-    year={2022},
-    eprint={2207.02556},
-    archivePrefix={arXiv},
-    primaryClass={cs.RO}
+@ARTICLE{10149823,
+  author={Newbury, Rhys and Gu, Morris and Chumbley, Lachlan and Mousavian, Arsalan and Eppner, Clemens and Leitner, Jürgen and Bohg, Jeannette and Morales, Antonio and Asfour, Tamim and Kragic, Danica and Fox, Dieter and Cosgun, Akansel},
+  journal={IEEE Transactions on Robotics}, 
+  title={Deep Learning Approaches to Grasp Synthesis: A Review}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-22},
+  doi={10.1109/TRO.2023.3280597}
 }
 ```
 
@@ -88,10 +91,10 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 ```latex
 @inproceedings{dendorfer21iccv, 
-title = {Text2Pos: Text-to-Point-Cloud Cross-Modal Localization}, 
-author={Manuel Kolmet and Qunjie Zhou and Aljosa Osep and Laura Leal-Taix{'e}}, 
-booktitle = { IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
-year = {2022}, 
+  title = {Text2Pos: Text-to-Point-Cloud Cross-Modal Localization}, 
+  author={Manuel Kolmet and Qunjie Zhou and Aljosa Osep and Laura Leal-Taix{'e}}, 
+  booktitle = { IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  year = {2022}, 
 }
 ```
 
@@ -270,10 +273,10 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
       author = {Christen, Sammy and Yang, Wei and Pérez-D'Arpino, Claudia and Hilliges, Otmar and Fox, Dieter and Chao, Yu-Wei},
       booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
       year = {2023}
-    }
+}
 ```
 
-**[CoRL2022]** BEHAVIOR-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation, [[Project]](https://behavior.stanford.edu/behavior-1k), [[Paper]](https://proceedings.mlr.press/v205/li23a/li23a.pdf).
+**[CoRL2022]** BEHAVIOR-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation, [[Project](https://behavior.stanford.edu/behavior-1k)], [[Paper](https://proceedings.mlr.press/v205/li23a/li23a.pdf)].
 
 *Keywords: a comprehensive simulation benchmark for human-centered robotic; 1000 everyday activities, 50 scenes, 5000+ objects.*
 
@@ -314,11 +317,13 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 *Keywords: input RGBD image of the original and final scenes; object rearrangement for unknown objects, handle objects with translation and planar rotations; trained on synthetic data, transfer to real-world in zero-shot manner.*
 
 ```latex
-@inproceedings{you2022cppf,
-  title={CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild},
-  author={You, Yang and Shi, Ruoxi and Wang, Weiming and Lu, Cewu},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2022}
+@InProceedings{Goyal_2022_CVPR,
+    author    = {Goyal, Ankit and Mousavian, Arsalan and Paxton, Chris and Chao, Yu-Wei and Okorn, Brian and Deng, Jia and Fox, Dieter},
+    title     = {IFOR: Iterative Flow Minimization for Robotic Object Rearrangement},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {14787-14797}
 }
 ```
 
@@ -335,7 +340,8 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
   volume={7},
   number={3},
   pages={7327-7334},
-  doi={10.1109/LRA.2022.3180108}}
+  doi={10.1109/LRA.2022.3180108}
+}
 ```
 
 **[RSS2021]** NeRP: Neural Rearrangement Planning for Unknown Objects, [[Paper](http://www.roboticsproceedings.org/rss17/p072.pdf)].
@@ -392,7 +398,8 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
   title={Audio-Visual Grounding Referring Expression for Robotic Manipulation}, 
   year={2022},
   pages={9258-9264},
-  doi={10.1109/ICRA46639.2022.9811895}}
+  doi={10.1109/ICRA46639.2022.9811895}
+}
 ```
 
 **[ICRA2022]** StructFormer: Learning Spatial Structurefor Language-Guided Semantic Rearrangement of Novel Objects, [[Paper](https://arxiv.org/pdf/2110.10189.pdf)].
@@ -406,12 +413,13 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
   title={StructFormer: Learning Spatial Structure for Language-Guided Semantic Rearrangement of Novel Objects}, 
   year={2022},
   pages={6322-6329},
-  doi={10.1109/ICRA46639.2022.9811931}}
+  doi={10.1109/ICRA46639.2022.9811931}
+}
 ```
 
 ### 2.3 6D pose estimation
 
-**[CVPR2022]** OnePose: One-Shot Object Pose Estimation without CAD Models, [[Project]](https://zju3dv.github.io/onepose/), [[Paper]](https://arxiv.org/pdf/2205.12257.pdf), [[Code]](https://github.com/zju3dv/OnePose), [[Dataset]](https://zjueducn-my.sharepoint.com/personal/zihaowang_zju_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fzihaowang%5Fzju%5Fedu%5Fcn%2FDocuments%2Fonepose%5Fdataset%5Frelease&ga=1).
+**[CVPR2022]** OnePose: One-Shot Object Pose Estimation without CAD Models, [[Project](https://zju3dv.github.io/onepose/)], [[Paper](https://arxiv.org/pdf/2205.12257.pdf)], [[Code](https://github.com/zju3dv/OnePose)], [[Dataset](https://zjueducn-my.sharepoint.com/personal/zihaowang_zju_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fzihaowang%5Fzju%5Fedu%5Fcn%2FDocuments%2Fonepose%5Fdataset%5Frelease&ga=1)].
 
 *Keywords: handle objects in arbitrary categories without instance or category-specific network training; release a large-scale dataset; input RGB video scan of the object and query image.*
 
@@ -423,7 +431,7 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
     author = {Sun, Jiaming and Wang, Zihao and Zhang, Siyu and He, Xingyi and Zhao, Hongcheng and Zhang, Guofeng and Zhou, Xiaowei},
     journal={CVPR},
     year={2022},
-   }
+}
 ```
 
 **[CVPR2022]** CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild, [[Paper](https://arxiv.org/pdf/2203.03089.pdf)], [[Code](https://github.com/qq456cvb/CPPF)].
@@ -459,11 +467,11 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ```latex
 @InProceedings{Wang_2019_CVPR,
-author = {Wang, He and Sridhar, Srinath and Huang, Jingwei and Valentin, Julien and Song, Shuran and Guibas, Leonidas J.},
-title = {Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2019}
+  author = {Wang, He and Sridhar, Srinath and Huang, Jingwei and Valentin, Julien and Song, Shuran and Guibas, Leonidas J.},
+  title = {Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2019}
 }
 ```
 
@@ -478,7 +486,8 @@ year = {2019}
   title={Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks}, 
   year={2019},
   pages={8943-8950},
-  doi={10.1109/ICRA.2019.8793485}}
+  doi={10.1109/ICRA.2019.8793485}
+}
 ```
 
 **[RSS2018]** PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes, [[Project](https://rse-lab.cs.washington.edu/projects/posecnn/)], [[Paper](https://rse-lab.cs.washington.edu/papers/posecnn_rss18.pdf)], [[Code](https://github.com/yuxng/PoseCNN)].
@@ -496,7 +505,7 @@ year = {2019}
 
 ### 2.4 Datasets
 
-**[CVPR2023]** OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation，[[Project]](https://omniobject3d.github.io/), [[Paper]](https://arxiv.org/pdf/2301.07525.pdf).
+**[CVPR2023]** OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation，[[Project](https://omniobject3d.github.io/)], [[Paper](https://arxiv.org/pdf/2301.07525.pdf)], [[Code](https://github.com/omniobject3d/OmniObject3D)].
 
 *Keywords: 6000 scanned objects, 190 categories; Each 3D object is captured with both 2D and 3D sensors, providing textured meshes, point clouds, multi-view rendered images, and multiple real-captured videos.*
 
@@ -511,7 +520,7 @@ year = {2019}
 }
 ```
 
-**[CVPR2023]** MVImgNet: A Large-scale Dataset of Multi-view Images, [[Project]](https://gaplab.cuhk.edu.cn/projects/MVImgNet/), [[Paper]](https://arxiv.org/pdf/2303.06042.pdf). 
+**[CVPR2023]** MVImgNet: A Large-scale Dataset of Multi-view Images, [[Project](https://gaplab.cuhk.edu.cn/projects/MVImgNet/)], [[Paper](https://arxiv.org/pdf/2303.06042.pdf)]. 
 
 *Keywords: release a large-scale dataset of multi-view images, 6.5 million frames from 219188 videos crossing objects from 238 classes; dervive a 3D object point cloud dataset, 150 categories, 87200 samples.*
 
@@ -525,7 +534,7 @@ year = {2019}
     year      = {2023}
 }
 ```
-**[ICRA2022]** Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items, [[Paper]](https://arxiv.org/pdf/2204.11918.pdf), [[Dataset]](https://app.gazebosim.org/GoogleResearch/fuel/collections/Scanned%20Objects%20by%20Google%20Research).
+**[ICRA2022]** Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items, [[Paper](https://arxiv.org/pdf/2204.11918.pdf)], [[Dataset](https://app.gazebosim.org/GoogleResearch/fuel/collections/Scanned%20Objects%20by%20Google%20Research)].
 
 *Keywords: 3D scanned objects dataset; 1030 household objects.*
 
@@ -540,10 +549,11 @@ year = {2019}
   volume={},
   number={},
   pages={2553-2560},
-  doi={10.1109/ICRA46639.2022.9811809}}
+  doi={10.1109/ICRA46639.2022.9811809}
+}
 ```
 
-**[ECCV2022]** TO-Scene: A Large-scale Dataset for Understanding 3D Tabletop Scenes, [[Paper]](https://arxiv.org/pdf/2203.09440.pdf), [[Code]](https://github.com/GAP-LAB-CUHK-SZ/TO-Scene).
+**[ECCV2022]** TO-Scene: A Large-scale Dataset for Understanding 3D Tabletop Scenes, [[Paper](https://arxiv.org/pdf/2203.09440.pdf)], [[Code](https://github.com/GAP-LAB-CUHK-SZ/TO-Scene)].
 
 *Keywords: large-scale 3D dataset; table top scenes, contains 20740 scenes; objects(sim) from ModelNet and ShapeNet, 55 classes, 51300 models; tables(real-world) from ScanNet.*
 
@@ -560,11 +570,11 @@ year = {2019}
 
 ### 3.1 General grasping
 
-**[CVPR2023]** Target referenced Reactive Grasping for Dynamic Objects, [[Project]](https://graspnet.net/reactive), [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Target-Referenced_Reactive_Grasping_for_Dynamic_Objects_CVPR_2023_paper.pdf), [[Code]](https://github.com/Todibo99/Target-referenced-Reactive-Grasping-for-Dynamic-Objects).
+**[CVPR2023]** Target referenced Reactive Grasping for Dynamic Objects, [[Project](https://graspnet.net/reactive)], [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Target-Referenced_Reactive_Grasping_for_Dynamic_Objects_CVPR_2023_paper.pdf)], [[Code](https://github.com/Todibo99/Target-referenced-Reactive-Grasping-for-Dynamic-Objects)].
 
 *Keywords: reactive grasping, grasp dynalmic moving objects; 6D grasp; cluttered scenes; given grasps of first frame, tracking through generated grasp space; two-stage methods, first discover grasp correspndance between frames, then refine based on history information.*
 
-*Motivation: current methods mainly focus on temporal smoothness but few consider their semantic consistency, can not guarante the tracked grasps fall on the same part of same object. This paper propsoe a target-referenced setting to achieve temporally smooth and smeantically consistent reactive grasping in clutter given a targeted grasp.*
+*Motivation: current methods mainly focus on temporal smoothness but few consider their semantic consistency, can not guarantee the tracked grasps fall on the same part of same object. This paper propose a target-referenced setting to achieve temporally smooth and smeantically consistent reactive grasping in clutter given a targeted grasp.*
 
 ```latex
 @InProceedings{Liu_2023_CVPR,
@@ -574,21 +584,6 @@ year = {2019}
     month     = {June},
     year      = {2023},
     pages     = {8824-8833}
-}
-```
-
-**[ICRA2023]** GenDexGrasp: Generalizable Dexterous Grasping, [[Project]](https://tongclass.ac.cn/publication/2022/gendexgrasp/), [[Paper]](https://arxiv.org/pdf/2210.00722.pdf), [[Code]](https://github.com/tengyu-liu/GenDexGrasp).
-
-*Keywords: 6D grasp; single object; multi-hand grasp; first first generate hand-agnostic contact map for the given object, then optimize the hand pose to match the generated contact map; propose a synthetic large-scale multi-hand grasping dataset.*
-
-*Motivation: Existing methods mostly focus on a specific type of robot hand, and oftentimes fail to rapidly generate diverse grasps with a high success rate. This paper leverages the contact map as a hand-agnostic intermediate representation and transfers among diverse multi-fingered robotic hands.*
-
-```latex
-@article{li2022gendexgrasp,
-  title={GenDexGrasp: Generalizable Dexterous Grasping},
-  author={Li, Puhao and Liu, Tengyu and Li, Yuyang and Zhu, Yixin and Yang, Yaodong and Huang, Siyuan},
-  journal={arXiv preprint arXiv:2210.00722},
-  year={2022}
 }
 ```
 
@@ -604,21 +599,6 @@ year = {2019}
   author={Qiyu Dai and Yan Zhu and Yiran Geng and Ciyu Ruan and Jiazhao Zhang and He Wang},
   booktitle={IEEE International Confersence on Robotics and Automation (ICRA)},
   year={2023}
-}
-```
-
-**[ICRA2023]** DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation, [[Project](https://pku-epic.github.io/DexGraspNet/)], [[Paper](https://arxiv.org/pdf/2210.02697.pdf)], [[Code](https://github.com/PKU-EPIC/DexGraspNet)], [[Dataset](https://mirrors.pku.edu.cn/dl-release/DexGraspNet-ICRA2023/)]. 
-
-*Keywords: dexterous grasping, ShadowHand; release a large-scale dexterous grasping dataset in simulation, 5355 objects, 133 categories, 1.32M grasps.*
-
-*Motivation: Dexterous grasping is much more under-explored than parallel grasping, partially due to the lack of a large-scale dataset. To accelerate the study of dexterous object manipulation, propose a large-scale grasping dataset.*
-
-```latex
-@article{wang2022dexgraspnet,
-  title={DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation},
-  author={Wang, Ruicheng and Zhang, Jialiang and Chen, Jiayi and Xu, Yinzhen and Li, Puhao and Liu, Tengyu and Wang, He},
-  journal={arXiv preprint arXiv:2210.02697},
-  year={2022}
 }
 ```
 
@@ -664,6 +644,7 @@ year = {2019}
     title     = {Towards Scale Balanced 6-DoF Grasp Detection in Cluttered Scenes},
     booktitle = {Conference on Robot Learninsg (CoRL)},
     year      = {2022}
+}
 ```
 
 **[CoRL2022]** Volumetric-based Contact Point Detection for 7-DoF Grasping, [[Paper](https://openreview.net/pdf?id=SrSCqW4dq9)], [[Code](https://github.com/caijunhao/vcpd)].
@@ -693,7 +674,8 @@ year = {2019}
   volume={7},
   number={4},
   pages={8941-8948},
-  doi={10.1109/LRA.2022.3189959}}
+  doi={10.1109/LRA.2022.3189959}
+}
 ```
 
 **[RA-L2022]** End-to-End Learning to Grasp via Sampling From Object Point Clouds, [[Paper](https://arxiv.org/pdf/2203.05585.pdf)], [[Code](https://github.com/antoalli/L2G)].
@@ -709,7 +691,8 @@ year = {2019}
   volume={7},
   number={4},
   pages={9865-9872},
-  doi={10.1109/LRA.2022.3191183}}
+  doi={10.1109/LRA.2022.3191183}
+}
 ```
 
 **[RA-L2022]** EfficientGrasp: A Unified Data-Efficient Learning to Grasp Method for Multi-Fingered Robot Hands, [[Paper](https://arxiv.org/pdf/2206.15159.pdf)].
@@ -725,7 +708,8 @@ year = {2019}
   volume={7},
   number={4},
   pages={8619-8626},
-  doi={10.1109/LRA.2022.3187875}}
+  doi={10.1109/LRA.2022.3187875}
+}
 ```
 
 **[RA-L2022]** SymmetryGrasp: Symmetry-Aware Antipodal Grasp Detection From Single-View RGB-D Images, [[Paper](https://ieeexplore.ieee.org/abstract/document/9919329)].
@@ -741,7 +725,8 @@ year = {2019}
   volume={7},
   number={4},
   pages={12235-12242},
-  doi={10.1109/LRA.2022.3214785}}
+  doi={10.1109/LRA.2022.3214785}
+}
 ```
 
 **[ECCV2022]** Domain Randomization-Enhanced Depth Simulation and Restoration for Perceiving and Grasping Specular and Transparent Objects, [[Paper](https://arxiv.org/pdf/2208.03792.pdf)], [[Code](https://github.com/PKU-EPIC/DREDS)].
@@ -770,22 +755,6 @@ year = {2019}
 }
 ```
 
-**[ICRA2022]** HGC-Net: Deep Anthropomorphic Hand Grasping in Clutter, [[Paper](https://ieeexplore.ieee.org/document/9811756)], [[Code](https://github.com/yimingli1998/hgc_net)].
-
-*Keywords: 6D grasp; cluttered scenes; dexterous grasping; single-view point cloud input; train on sythetic dataset.*
-
-```latex
-@INPROCEEDINGS{9811756,
-  author={Li, Yiming and Wei, Wei and Li, Daheng and Wang, Peng and Li, Wanyi and Zhong, Jun},
-  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
-  title={HGC-Net: Deep Anthropomorphic Hand Grasping in Clutter}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={714-720},
-  doi={10.1109/ICRA46639.2022.9811756}}
-```
-
 **[ICRA2022]** Hybrid Physical Metric For 6-DoF Grasp Pose Detection, [[Paper](https://arxiv.org/pdf/2206.11141.pdf)], [[Code](https://github.com/luyh20/FGC-GraspNet)].
 
 *Keywords: 6D grasp; cluttered scene; real-world data; propose a new grasp score based on Graspnet-1billion, take force-closure metric, object flatness, gravity and collision into consideration.*
@@ -797,7 +766,8 @@ year = {2019}
   title={Hybrid Physical Metric For 6-DoF Grasp Pose Detection}, 
   year={2022},
   pages={8238-8244},
-  doi={10.1109/ICRA46639.2022.9811961}}
+  doi={10.1109/ICRA46639.2022.9811961}
+}
 ```
 
 **[ICRA2022]** Context-Aware Grasp Generation in Cluttered Scenes, [[Paper](https://ieeexplore.ieee.org/document/9811371/)].
@@ -811,7 +781,8 @@ year = {2019}
   title={Context-Aware Grasp Generation in Cluttered Scenes}, 
   year={2022},
   pages={1492-1498},
-  doi={10.1109/ICRA46639.2022.9811371}}
+  doi={10.1109/ICRA46639.2022.9811371}
+}
 ```
 
 **[RA-L2022]** Real-Time Collision-Free Grasp Pose Detection With Geometry-Aware Refinement Using High-Resolution Volume, [[Project](https://sites.google.com/view/vpn-icra2022)], [[Paper](https://ieeexplore.ieee.org/abstract/document/9681231)].
@@ -827,7 +798,8 @@ year = {2019}
   volume={7},
   number={2},
   pages={1888-1895},
-  doi={10.1109/LRA.2022.3142424}}
+  doi={10.1109/LRA.2022.3142424}
+}
 ```
 
 **[arXiv2022]** A Robotic Visual Grasping Design: Rethinking Convolution Neural Network with High-Resolutions, [[Paper](https://arxiv.org/pdf/2209.07459.pdf)], [[Code](https://github.com/USTCzzl/HRG_Net)].
@@ -856,7 +828,8 @@ year = {2019}
   volume={7},
   number={3},
   pages={8170-8177},
-  doi={10.1109/LRA.2022.3187261}}
+  doi={10.1109/LRA.2022.3187261}
+}
 ```
 
 **[ICCV2021]** Graspness Discovery in Clutters for Fast and Accurate Grasp Detection,        [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Graspness_Discovery_in_Clutters_for_Fast_and_Accurate_Grasp_Detection_ICCV_2021_paper.pdf)],  [[Code(non-official)](https://github.com/rhett-chen/graspness_implementation)], [[Supp](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Wang_Graspness_Discovery_in_ICCV_2021_supplemental.zip)].
@@ -917,7 +890,8 @@ year = {2019}
   volume={6},
   number={4},
   pages={8718-8725},
-  doi={10.1109/LRA.2021.3115406}}
+  doi={10.1109/LRA.2021.3115406}
+}
 ```
 
 **[RSS2021]** Synergies Between Affordance and Geometry: 6-DoF Grasp Detection via Implicit Representations, [[Project](https://sites.google.com/view/rpl-giga2021)], [[Paper](https://arxiv.org/pdf/2104.01542.pdf)], [[Code](https://github.com/UT-Austin-RPL/GIGA)].
@@ -976,7 +950,8 @@ year = {2019}
   volume={},
   number={},
   pages={6350-6356},
-  doi={10.1109/ICRA48506.2021.9562046}}
+  doi={10.1109/ICRA48506.2021.9562046}
+}
 ```
 
 **[ICRA2021]** REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds, [[Paper](https://arxiv.org/pdf/2002.12647v1.pdf)].
@@ -990,7 +965,8 @@ year = {2019}
   title={REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds}, 
   year={2021},
   pages={13474-13480},
-  doi={10.1109/ICRA48506.2021.9561920}}
+  doi={10.1109/ICRA48506.2021.9561920}
+}
 ```
 
 **[ICRA2021]** Acronym: A large-scale grasp dataset based on simulation, [[Project](https://sites.google.com/nvidia.com/graspdataset)],   [[Paper](https://arxiv.org/pdf/2011.09584.pdf)], [[Code](https://github.com/NVlabs/acronym)].
@@ -1082,7 +1058,8 @@ year = {2019}
   volume={},
   number={},
   pages={1532-1538},
-  doi={10.1109/ICRA40945.2020.9197413}}
+  doi={10.1109/ICRA40945.2020.9197413}
+}
 ```
 
 **[ICRA2020]** PointNet++ Grasping: Learning An End-to-end Spatial Grasp Generation Algorithm from Sparse Point Clouds, [[Paper](https://arxiv.org/ftp/arxiv/papers/2003/2003.09644.pdf)].
@@ -1126,7 +1103,8 @@ year = {2019}
   title={Antipodal Robotic Grasping using Generative Residual Convolutional Neural Network}, 
   year={2020},
   pages={9626-9633},
-  doi={10.1109/IROS45743.2020.9340777}}
+  doi={10.1109/IROS45743.2020.9340777}
+}
 ```
 
 **[ICRA2020]** Using Synthetic Data and Deep Networks to Recognize Primitive Shapes for Object Grasping, [[Paper](https://arxiv.org/pdf/1909.08508.pdf)], [[Code](https://github.com/ivalab/grasp_primitiveShape)].
@@ -1140,7 +1118,8 @@ year = {2019}
   title={Using Synthetic Data and Deep Networks to Recognize Primitive Shapes for Object Grasping}, 
   year={2020},
   pages={10494-10501},
-  doi={10.1109/ICRA40945.2020.9197256}}
+  doi={10.1109/ICRA40945.2020.9197256}
+}
 ```
 
 **[ICRA2020]** Action Image Representation: Learning Scalable Deep Grasping Policies with Zero Real World Data, [[Paper](https://arxiv.org/abs/2005.06594)].
@@ -1154,7 +1133,8 @@ year = {2019}
   title={Action Image Representation: Learning Scalable Deep Grasping Policies with Zero Real World Data}, 
   year={2020},
   pages={3597-3603},
-  doi={10.1109/ICRA40945.2020.9197415}}
+  doi={10.1109/ICRA40945.2020.9197415}
+}
 ```
 
 **[IJRR2020]** Learning robust, real-time, reactive robotic grasping, [[Paper](https://journals.sagepub.com/doi/full/10.1177/0278364919859066)], [[Code](https://github.com/dougsm/ggcnn)].
@@ -1163,14 +1143,14 @@ year = {2019}
 
 ```latex
 @article{doi:10.1177/0278364919859066,
-author = {Douglas Morrison and Peter Corke and Jürgen Leitner},
-title ={Learning robust, real-time, reactive robotic grasping},
-journal = {The International Journal of Robotics Research},
-volume = {39},
-number = {2-3},
-pages = {183-201},
-year = {2020},
-doi = {10.1177/0278364919859066},
+  author = {Douglas Morrison and Peter Corke and Jürgen Leitner},
+  title ={Learning robust, real-time, reactive robotic grasping},
+  journal = {The International Journal of Robotics Research},
+  volume = {39},
+  number = {2-3},
+  pages = {183-201},
+  year = {2020},
+  doi = {10.1177/0278364919859066},
 }
 ```
 
@@ -1205,7 +1185,7 @@ doi = {10.1177/0278364919859066},
 
 **[IJRR2017]** Grasp Pose Detection in Point Clouds, [[Paper](https://arxiv.org/pdf/1706.09911.pdf)], [[Code](https://github.com/atenpas/gpd)].
 
-*Keywords; 6D grasp; point cloud input; CNN based method.*
+*Keywords: 6D grasp; point cloud input; CNN based method.*
 
 ```latex
 @article{ten2017grasp,
@@ -1237,7 +1217,56 @@ doi = {10.1177/0278364919859066},
 }
 ```
 
-### 3.2 Semantic grasping 
+### 3.2 Dexterous grasping
+
+**[ICRA2023]** DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation, [[Project](https://pku-epic.github.io/DexGraspNet/)], [[Paper](https://arxiv.org/pdf/2210.02697.pdf)], [[Code](https://github.com/PKU-EPIC/DexGraspNet)], [[Dataset](https://mirrors.pku.edu.cn/dl-release/DexGraspNet-ICRA2023/)]. 
+
+*Keywords: dexterous grasping, ShadowHand; release a large-scale dexterous grasping dataset in simulation, 5355 objects, 133 categories, 1.32M grasps.*
+
+*Motivation: Dexterous grasping is much more under-explored than parallel grasping, partially due to the lack of a large-scale dataset. To accelerate the study of dexterous object manipulation, propose a large-scale grasping dataset.*
+
+```latex
+@article{wang2022dexgraspnet,
+  title={DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation},
+  author={Wang, Ruicheng and Zhang, Jialiang and Chen, Jiayi and Xu, Yinzhen and Li, Puhao and Liu, Tengyu and Wang, He},
+  journal={arXiv preprint arXiv:2210.02697},
+  year={2022}
+}
+```
+
+**[ICRA2023]** GenDexGrasp: Generalizable Dexterous Grasping, [[Project](https://tongclass.ac.cn/publication/2022/gendexgrasp/)], [[Paper](https://arxiv.org/pdf/2210.00722.pdf)], [[Code](https://github.com/tengyu-liu/GenDexGrasp)].
+
+*Keywords: 6D grasp; single object; multi-hand grasp; first first generate hand-agnostic contact map for the given object, then optimize the hand pose to match the generated contact map; propose a synthetic large-scale multi-hand grasping dataset.*
+
+*Motivation: Existing methods mostly focus on a specific type of robot hand, and oftentimes fail to rapidly generate diverse grasps with a high success rate. This paper leverages the contact map as a hand-agnostic intermediate representation and transfers among diverse multi-fingered robotic hands.*
+
+```latex
+@article{li2022gendexgrasp,
+  title={GenDexGrasp: Generalizable Dexterous Grasping},
+  author={Li, Puhao and Liu, Tengyu and Li, Yuyang and Zhu, Yixin and Yang, Yaodong and Huang, Siyuan},
+  journal={arXiv preprint arXiv:2210.00722},
+  year={2022}
+}
+```
+
+**[ICRA2022]** HGC-Net: Deep Anthropomorphic Hand Grasping in Clutter, [[Paper](https://ieeexplore.ieee.org/document/9811756)], [[Code](https://github.com/yimingli1998/hgc_net)].
+
+*Keywords: 6D grasp; cluttered scenes; dexterous grasping; single-view point cloud input; train on sythetic dataset.*
+
+```latex
+@INPROCEEDINGS{9811756,
+  author={Li, Yiming and Wei, Wei and Li, Daheng and Wang, Peng and Li, Wanyi and Zhong, Jun},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={HGC-Net: Deep Anthropomorphic Hand Grasping in Clutter}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={714-720},
+  doi={10.1109/ICRA46639.2022.9811756}
+}
+```
+
+### 3.3 Semantic grasping 
 
 **[ICRA2023]** A Joint Modeling of Vision-Language-Action for Target-oriented Grasping in Clutter, [[Paper](https://arxiv.org/pdf/2302.12610.pdf)].
 
@@ -1256,14 +1285,16 @@ doi = {10.1177/0278364919859066},
 
 *Keywords: single object; 6D grasp; fine-grained, task-oriented, language-guided grasp; propose a large language-guided shape grasping dataset, 16.6k objects of 16 categories in simulation environement; part affordance grounding and grasp stability evaluation; sampling-then-evaluation method.*
 
-    @article{song2023learning,
-      title={Learning 6-DoF Fine-grained Grasp Detection Based on Part Affordance Grounding},
-      author={Song, Yaoxian and Sun, Penglei and Ren, Yi and Zheng, Yu and Zhang, Yue},
-      journal={arXiv preprint arXiv:2301.11564},
-      year={2023}
-    }
+```latex
+@article{song2023learning,
+  title={Learning 6-DoF Fine-grained Grasp Detection Based on Part Affordance Grounding},
+  author={Song, Yaoxian and Sun, Penglei and Ren, Yi and Zheng, Yu and Zhang, Yue},
+  journal={arXiv preprint arXiv:2301.11564},
+  year={2023}
+}
+```
 
-**[arXiv2023]** Task-Oriented Grasp Prediction with Visual-Language Inputs, [[Paper](https://arxiv.org/pdf/2302.14355.pdf)].
+**[IROS2023]** Task-Oriented Grasp Prediction with Visual-Language Inputs, [[Paper](https://arxiv.org/pdf/2302.14355.pdf)].
 
 *Keywords: 2D grasp; cluttered scene; image and language input; two stage method, from object grouding to affordance grounding.*
 
@@ -1289,7 +1320,8 @@ doi = {10.1177/0278364919859066},
   volume={},
   number={},
   pages={762-769},
-  doi={10.1109/IROS47612.2022.9981900}}
+  doi={10.1109/IROS47612.2022.9981900}
+}
 ```
 
 **[arXiv2022]** CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration, [[Paper](https://arxiv.org/pdf/2210.03173.pdf)].
@@ -1318,7 +1350,8 @@ doi = {10.1177/0278364919859066},
   volume={7},
   number={2},
   pages={2929-2936},
-  doi={10.1109/LRA.2022.3142401}}
+  doi={10.1109/LRA.2022.3142401}
+}
 ```
 
 **[RA-L2022]** Few-Shot Instance Grasping of Novel Objects in Clutter, [[Paper](https://ieeexplore.ieee.org/abstract/document/9773996)], [[Code](https://github.com/woundenfish/IGML)].
@@ -1334,7 +1367,8 @@ doi = {10.1177/0278364919859066},
   volume={7},
   number={3},
   pages={6566-6573},
-  doi={10.1109/LRA.2022.3174648}}
+  doi={10.1109/LRA.2022.3174648}
+}
 ```
 
 **[ICRA2022]** Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter, [[Project](https://sites.google.com/umn.edu/graph-grasping)], [[Paper](https://arxiv.org/pdf/2203.00875.pdf)].
@@ -1348,7 +1382,8 @@ doi = {10.1177/0278364919859066},
   title={Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter}, 
   year={2022},
   pages={742-748},
-  doi={10.1109/ICRA46639.2022.9811601}}
+  doi={10.1109/ICRA46639.2022.9811601}
+}
 ```
 
 **[ICRA2022]** Interactive Robotic Grasping with Attribute-Guided Disambiguation,  [[Project](https://sites.google.com/umn.edu/attr-disam)], [[Paper](https://arxiv.org/pdf/2203.08037.pdf)].
@@ -1362,7 +1397,8 @@ doi = {10.1177/0278364919859066},
   title={Interactive Robotic Grasping with Attribute-Guided Disambiguation}, 
   year={2022},
   pages={8914-8920},
-  doi={10.1109/ICRA46639.2022.9812360}}
+  doi={10.1109/ICRA46639.2022.9812360}
+}
 ```
 
 **[ICRA2022]** I Know What You Draw: Learning Grasp Detection Conditioned on a Few Freehand Sketches, [[Project](https://hetolin.github.io/Skt_grasp/)], [[Paper](https://arxiv.org/pdf/2205.04026.pdf)].
@@ -1376,7 +1412,8 @@ doi = {10.1177/0278364919859066},
   title={I Know What You Draw: Learning Grasp Detection Conditioned on a Few Freehand Sketches}, 
   year={2022},
   pages={8417-8423},
-  doi={10.1109/ICRA46639.2022.9812372}}
+  doi={10.1109/ICRA46639.2022.9812372}
+}
 ```
 
 **[ICRA2022]** Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions, [[Project](https://baboon527.github.io/lang_6d/)], [[Paper](https://arxiv.org/pdf/2205.04028v1.pdf)], [[Code](https://github.com/baboon527/lang_6d)].
@@ -1390,7 +1427,8 @@ doi = {10.1177/0278364919859066},
   title={Learning 6-DoF Object Poses to Grasp Category-Level Objects by Language Instructions}, 
   year={2022},
   pages={8476-8482},
-  doi={10.1109/ICRA46639.2022.9811367}}
+  doi={10.1109/ICRA46639.2022.9811367}
+}
 ```
 
 **[ICRA2022]** CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation,  [[Project](https://sites.google.com/view/catgrasp)],  [[Paper](https://arxiv.org/pdf/2109.09163v1.pdf)],  [[Code](https://github.com/wenbowen123/catgrasp)].  
@@ -1404,7 +1442,8 @@ doi = {10.1177/0278364919859066},
   title={CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation}, 
   year={2022},
   pages={6401-6408},
-  doi={10.1109/ICRA46639.2022.9811568}}
+  doi={10.1109/ICRA46639.2022.9811568}
+}
 ```
 
 **[RA-L2022]** GATER: Learning Grasp-Action-Target Embeddings and Relations for Task-Specific Grasping,  [[Paper](https://arxiv.org/pdf/2111.13815.pdf)].
@@ -1450,7 +1489,8 @@ doi = {10.1177/0278364919859066},
   title={End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB}, 
   year={2021},
   pages={13452-13458},
-  doi={10.1109/ICRA48506.2021.9561398}}
+  doi={10.1109/ICRA48506.2021.9561398}
+}
 ```
 
 **[RSS2021]** INVIGORATE: Interactive Visual Grounding and Grasping in Clutter, [[Paper](http://roboticsproceedings.org/rss17/p020.pdf)].
@@ -1480,7 +1520,8 @@ doi = {10.1177/0278364919859066},
   title={6-DOF Grasping for Target-driven Object Manipulation in Clutter}, 
   year={2020},
   pages={6232-6238},
-  doi={10.1109/ICRA40945.2020.9197318}}
+  doi={10.1109/ICRA40945.2020.9197318}
+}
 ```
 
 **[CoRL2020]** Same Object, Different Grasps: Data and SemanticKnowledge for Task-Oriented Grasping, [[Project](https://sites.google.com/view/taskgrasp)], [[Paper](https://proceedings.mlr.press/v155/murali21a/murali21a.pdf)], [[Code](https://github.com/adithyamurali/TaskGrasp)], [[Dataset](https://drive.google.com/file/d/1aZ0k43fBIZZQPPPraV-z6itpqCHuDiUU/view)].
@@ -1570,7 +1611,8 @@ doi = {10.1177/0278364919859066},
   title={Interactively Picking Real-World Objects with Unconstrained Spoken Language Instructions}, 
   year={2018},
   pages={3774-3781},
-  doi={10.1109/ICRA.2018.8460699}}
+  doi={10.1109/ICRA.2018.8460699}
+}
 ```
 
 **[ICRA2018]** AffordanceNet: An End-to-End Deep Learning Approach for Object Affordance Detection, [[Paper](https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2018_ICRA_AffordanceNet.pdf)], [[Code](https://github.com/nqanh/affordance-net)].
@@ -1609,3 +1651,4 @@ doi = {10.1177/0278364919859066},
 - [XJTU, College of Artificial Intelligence](http://www.iair.xjtu.edu.cn/), Prof. Xuguang Lan [[Homepage](https://gr.xjtu.edu.cn/en/web/zeuslan/information)].
 - [UT Austin Robot Perception and Learning Lab](https://rpl.cs.utexas.edu/), Prof. Yuke Zhu [[Google Scholar](https://scholar.google.com/citations?user=mWGyYMsAAAAJ&hl=en)].
 - [UCSD](https://xiaolonw.github.io/), Prof. Xiaolong Wang [[Google Scholar](https://scholar.google.com/citations?user=Y8O9N_0AAAAJ&hl=en)].
+- [UCSD](https://cseweb.ucsd.edu//~haosu/), Prof. Hao Su [[Google Scholar](https://scholar.google.com/citations?user=1P8Zu04AAAAJ&hl=zh-CN)].
