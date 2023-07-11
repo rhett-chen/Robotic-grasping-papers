@@ -1092,6 +1092,21 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 }
 ```
 
+**[CoRL2020]** S4G: Amodal Single-view Single-Shot SE(3) Grasp Detection in Cluttered Scenes, [[Project](https://sites.google.com/view/s4ggrapsing)], [[Paper](https://arxiv.org/pdf/1910.14218.pdf)], [[Code](https://github.com/yzqin/s4g-release)].
+
+*Keywords: 6D grasp; cluttered scene; single-view point cloud input; one-stage grasp prediction; train on synthetic data.*
+
+```latex
+@inproceedings{qin2020s4g,
+  title={S4g: Amodal Single-View Single-Shot SE(3) Grasp Detection in Cluttered Scenes},
+  author={Qin, Yuzhe and Chen, Rui and Zhu, Hao and Song, Meng and Xu, Jing and Su, Hao},
+  booktitle={Conference on Robot Learning},
+  pages={53--65},
+  year={2020},
+  organization={PMLR}
+}
+```
+
 **[IROS2020]** Antipodal Robotic Grasping using Generative Residual Convolutional Neural Network, [[Paper](https://arxiv.org/pdf/1909.04810.pdf)], [[Code](https://github.com/skumra/robotic-grasping)].
 
 *Keywords: 2D grasp; cluttered scene; input RGB/D/RGB-D; Cornell dataset and Jacuard dataset.*
@@ -1183,6 +1198,30 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 }
 ```
 
+**[RSS2018]** Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach, [[Paper](https://arxiv.org/pdf/1804.05172.pdf)], [[Code](https://github.com/dougsm/ggcnn)].
+
+```latex
+@inproceedings{morrison2018closing,
+	title={{Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach}},
+	author={Morrison, Douglas and Corke, Peter and Leitner, J\"urgen},
+	booktitle={Proc.\ of Robotics: Science and Systems (RSS)},
+	year={2018}
+}
+```
+
+**[RSS2017]** Dex-Net 2.0: Deep Learning to Plan Robust Grasps with Synthetic Point Clouds and Analytic Grasp Metrics, [[Paper](https://arxiv.org/pdf/1703.09312.pdf)], [[Code](https://github.com/BerkeleyAutomation/dex-net)].
+
+```latex
+@inproceedings{mahler2017dex,
+	title="Dex-Net 2.0: Deep Learning to Plan Robust Grasps with Synthetic Point Clouds and Analytic Grasp Metrics",
+	author="Jeffrey {Mahler} and Jacky {Liang} and Sherdil {Niyaz} and Michael {Laskey} and Richard {Doan} and Xinyu {Liu} and Juan {Aparicio} and Ken {Goldberg}",
+	booktitle="Robotics: Science and Systems (RSS)",
+	volume="13",
+	notes="Sourced from Microsoft Academic - https://academic.microsoft.com/paper/2600030077",
+	year="2017"
+}
+```
+
 **[IJRR2017]** Grasp Pose Detection in Point Clouds, [[Paper](https://arxiv.org/pdf/1706.09911.pdf)], [[Code](https://github.com/atenpas/gpd)].
 
 *Keywords: 6D grasp; point cloud input; CNN based method.*
@@ -1214,6 +1253,21 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
   pages={705--724},
   year={2015},
   publisher={SAGE Publications Sage UK: London, England}
+}
+```
+
+**[ICRA2021]** Efficient grasping from RGBD images: Learning using a new rectangle representation, [[Paper](https://ieeexplore.ieee.org/document/5980145)].
+
+```latex
+@INPROCEEDINGS{5980145,
+  author={Yun Jiang and Moseson, Stephen and Saxena, Ashutosh},
+  booktitle={2011 IEEE International Conference on Robotics and Automation}, 
+  title={Efficient grasping from RGBD images: Learning using a new rectangle representation}, 
+  year={2011},
+  volume={},
+  number={},
+  pages={3304-3311},
+  doi={10.1109/ICRA.2011.5980145}
 }
 ```
 
