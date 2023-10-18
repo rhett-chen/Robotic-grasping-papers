@@ -570,6 +570,39 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 3.1 General grasping
 
+**[TRO2023]** AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains, [[Project](https://graspnet.net/anygrasp.html)], [[Paper](https://arxiv.org/pdf/2212.08333.pdf)], [[Demo_Code](https://github.com/graspnet/anygrasp_sdk)].
+
+*Keywords: 6D grasp; dynamic grasping;*
+
+```latex
+@ARTICLE{10167687,
+  author={Fang, Hao-Shu and Wang, Chenxi and Fang, Hongjie and Gou, Minghao and Liu, Jirong and Yan, Hengxu and Liu, Wenhai and Xie, Yichen and Lu, Cewu},
+  journal={IEEE Transactions on Robotics}, 
+  title={AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains}, 
+  year={2023},
+  volume={39},
+  number={5},
+  pages={3929-3945},
+  doi={10.1109/TRO.2023.3281153}}
+```
+
+**[arXiv2023]** Learning Tri-mode Grasping for Ambidextrous Robot Picking, [[Paper](https://arxiv.org/pdf/2302.06431.pdf)].
+
+*Keywords: ambidextrous robot picking; 6D grasp; parallel-jaw gripper grasp + suction grasp + push; cluttered scenes; cluttered scenes.*
+
+*Motivation: the fusion of grasp and suction can expand the the range of objects that can be picked; the fusion of prehensile and nonprehensile action can expand the picking space of ambidextrous robot. Thus, this paper proposes Push-Grasp-Suction tri-mode grasping strategy.*
+
+```latex
+@misc{zhou2023learning,
+      title={Learning Tri-mode Grasping for Ambidextrous Robot Picking}, 
+      author={Chenlin Zhou and Peng Wang and Wei Wei and Guangyun Xu and Fuyu Li and Jia Sun},
+      year={2023},
+      eprint={2302.06431},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
+
 **[CVPR2023]** Target referenced Reactive Grasping for Dynamic Objects, [[Project](https://graspnet.net/reactive)], [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Target-Referenced_Reactive_Grasping_for_Dynamic_Objects_CVPR_2023_paper.pdf)], [[Code](https://github.com/Todibo99/Target-referenced-Reactive-Grasping-for-Dynamic-Objects)].
 
 *Keywords: reactive grasping, grasp dynalmic moving objects; 6D grasp; cluttered scenes; given grasps of first frame, tracking through generated grasp space; two-stage methods, first discover grasp correspndance between frames, then refine based on history information.*
