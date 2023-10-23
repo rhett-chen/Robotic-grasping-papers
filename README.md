@@ -1306,6 +1306,21 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 3.2 Dexterous grasping
 
+**[arXiv2023]** Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations, [[Paper](http://export.arxiv.org/pdf/2303.17808v1)].
+
+*Keywords: dexterous grasping; functional grasp; learn from human grasp demonstration for category-level objects; object reconstruction -> variational grasp sampler -> iterative grasp refinement; 10k synthesized functional grasp dataset.*
+
+```latex
+@misc{wei2023generalized,
+    title={Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations},
+    author={Wei Wei and Peng Wang and Sizhe Wang},
+    year={2023},
+    eprint={2303.17808},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO}
+}
+```
+
 **[ICRA2023]** DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation, [[Project](https://pku-epic.github.io/DexGraspNet/)], [[Paper](https://arxiv.org/pdf/2210.02697.pdf)], [[Code](https://github.com/PKU-EPIC/DexGraspNet)], [[Dataset](https://mirrors.pku.edu.cn/dl-release/DexGraspNet-ICRA2023/)]. 
 
 *Keywords: dexterous grasping, ShadowHand; release a large-scale dexterous grasping dataset in simulation, 5355 objects, 133 categories, 1.32M grasps.*
