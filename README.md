@@ -19,7 +19,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 
 ## 1. Survey Papers
 
-**[T-RO]** Deep Learning Approaches to Grasp Synthesis: A Review,  [[Project](https://rhys-newbury.github.io/projects/6dof/)], [[Paper](https://arxiv.org/pdf/2207.02556.pdf)].
+**[T-RO2023]** Deep Learning Approaches to Grasp Synthesis: A Review,  [[Project](https://rhys-newbury.github.io/projects/6dof/)], [[Paper](https://arxiv.org/pdf/2207.02556.pdf)].
 
 *Keywords: focus on 6D grasping; sampling based approaches, direct regression, using shape-completion, reinforcement learning or considering semantics.*
 
@@ -570,7 +570,7 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 3.1 General grasping
 
-**[TRO2023]** AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains, [[Project](https://graspnet.net/anygrasp.html)], [[Paper](https://arxiv.org/pdf/2212.08333.pdf)], [[Demo_Code](https://github.com/graspnet/anygrasp_sdk)].
+**[T-RO2023]** AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains, [[Project](https://graspnet.net/anygrasp.html)], [[Paper](https://arxiv.org/pdf/2212.08333.pdf)], [[Demo_Code](https://github.com/graspnet/anygrasp_sdk)].
 
 *Keywords: 6D grasp; dynamic grasping;*
 
@@ -1369,6 +1369,19 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 ```
 
 ### 3.3 Semantic grasping 
+
+**[CoRL2023]** Language-guided Robot Grasping: CLIP-based Referring Grasp Synthesis in Clutter, [[Paper](https://openreview.net/pdf?id=j2AQ-WJ_ze)].
+
+*Keywords: 2D grasp; RGB-Text input; develop a benchmark called OCID-VLG based on cluttered indoor scenes from OCID dataset; propose an end-to-end model to learn grasp synthesis directly from image-text pairs.*
+
+```latex
+@inproceedings{tziafas2023language,
+  title={Language-guided Robot Grasping: CLIP-based Referring Grasp Synthesis in Clutter},
+  author={Tziafas, Georgios and Yucheng, XU and Goel, Arushi and Kasaei, Mohammadreza and Li, Zhibin and Kasaei, Hamidreza},
+  booktitle={7th Annual Conference on Robot Learning},
+  year={2023}
+}
+```
 
 **[ICRA2023]** A Joint Modeling of Vision-Language-Action for Target-oriented Grasping in Clutter, [[Paper](https://arxiv.org/pdf/2302.12610.pdf)].
 
