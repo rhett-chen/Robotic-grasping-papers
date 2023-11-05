@@ -505,6 +505,21 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.4 Datasets
 
+**[CVPR2023]** Habitat-Matterport 3D Semantics Dataset, [[Project](https://aihabitat.org/datasets/hm3d-semantics/)], [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yadav_Habitat-Matterport_3D_Semantics_Dataset_CVPR_2023_paper.pdf)], [[Code](https://github.com/matterport/habitat-matterport-3dresearch)].
+
+*Keywords: the largest dataset of 3D real-world spaces with densely annotated semantics; 142646 objects; 216 3D spaces; 3100 rooms;*
+
+```latex
+@InProceedings{Yadav_2023_CVPR,
+    author    = {Yadav, Karmesh and Ramrakhya, Ram and Ramakrishnan, Santhosh Kumar and Gervet, Theo and Turner, John and Gokaslan, Aaron and Maestre, Noah and Chang, Angel Xuan and Batra, Dhruv and Savva, Manolis and Clegg, Alexander William and Chaplot, Devendra Singh},
+    title     = {Habitat-Matterport 3D Semantics Dataset},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {4927-4936}
+}
+```
+
 **[CVPR2023]** OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation，[[Project](https://omniobject3d.github.io/)], [[Paper](https://arxiv.org/pdf/2301.07525.pdf)], [[Code](https://github.com/omniobject3d/OmniObject3D)].
 
 *Keywords: 6000 scanned objects, 190 categories; Each 3D object is captured with both 2D and 3D sensors, providing textured meshes, point clouds, multi-view rendered images, and multiple real-captured videos.*
