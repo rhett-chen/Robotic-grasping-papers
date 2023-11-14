@@ -15,6 +15,7 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
     - [3.1 General grasping](#31-general-grasping)
     - [3.2 Dexterous grasping](#32-dexterous-grasping)
     - [3.3 Semantic grasping](#33-semantic-grasping)
+    - [3.4 Dynamic Grasping](#34-dynamic-grasping)
   - [4. Research Groups](#4-research-groups)
 
 ## 1. Survey Papers
@@ -585,20 +586,19 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 3.1 General grasping
 
-**[T-RO2023]** AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains, [[Project](https://graspnet.net/anygrasp.html)], [[Paper](https://arxiv.org/pdf/2212.08333.pdf)], [[Demo_Code](https://github.com/graspnet/anygrasp_sdk)].
+**[arXiv2023]** Grasp-Anything: Large-scale Grasp Dataset from Foundation Models, [[Project](https://grasp-anything-2023.github.io/)], [[Paper](https://arxiv.org/pdf/2309.09818.pdf)], [[Code](https://github.com/andvg3/Grasp-Anything)].
 
-*Keywords: 6D grasp; dynamic grasping;*
+*Keywords: 2D grasping; leverage knowledge from fundation models to generate a large-scale grasping dataset with 1M samples and 3M objects, substantially surpassing prior datasets in diversity and magnitude.*
 
 ```latex
-@ARTICLE{10167687,
-  author={Fang, Hao-Shu and Wang, Chenxi and Fang, Hongjie and Gou, Minghao and Liu, Jirong and Yan, Hengxu and Liu, Wenhai and Xie, Yichen and Lu, Cewu},
-  journal={IEEE Transactions on Robotics}, 
-  title={AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains}, 
-  year={2023},
-  volume={39},
-  number={5},
-  pages={3929-3945},
-  doi={10.1109/TRO.2023.3281153}}
+@misc{vuong2023graspanything,
+      title={Grasp-Anything: Large-scale Grasp Dataset from Foundation Models}, 
+      author={An Dinh Vuong and Minh Nhat Vu and Hieu Le and Baoru Huang and Binh Huynh and Thieu Vo and Andreas Kugi and Anh Nguyen},
+      year={2023},
+      eprint={2309.09818},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
 ```
 
 **[arXiv2023]** Learning Tri-mode Grasping for Ambidextrous Robot Picking, [[Paper](https://arxiv.org/pdf/2302.06431.pdf)].
@@ -1773,6 +1773,24 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
   year={2017},
   organization={IEEE}
 }
+```
+
+### 3.4 Dynamic Grasping
+
+**[T-RO2023]** AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains, [[Project](https://graspnet.net/anygrasp.html)], [[Paper](https://arxiv.org/pdf/2212.08333.pdf)], [[Demo_Code](https://github.com/graspnet/anygrasp_sdk)].
+
+*Keywords: 6D grasp; dynamic grasping;*
+
+```latex
+@ARTICLE{10167687,
+  author={Fang, Hao-Shu and Wang, Chenxi and Fang, Hongjie and Gou, Minghao and Liu, Jirong and Yan, Hengxu and Liu, Wenhai and Xie, Yichen and Lu, Cewu},
+  journal={IEEE Transactions on Robotics}, 
+  title={AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains}, 
+  year={2023},
+  volume={39},
+  number={5},
+  pages={3929-3945},
+  doi={10.1109/TRO.2023.3281153}}
 ```
 
 ## 4. Research Groups  
