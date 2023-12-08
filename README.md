@@ -1454,17 +1454,20 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 }
 ```
 
-**[arXiv2022]** CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration, [[Paper](https://arxiv.org/pdf/2210.03173.pdf)].
+**[ICRA2023]** CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration, [[Paper](https://arxiv.org/pdf/2210.03173.pdf)].
 
 *Keywords: 6D grasp; RGB-D input, instance segmentation and get partial object point cloud, then shape completion, robot grasps and human grasps are generated based on completed object point cloud, finally a pruning network is applied to select the proper robot grasp compatible for the co-grasping.*
 
 ```latex
-@article{keshari2022cograsp,
-  title={CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration},
-  author={Keshari, Abhinav K and Ren, Hanwen and Qureshi, Ahmed H},
-  journal={arXiv preprint arXiv:2210.03173},
-  year={2022}
-}
+@INPROCEEDINGS{10160623,
+  author={Keshari, Abhinav K. and Ren, Hanwen and Qureshi, Ahmed H.},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={9829-9836},
+  doi={10.1109/ICRA48891.2023.10160623}}
 ```
 
 **[RA-L2022]** REGRAD: A Large-Scale Relational Grasp Dataset for Safe and Object-Specific Robotic Grasping in Clutter, [[Paper](https://arxiv.org/pdf/2104.14118.pdf)], [[Code&&Dataset](https://github.com/poisonwine/REGRAD)].
