@@ -1816,3 +1816,4 @@ year = {2023},
 - [UT Austin Robot Perception and Learning Lab](https://rpl.cs.utexas.edu/), Prof. Yuke Zhu [[Google Scholar](https://scholar.google.com/citations?user=mWGyYMsAAAAJ&hl=en)].
 - [UCSD](https://xiaolonw.github.io/), Prof. Xiaolong Wang [[Google Scholar](https://scholar.google.com/citations?user=Y8O9N_0AAAAJ&hl=en)].
 - [UCSD](https://cseweb.ucsd.edu//~haosu/), Prof. Hao Su [[Google Scholar](https://scholar.google.com/citations?user=1P8Zu04AAAAJ&hl=zh-CN)].
+- [PKU-Agibot Lab](https://zsdonghao.github.io/), Prof. Hao Dong [[Google Scholar](https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate)].
