@@ -1,8 +1,21 @@
 # Robotic Grasping Papers and Codes
 
-This repo is a paper list of Robotic-Grasping and some related works (6D pose estimation, visual grounding, etc) that I have read.  For a more comprehensive paper list of vision-based Robotic-Grasping, you can refer to [Vision-based Robotic Grasping: Papers and Codes](https://github.com/GeorgeDu/vision-based-robotic-grasping) of [Guoguang DU](https://github.com/GeorgeDu).
+This repo is a paper list of Robotic-Grasping and some related tasks (6D pose estimation, visual grounding, robotic manipulation, etc).
 
-Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automation;  **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  **ICCV** is IEEE International Conference on Computer Vision; **ECCV** is European Conference on Computer Vision; **CoRL** is Conference on Robot Learning; **NIPS** is Conference on Neural Information Processing Systems;  **RA-L** is IEEE Robotics and Automation Letters; **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; **IJRR** is The International Journal of Robotics Research; **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; **ACM MM** is  ACM International Conference on Multimedia; **RSS** is Robotics: Science and Systems, **T-RO** is IEEE Transactions on Robotics.
+Abbreviation:  
+* **ICRA** is IEEE International Conference on Robotics and Automation; 
+* **CVPR** is IEEE Conference on Computer Vision and Pattern Recognition;  
+* **ICCV** is IEEE International Conference on Computer Vision; 
+* **ECCV** is European Conference on Computer Vision; 
+* **CoRL** is Conference on Robot Learning; 
+* **NIPS** is Conference on Neural Information Processing Systems;  
+* **RA-L** is IEEE Robotics and Automation Letters;
+* **Humanoids** is IEEE-RAS International Conference on Humanoid Robots; 
+* **IJRR** is The International Journal of Robotics Research; 
+* **IROS** is IEEE/RSJ International Conference on Intelligent Robots and Systems; 
+* **ACM MM** is  ACM International Conference on Multimedia; 
+* **RSS** is Robotics: Science and Systems;
+* **T-RO** is IEEE Transactions on Robotics.
 
 - [Robotic Grasping Papers and Codes](#robotic-grasping-papers-and-codes)
   - [1. Survey Papers](#1-survey-papers)
@@ -68,7 +81,6 @@ Abbreviation:  **ICRA** is IEEE International Conference on Robotics and Automat
 ```
 
 ## 2. Related Tasks 
-
 ### 2.1 Visual grounding 
 
 **[CVPR2022]** Multi-View Transformer for 3D Visual Grounding, [[Paper](https://arxiv.org/pdf/2204.02174.pdf)], [[Code](https://github.com/sega-hsj/MVT-3DVG)].
@@ -596,8 +608,23 @@ year = {2023},
 ```
 
 ## 3. Grasp Detection
-
 ### 3.1 General grasping
+
+**[IROS2023]** Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation, [[Paper](https://ieeexplore.ieee.org/document/10341840)].
+
+*Keywords: 6D grasp.*
+
+```latex
+@INPROCEEDINGS{10341840,
+  author={Qiu, Junning and Wang, Fei and Dang, Zheng},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={968-975},
+  doi={10.1109/IROS55552.2023.10341840}}
+```
 
 **[arXiv2023]** Grasp-Anything: Large-scale Grasp Dataset from Foundation Models, [[Project](https://grasp-anything-2023.github.io/)], [[Paper](https://arxiv.org/pdf/2309.09818.pdf)], [[Code](https://github.com/andvg3/Grasp-Anything)].
 
@@ -628,23 +655,6 @@ year = {2023},
       eprint={2302.06431},
       archivePrefix={arXiv},
       primaryClass={cs.RO}
-}
-```
-
-**[CVPR2023]** Target referenced Reactive Grasping for Dynamic Objects, [[Project](https://graspnet.net/reactive)], [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Target-Referenced_Reactive_Grasping_for_Dynamic_Objects_CVPR_2023_paper.pdf)], [[Code](https://github.com/Todibo99/Target-referenced-Reactive-Grasping-for-Dynamic-Objects)].
-
-*Keywords: reactive grasping, grasp dynalmic moving objects; 6D grasp; cluttered scenes; given grasps of first frame, tracking through generated grasp space; two-stage methods, first discover grasp correspndance between frames, then refine based on history information.*
-
-*Motivation: current methods mainly focus on temporal smoothness but few consider their semantic consistency, can not guarantee the tracked grasps fall on the same part of same object. This paper propose a target-referenced setting to achieve temporally smooth and smeantically consistent reactive grasping in clutter given a targeted grasp.*
-
-```latex
-@InProceedings{Liu_2023_CVPR,
-    author    = {Liu, Jirong and Zhang, Ruo and Fang, Hao-Shu and Gou, Minghao and Fang, Hongjie and Wang, Chenxi and Xu, Sheng and Yan, Hengxu and Lu, Cewu},
-    title     = {Target-Referenced Reactive Grasping for Dynamic Objects},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2023},
-    pages     = {8824-8833}
 }
 ```
 
@@ -1792,6 +1802,23 @@ year = {2023},
 ```
 
 ### 3.4 Dynamic Grasping
+
+**[CVPR2023]** Target referenced Reactive Grasping for Dynamic Objects, [[Project](https://graspnet.net/reactive)], [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Target-Referenced_Reactive_Grasping_for_Dynamic_Objects_CVPR_2023_paper.pdf)], [[Code](https://github.com/Todibo99/Target-referenced-Reactive-Grasping-for-Dynamic-Objects)].
+
+*Keywords: reactive grasping, grasp dynalmic moving objects; 6D grasp; cluttered scenes; given grasps of first frame, tracking through generated grasp space; two-stage methods, first discover grasp correspndance between frames, then refine based on history information.*
+
+*Motivation: current methods mainly focus on temporal smoothness but few consider their semantic consistency, can not guarantee the tracked grasps fall on the same part of same object. This paper propose a target-referenced setting to achieve temporally smooth and smeantically consistent reactive grasping in clutter given a targeted grasp.*
+
+```latex
+@InProceedings{Liu_2023_CVPR,
+    author    = {Liu, Jirong and Zhang, Ruo and Fang, Hao-Shu and Gou, Minghao and Fang, Hongjie and Wang, Chenxi and Xu, Sheng and Yan, Hengxu and Lu, Cewu},
+    title     = {Target-Referenced Reactive Grasping for Dynamic Objects},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {8824-8833}
+}
+```
 
 **[T-RO2023]** AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains, [[Project](https://graspnet.net/anygrasp.html)], [[Paper](https://arxiv.org/pdf/2212.08333.pdf)], [[Demo_Code](https://github.com/graspnet/anygrasp_sdk)].
 
