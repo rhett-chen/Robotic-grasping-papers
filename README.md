@@ -1803,6 +1803,22 @@ year = {2023},
 
 ### 3.4 Dynamic Grasping
 
+**[IROS2023]** Flexible Handover with Real-Time Robust Dynamic Grasp Trajectory Generation, [[Paper](https://arxiv.org/pdf/2308.15622.pdf)].
+
+*Keywords: flexible human-to-robot handover; generate object grasp trajectory based on grasp detection method GSNet and a lightweight transformer; future grasp prediction algorithm.*
+
+```latex
+@INPROCEEDINGS{10341777,
+  author={Zhang, Gu and Fang, Hao-Shu and Fang, Hongjie and Lu, Cewu},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Flexible Handover with Real-Time Robust Dynamic Grasp Trajectory Generation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={3192-3199},
+  doi={10.1109/IROS55552.2023.10341777}}
+```
+
 **[CVPR2023]** Target referenced Reactive Grasping for Dynamic Objects, [[Project](https://graspnet.net/reactive)], [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Target-Referenced_Reactive_Grasping_for_Dynamic_Objects_CVPR_2023_paper.pdf)], [[Code](https://github.com/Todibo99/Target-referenced-Reactive-Grasping-for-Dynamic-Objects)].
 
 *Keywords: reactive grasping, grasp dynalmic moving objects; 6D grasp; cluttered scenes; given grasps of first frame, tracking through generated grasp space; two-stage methods, first discover grasp correspndance between frames, then refine based on history information.*
@@ -1839,8 +1855,8 @@ year = {2023},
 ## 4. Research Groups  
 
 - [SJTU Machine Vision and Intelligence Group](https://mvig.sjtu.edu.cn/),  Prof. Cewu Lu [[Google Scholar](https://scholar.google.de/citations?user=QZVQEWAAAAAJ&hl=zh-CN&oi=ao)].
-- [XJTU, College of Artificial Intelligence](http://www.iair.xjtu.edu.cn/), Prof. Xuguang Lan [[Homepage](https://gr.xjtu.edu.cn/en/web/zeuslan/information)].
 - [UT Austin Robot Perception and Learning Lab](https://rpl.cs.utexas.edu/), Prof. Yuke Zhu [[Google Scholar](https://scholar.google.com/citations?user=mWGyYMsAAAAJ&hl=en)].
 - [UCSD](https://xiaolonw.github.io/), Prof. Xiaolong Wang [[Google Scholar](https://scholar.google.com/citations?user=Y8O9N_0AAAAJ&hl=en)].
 - [UCSD](https://cseweb.ucsd.edu//~haosu/), Prof. Hao Su [[Google Scholar](https://scholar.google.com/citations?user=1P8Zu04AAAAJ&hl=zh-CN)].
 - [PKU-Agibot Lab](https://zsdonghao.github.io/), Prof. Hao Dong [[Google Scholar](https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate)].
+- [PKU EPIC Lab](https://hughw19.github.io/), Prof. He Wang [[Google Scholar](https://scholar.google.com/citations?user=roCAWkoAAAAJ&hl=en)].
