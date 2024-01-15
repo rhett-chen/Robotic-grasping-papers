@@ -1860,3 +1860,4 @@ year = {2023},
 - [UCSD](https://cseweb.ucsd.edu//~haosu/), Prof. Hao Su [[Google Scholar](https://scholar.google.com/citations?user=1P8Zu04AAAAJ&hl=zh-CN)].
 - [PKU-Agibot Lab](https://zsdonghao.github.io/), Prof. Hao Dong [[Google Scholar](https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate)].
 - [PKU EPIC Lab](https://hughw19.github.io/), Prof. He Wang [[Google Scholar](https://scholar.google.com/citations?user=roCAWkoAAAAJ&hl=en)].
+- [ByteDance Research](https://www.taokong.org/), Prof. Tao Kong [[Google Scholar](https://scholar.google.com/citations?hl=en&user=kSUXLPkAAAAJ&view_op=list_works&sortby=pubdate)].
