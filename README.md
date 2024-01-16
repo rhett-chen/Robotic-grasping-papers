@@ -610,6 +610,22 @@ year = {2023},
 ## 3. Grasp Detection
 ### 3.1 General grasping
 
+**[RA-L2023]** GPDAN: Grasp Pose Domain Adaptation Network for Sim-to-Real 6-DoF Object Grasping, [[Paper](https://ieeexplore.ieee.org/abstract/document/10153686)].
+
+*Keywords: 6D grasp; sim-to-real domain adaptation, ACRONYM -> GraspNet-1Billion.*
+
+```latex
+@ARTICLE{10153686,
+  author={Zheng, Liming and Ma, Wenxuan and Cai, Yinghao and Lu, Tao and Wang, Shuo},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={GPDAN: Grasp Pose Domain Adaptation Network for Sim-to-Real 6-DoF Object Grasping}, 
+  year={2023},
+  volume={8},
+  number={8},
+  pages={4585-4592},
+  doi={10.1109/LRA.2023.3286816}}
+```
+
 **[IROS2023]** Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation, [[Paper](https://ieeexplore.ieee.org/document/10341840)].
 
 *Keywords: 6D grasp.*
