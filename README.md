@@ -1360,6 +1360,24 @@ year = {2023},
 
 ### 3.2 Dexterous grasping
 
+**[RA-L2024]** Grasp Multiple Objects with One Hand, [[Project](https://multigrasp.github.io/)], [[Paper](https://arxiv.org/pdf/2310.15599.pdf)], [[Code](https://github.com/MultiGrasp/MultiGrasp)]
+
+*Keywords: dexterous grasping; grasp multiple objects; use diffusion-based method to generate a pre-grasp pose, and use RL-based method to learn reaching and lifting policy; propose a large-scale synthetic dataset comprising 90k diverse multi-object grasps, utilizing the Shadow Hand.*
+
+```latex
+@article{li2024grasp,
+    author={Li, Yuyang and Liu, Bo and Geng, Yiran and Li, Puhao and Yang, Yaodong and Zhu, Yixin and Liu, Tengyu and
+    Huang, Siyuan},
+    title={Grasp Multiple Objects with One Hand},
+    journal={IEEE Robotics and Automation Letters},
+    volume={9},
+    number={5},
+    pages={4027-4034},
+    year={2024},
+    doi={10.1109/LRA.2024.3374190}
+}
+```
+
 **[arXiv2023]** Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations, [[Paper](http://export.arxiv.org/pdf/2303.17808v1)].
 
 *Keywords: dexterous grasping; functional grasp; learn from human grasp demonstration for category-level objects; object reconstruction -> variational grasp sampler -> iterative grasp refinement; 10k synthesized functional grasp dataset.*
