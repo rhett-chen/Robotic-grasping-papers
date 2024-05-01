@@ -610,6 +610,37 @@ year = {2023},
 ## 3. Grasp Detection
 ### 3.1 General grasping
 
+**[arXiv2024]** Rethinking 6-Dof Grasp Detection: A Flexible Framework for High-Quality Grasping, [[Paper](https://arxiv.org/pdf/2403.15054.pdf)].
+
+*Keywords: 6-DoF grasp; propose a flexible framework capable of scene-level and target-oriented grasping.*
+
+```latex
+@article{tang2024rethinking,
+  title={Rethinking 6-Dof Grasp Detection: A Flexible Framework for High-Quality Grasping},
+  author={Tang, Wei and Chen, Siang and Xie, Pengwei and Hu, Dingchang and Yang, Wenming and Wang, Guijin},
+  journal={arXiv preprint arXiv:2403.15054},
+  year={2024}
+}
+```
+
+**[RA-L2023]** Efficient Heatmap-Guided 6-Dof Grasp Detection in Cluttered Scenes, [[Paper](https://ieeexplore.ieee.org/document/10168242)], [[Code](https://github.com/THU-VCLab/HGGD)].
+
+*Keywords: 6-DoF grasp; RGB-D input.*
+
+```latex
+@ARTICLE{10168242,
+  author={Chen, Siang and Tang, Wei and Xie, Pengwei and Yang, Wenming and Wang, Guijin},
+  journal={IEEE Robotics and Automation Letters},
+  title={Efficient Heatmap-Guided 6-Dof Grasp Detection in Cluttered Scenes},
+  year={2023},
+  volume={8},
+  number={8},
+  pages={4895-4902},
+  doi={10.1109/LRA.2023.3290513}
+}
+
+```
+
 **[RA-L2023]** GPDAN: Grasp Pose Domain Adaptation Network for Sim-to-Real 6-DoF Object Grasping, [[Paper](https://ieeexplore.ieee.org/abstract/document/10153686)].
 
 *Keywords: 6D grasp; sim-to-real domain adaptation, ACRONYM -> GraspNet-1Billion.*
