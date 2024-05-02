@@ -43,11 +43,12 @@ Abbreviation:
   journal={IEEE Transactions on Robotics}, 
   title={Deep Learning Approaches to Grasp Synthesis: A Review}, 
   year={2023},
-  volume={},
-  number={},
-  pages={1-22},
+  volume={39},
+  number={5},
+  pages={3994-4015},
   doi={10.1109/TRO.2023.3280597}
 }
+
 ```
 
 **[arXiv2022]** Robotic Grasping from Classical to Modern: A Survey,   [[Project](https://github.com/ZhangHanbo/Robotic-Grasping-from-Classical-to-Modern-A-Survey)],  [[Paper](https://arxiv.org/pdf/2202.03631.pdf)].
@@ -274,6 +275,19 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.2 Robotic manipulation
 
+**[IROS2023]** MOMA-Force: Visual-Force Imitation for Real-World Mobile Manipulation, [[Paper](https://arxiv.org/pdf/2308.03624)].
+
+*Keywords: contact-rich manipulation tasks; propose a visual-force imitation method, combine representation learning for perception, imitation learning for motion generation, and admittance whole-body control.*
+
+```latex
+@inproceedings{yang2023visualforce
+      author = {Yang, Taozheng and Jing, Ya and Wu, Hongtao and Xu, Jiafeng and Sima, Kuankuan and Chen, Guangzeng and Sima, Qie and Kong, Tao},
+      title = {MOMA-Force: Visual-Force Imitation for Real-World Mobile Manipulation},
+      booktitle = {2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      year = {2023}
+}
+```
+
 **[CVPR2023]** Learning Human-to-Robot Handovers from Point Clouds, [[Project](https://handover-sim2real.github.io/)], [[Paper](https://arxiv.org/pdf/2303.17592.pdf)], [[Code](https://handover-sim2real.github.io/#)].
 
 *Keywords: point cloud input;  6D grasp; trained by interacting with the humans in simulation environment; reinforcement learning, two-stage training scheme.*
@@ -364,7 +378,7 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 ```latex
 @INPROCEEDINGS{Qureshi-RSS-21, 
     AUTHOR    = {Ahmed H Qureshi AND Arsalan Mousavian AND Chris Paxton AND Michael Yip AND Dieter Fox}, 
-    TITLE     = {{NeRP: Neural Rearrangement Planning for Unknown Objects}}, 
+    TITLE     = {NeRP: Neural Rearrangement Planning for Unknown Objects}, 
     BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
     YEAR      = {2021}, 
     ADDRESS   = {Virtual}, 
@@ -587,8 +601,6 @@ year = {2023},
   booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
   title={Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items}, 
   year={2022},
-  volume={},
-  number={},
   pages={2553-2560},
   doi={10.1109/ICRA46639.2022.9811809}
 }
@@ -667,8 +679,6 @@ year = {2023},
   booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   title={Multi-Source Fusion for Voxel-Based 7-DoF Grasping Pose Estimation}, 
   year={2023},
-  volume={},
-  number={},
   pages={968-975},
   doi={10.1109/IROS55552.2023.10341840}}
 ```
@@ -1065,8 +1075,6 @@ year = {2023},
   booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)}, 
   title={Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction}, 
   year={2021},
-  volume={},
-  number={},
   pages={6350-6356},
   doi={10.1109/ICRA48506.2021.9562046}
 }
@@ -1173,8 +1181,6 @@ year = {2023},
   booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
   title={Learning to Generate 6-DoF Grasp Poses with Reachability Awareness}, 
   year={2020},
-  volume={},
-  number={},
   pages={1532-1538},
   doi={10.1109/ICRA40945.2020.9197413}
 }
@@ -1320,7 +1326,7 @@ year = {2023},
 
 ```latex
 @inproceedings{morrison2018closing,
-	title={{Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach}},
+	title={Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach},
 	author={Morrison, Douglas and Corke, Peter and Leitner, J\"urgen},
 	booktitle={Proc.\ of Robotics: Science and Systems (RSS)},
 	year={2018}
@@ -1382,8 +1388,6 @@ year = {2023},
   booktitle={2011 IEEE International Conference on Robotics and Automation}, 
   title={Efficient grasping from RGBD images: Learning using a new rectangle representation}, 
   year={2011},
-  volume={},
-  number={},
   pages={3304-3311},
   doi={10.1109/ICRA.2011.5980145}
 }
@@ -1464,14 +1468,29 @@ year = {2023},
   booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
   title={HGC-Net: Deep Anthropomorphic Hand Grasping in Clutter}, 
   year={2022},
-  volume={},
-  number={},
   pages={714-720},
   doi={10.1109/ICRA46639.2022.9811756}
 }
 ```
 
 ### 3.3 Semantic grasping 
+
+**[IROS2023]** VL-Grasp: a 6-Dof Interactive Grasp Policy for Language-Oriented
+Objects in Cluttered Indoor Scenes, [[Paper](https://arxiv.org/pdf/2308.00640)], [[Code](https://github.com/luyh20/VL-grasp)].
+
+*Keywords: language-guided 6-DoF grasp; two-stage method, visual grounding first, then apply 6-DoF grasp pose detection; propose a Indoor Scenes visual grounding dataset.*
+
+```latex
+@INPROCEEDINGS{10341379,
+  author={Lu, Yuhao and Fan, Yixuan and Deng, Beixing and Liu, Fangfu and Li, Yali and Wang, Shengjin},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={VL-Grasp: a 6-Dof Interactive Grasp Policy for Language-Oriented Objects in Cluttered Indoor Scenes}, 
+  year={2023},
+  pages={976-983},
+  doi={10.1109/IROS55552.2023.10341379}
+}
+
+```
 
 **[CoRL2023]** Language-guided Robot Grasping: CLIP-based Referring Grasp Synthesis in Clutter, [[Paper](https://openreview.net/pdf?id=j2AQ-WJ_ze)].
 
@@ -1535,8 +1554,6 @@ year = {2023},
   booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   title={Learning 6-DoF Task-oriented Grasp Detection via Implicit Estimation and Visual Affordance}, 
   year={2022},
-  volume={},
-  number={},
   pages={762-769},
   doi={10.1109/IROS47612.2022.9981900}
 }
@@ -1552,8 +1569,6 @@ year = {2023},
   booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
   title={CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration}, 
   year={2023},
-  volume={},
-  number={},
   pages={9829-9836},
   doi={10.1109/ICRA48891.2023.10160623}}
 ```
@@ -1721,7 +1736,7 @@ year = {2023},
 ```latex
 @INPROCEEDINGS{ZhangLu-RSS-21, 
     AUTHOR    = {Hanbo Zhang AND Yunfan Lu AND Cunjun Yu AND David Hsu AND Xuguang Lan AND Nanning Zheng}, 
-    TITLE     = {{INVIGORATE: Interactive Visual Grounding and Grasping in Clutter}}, 
+    TITLE     = {INVIGORATE: Interactive Visual Grounding and Grasping in Clutter}, 
     BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
     YEAR      = {2021}, 
     ADDRESS   = {Virtual}, 
@@ -1782,7 +1797,7 @@ year = {2023},
 ```latex
 @INPROCEEDINGS{Nguyen-RSS-20,
     AUTHOR    = {Thao Nguyen AND Nakul Gopalan AND Roma Patel AND Matthew Corsaro AND Ellie Pavlick AND Stefanie Tellex},
-    TITLE     = {{Robot Object Retrieval with Contextual Natural Language Queries}},
+    TITLE     = {Robot Object Retrieval with Contextual Natural Language Queries},
     BOOKTITLE = {Proceedings of Robotics: Science and Systems},
     YEAR      = {2020},
     ADDRESS   = {Corvalis, Oregon, USA},
@@ -1878,8 +1893,6 @@ year = {2023},
   booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   title={Flexible Handover with Real-Time Robust Dynamic Grasp Trajectory Generation}, 
   year={2023},
-  volume={},
-  number={},
   pages={3192-3199},
   doi={10.1109/IROS55552.2023.10341777}}
 ```
