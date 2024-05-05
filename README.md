@@ -275,6 +275,19 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.2 Robotic manipulation
 
+**[ICRA2024]** Robot Synesthesia: In-Hand Manipulation with Visuotactile Sensing, [[Project](https://yingyuan0414.github.io/visuotactile/)], [[Paper](https://arxiv.org/pdf/2312.01853v2)].
+
+*Keywords: In-hand object rotation task, one or two objects; visual and tactile infomation; represent tactile data as point cloud to integrate with visual data; train teacher policy using RL in simulator with oracle state information, and then distill to a student policy to deploy on real robot.*
+
+```latex
+@article{yuan2023robot,
+  title={Robot synesthesia: In-hand manipulation with visuotactile sensing},
+  author={Yuan, Ying and Che, Haichuan and Qin, Yuzhe and Huang, Binghao and Yin, Zhao-Heng and Lee, Kang-Won and Wu, Yi and Lim, Soo-Chul and Wang, Xiaolong},
+  journal={arXiv preprint arXiv:2312.01853},
+  year={2023}
+}
+```
+
 **[IROS2023]** MOMA-Force: Visual-Force Imitation for Real-World Mobile Manipulation, [[Paper](https://arxiv.org/pdf/2308.03624)].
 
 *Keywords: contact-rich manipulation tasks; propose a visual-force imitation method, combine representation learning for perception, imitation learning for motion generation, and admittance whole-body control.*
@@ -621,6 +634,23 @@ year = {2023},
 
 ## 3. Grasp Detection
 ### 3.1 General grasping
+
+**[RA-L2024]** RGBGrasp: Image-based Object Grasping by Capturing Multiple Views during Robot Arm Movement with Neural Radiance Fields, [[Paper](https://arxiv.org/pdf/2311.16592)].
+
+*Keywords: 6-DoF grasp; use multi-view RGBs to reconstruct scene point cloud; integrate pre-trained monocular depth estimation network with NERF to achieve precise 3D reconstruction; use AnyGrasp to detect 6D grasps.*
+
+```latex
+@ARTICLE{10517376,
+  author={Liu, Chang and Shi, Kejian and Zhou, Kaichen and Wang, Haoxiao and Zhang, Jiyao and Dong, Hao},
+  journal={IEEE Robotics and Automation Letters},
+  title={RGBGrasp: Image-based Object Grasping by Capturing Multiple Views during Robot Arm Movement with Neural Radiance Fields},
+  year={2024},q
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/LRA.2024.3396101}
+}
+```
 
 **[arXiv2024]** Rethinking 6-Dof Grasp Detection: A Flexible Framework for High-Quality Grasping, [[Paper](https://arxiv.org/pdf/2403.15054.pdf)].
 
