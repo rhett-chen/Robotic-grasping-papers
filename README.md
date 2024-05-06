@@ -275,6 +275,19 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.2 Robotic manipulation
 
+**[arXiv2024]** Expressive Whole-Body Control for Humanoid Robots, [[Project](https://expressive-humanoid.github.io/)], [[Paper](https://arxiv.org/pdf/2402.16796v1)].
+
+*Keywords: Unitree H1 humanoid robot, 19-DoF; whole-body control; key idea is to let the upper body imitate human motions and the relax the motion imitation of two legs; train goal-conditioned RL model in Iassc Gym simulator.*
+
+```latex
+@article{cheng2024express,
+  title={Expressive Whole-Body Control for Humanoid Robots},
+  author={Cheng, Xuxin and Ji, Yandong and Chen, Junming and Yang, Ruihan and Yang, Ge and Wang, Xiaolong},
+  journal={arXiv preprint arXiv:2402.16796},
+  year={2024}
+}
+```
+
 **[ICRA2024]** Robot Synesthesia: In-Hand Manipulation with Visuotactile Sensing, [[Project](https://yingyuan0414.github.io/visuotactile/)], [[Paper](https://arxiv.org/pdf/2312.01853v2)].
 
 *Keywords: In-hand object rotation task, one or two objects; visual and tactile infomation; represent tactile data as point cloud to integrate with visual data; train teacher policy using RL in simulator with oracle state information, and then distill to a student policy to deploy on real robot.*
