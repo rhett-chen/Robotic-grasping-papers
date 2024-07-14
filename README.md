@@ -648,6 +648,10 @@ year = {2023},
 ## 3. Grasp Detection
 ### 3.1 General grasping
 
+**[ICRA2024]** ASGrasp: Generalizable Transparent Object Reconstruction and 6-DoF Grasp Detection from RGB-D Active Stereo Camera, [[Project](https://pku-epic.github.io/ASGrasp/)], [[Paper](https://arxiv.org/pdf/2405.05648)], [[Code](https://github.com/jun7-shi/ASGrasp)].
+
+*Keywords: RGB+left/right IR input; handle diffuse, transparent and specular objects; 3D point cloud reconstruction first, then 6D grasp detection (GSNet); create an extensive synthetic dataset through domain randomization.*
+
 **[RA-L2024]** RGBGrasp: Image-based Object Grasping by Capturing Multiple Views during Robot Arm Movement with Neural Radiance Fields, [[Paper](https://arxiv.org/pdf/2311.16592)].
 
 *Keywords: 6-DoF grasp; use multi-view RGBs to reconstruct scene point cloud; integrate pre-trained monocular depth estimation network with NERF to achieve precise 3D reconstruction; use AnyGrasp to detect 6D grasps.*
