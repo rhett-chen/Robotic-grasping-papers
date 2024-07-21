@@ -275,6 +275,19 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.2 Robotic manipulation
 
+**[ICLR2024]** Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation, [[Project](https://gr1-manipulation.github.io/)], [[Paper](https://arxiv.org/pdf/2312.13139)], [[Code](https://github.com/bytedance/GR-1)].
+
+*Keywords: leverage large-scale video generative pre-training for manipulation, finetune on robotic manipulation data; propose GR-1, takes as inputs a language instruction, a sequence of observation images, and a sequence of robot states, predicts robot actions (end-effector pose and gripper width) as well as future images in an end-to-end manner.*
+
+```latex
+@inproceedings{wu2023unleashing,
+  title={Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation},
+  author={Wu, Hongtao and Jing, Ya and Cheang, Chilam and Chen, Guangzeng and Xu, Jiafeng and Li, Xinghang and Liu, Minghuan and Li, Hang and Kong, Tao},
+  booktitle={International Conference on Learning Representations},
+  year={2024}
+}
+```
+
 **[arXiv2024]** Expressive Whole-Body Control for Humanoid Robots, [[Project](https://expressive-humanoid.github.io/)], [[Paper](https://arxiv.org/pdf/2402.16796v1)].
 
 *Keywords: Unitree H1 humanoid robot, 19-DoF; whole-body control; key idea is to let the upper body imitate human motions and the relax the motion imitation of two legs; train goal-conditioned RL model in Iassc Gym simulator.*
