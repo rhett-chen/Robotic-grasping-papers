@@ -275,6 +275,19 @@ Point Clouds through Instance Multi-level Contextual Referring, [[Paper](https:/
 
 ### 2.2 Robotic manipulation
 
+**[RSS2024]** Any-point Trajectory Modeling for Policy Learning, [[Project](https://xingyu-lin.github.io/atm/)], [[Paper](https://arxiv.org/pdf/2401.00025)], [[Code](https://github.com/Large-Trajectory-Model/ATM)].
+
+*Keywords: represent each state in a video as a set of points to model the transition dynamics, provide detailed control guidance to enable the learning of robust visuomotor policies with minimal action-labeled data; two stage, first, train a track transformer to predict future point trajectories given the current image, language instruction, initial positions of sampled points, second, learn a track-guided policy to predict the control actions;*
+
+```latex
+@article{wen2023atm,
+  title={Any-point trajectory modeling for policy learning},
+  author={Wen, Chuan and Lin, Xingyu and So, John and Chen, Kai and Dou, Qi and Gao, Yang and Abbeel, Pieter},
+  journal={arXiv preprint arXiv:2401.00025},
+  year={2023}
+}
+```
+
 **[ICLR2024]** Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation, [[Project](https://gr1-manipulation.github.io/)], [[Paper](https://arxiv.org/pdf/2312.13139)], [[Code](https://github.com/bytedance/GR-1)].
 
 *Keywords: leverage large-scale video generative pre-training for manipulation, finetune on robotic manipulation data; propose GR-1, takes as inputs a language instruction, a sequence of observation images, and a sequence of robot states, predicts robot actions (end-effector pose and gripper width) as well as future images in an end-to-end manner.*
