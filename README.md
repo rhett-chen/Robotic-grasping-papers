@@ -1486,6 +1486,34 @@ year = {2023},
 }
 ```
 
+**[ICCV2023]** UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning, [[Paper](https://arxiv.org/abs/2304.00464)], [[Code](https://github.com/PKU-EPIC/UniDexGrasp2)]
+
+*Keywords: dexterous grasping; end-to-end grasp; SOTA*
+
+```latex
+@inproceedings{wan2023unidexgrasp++,
+  title={Unidexgrasp++: Improving dexterous grasping policy learning via geometry-aware curriculum and iterative generalist-specialist learning},
+  author={Wan, Weikang and Geng, Haoran and Liu, Yun and Shan, Zikang and Yang, Yaodong and Yi, Li and Wang, He},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={3891--3902},
+  year={2023}
+}
+```
+
+**[CVPR2023]** UniDexGrasp: Universal Robotic Dexterous Grasping via Learning Diverse Proposal Generation and Goal-Conditioned Policy, [[Paper](https://arxiv.org/abs/2303.00938)], [[Code](https://github.com/PKU-EPIC/UniDexGrasp2)]
+
+*Keywords: dexterous grasping; two-stage grasp;*
+
+```latex
+@inproceedings{xu2023unidexgrasp,
+  title={Unidexgrasp: Universal robotic dexterous grasping via learning diverse proposal generation and goal-conditioned policy},
+  author={Xu, Yinzhen and Wan, Weikang and Zhang, Jialiang and Liu, Haoran and Shan, Zikang and Shen, Hao and Wang, Ruicheng and Geng, Haoran and Weng, Yijia and Chen, Jiayi and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4737--4746},
+  year={2023}
+}
+```
+
 **[arXiv2023]** Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations, [[Paper](http://export.arxiv.org/pdf/2303.17808v1)].
 
 *Keywords: dexterous grasping; functional grasp; learn from human grasp demonstration for category-level objects; object reconstruction -> variational grasp sampler -> iterative grasp refinement; 10k synthesized functional grasp dataset.*
